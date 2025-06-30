@@ -15,3 +15,21 @@ This **Agentic AI Bibliography** aims to provide a grounded, evolving reference 
 
 This is not a finished product. It is a living document—and an invitation. Contributions, critiques, and suggestions are welcome. Let’s raise the floor of what we consider best practice, and collectively build a foundation that goes beyond shortcuts.
 
+> 📌 **Format Note**  
+> Each entry in this bibliography follows a consistent format: a brief description summarizing the contribution, followed by inline links to available resources.  
+> - The structure is: **Author – *Title* (Year)**, abstract, and links to internal or external sources.  
+> - All links are placed at the end of the paragraph for clarity and compactness.  
+> - Entries are grouped by theme to guide exploration.
+
+## 1. Foundational Concepts
+
+To build truly agentic systems, we must revisit the early visions that treated the computer not just as a tool, but as a thinking partner. These foundational texts shaped the original dream of human-computer symbiosis.
+
+- **J.C.R. Licklider – *Man-Computer Symbiosis* (1960)**  
+  A visionary essay that imagines a future where humans and computers collaborate closely, each doing what they do best. Licklider argues that progress in computing would come not from automation, but from symbiosis—interactive systems that augment human thought. [Read the full paper from this repo](./papers/licklider-man-computer-symbiosis.pdf). [Read the full paper from the source](https://openlib.org/home/krichel/courses/lis654/readings/licklider60_man_comput_symbios.pdf).
+
+- **Douglas Engelbart – *Augmenting Human Intellect* (1962)**  
+  A foundational report proposing the use of computers to amplify human intelligence. Engelbart lays out principles that would later lead to the invention of the mouse, hypertext, and interactive computing. Essential reading to understand the original ethos behind building systems that empower human agency. [Read the full paper from this repo](./papers/engelbart-augmenting-human-intellect.pdf). [Read the full paper from the source](https://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf).
+
+
+
