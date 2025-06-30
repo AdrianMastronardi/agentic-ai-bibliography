@@ -30,8 +30,14 @@ To build truly agentic systems, we must revisit the early visions that treated t
 - **J.C.R. Licklider – *Man-Computer Symbiosis* (1960)**  
   A visionary essay that imagines a future where humans and computers collaborate closely, each doing what they do best. Licklider argues that progress in computing would come not from automation, but from symbiosis—interactive systems that augment human thought. [Read the full paper from this repo](./papers/licklider-man-computer-symbiosis.pdf). [Read the full paper from the source](https://openlib.org/home/krichel/courses/lis654/readings/licklider60_man_comput_symbios.pdf).
 
+- **Marvin Minsky – *Steps Toward Artificial Intelligence* (1961)**  
+  This seminal paper lays out a roadmap for modeling intelligent behavior computationally. Minsky surveys early methods for learning, planning, memory, and self-modifying programs, proposing building blocks for general intelligence. Many of these concepts—such as task decomposition, partial solutions, and cognitive architecture—still resonate in modern agent systems. A foundational text for thinking about how machines might reason, act, and adapt.
+
 - **Douglas Engelbart – *Augmenting Human Intellect* (1962)**  
   A foundational report proposing the use of computers to amplify human intelligence. Engelbart lays out principles that would later lead to the invention of the mouse, hypertext, and interactive computing. Essential reading to understand the original ethos behind building systems that empower human agency. [Read the full paper from this repo](./papers/engelbart-augmenting-human-intellect.pdf). [Read the full paper from the source](https://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf).
+
+- **Allen Newell & Herbert A. Simon – *Human Problem Solving* (1972)**  
+  This landmark book presents a theory of cognition grounded in problem-solving processes, search in problem spaces, and production systems. It formalizes the idea that intelligent behavior emerges from reasoning over symbolic representations and heuristics. The authors’ models inspired entire generations of agent architectures, from symbolic AI to modern deliberative frameworks. While predating neural models, its conceptual rigor remains crucial for understanding goal-driven agency.
 
 - **Don Norman – *The Design of Future Things* (2007)**  
   A seminal exploration of how intelligent systems should interact with humans—not through control, but through communication and understanding. Norman anticipates the challenges of designing proactive, semi-autonomous technologies, emphasizing the importance of feedback, transparency, and the psychology of interaction. A must-read for thinking about AI agents not just as tools, but as social actors.
