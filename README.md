@@ -170,7 +170,7 @@ Building agentic systems requires more than prompting — it demands structured 
 - **LlamaIndex – *Data Framework for LLM Applications* (2023)**
   LlamaIndex is an open-source data framework designed to bridge the gap between large language models (LLMs) and private or domain-specific data. It provides tools for data ingestion, indexing, and querying, enabling LLMs to access and interpret custom data sources such as PDFs, databases, and APIs. LlamaIndex supports context augmentation techniques like Retrieval-Augmented Generation (RAG), facilitating the development of applications like question-answering systems, chatbots, and autonomous agents. [Explore LlamaIndex](https://www.llamaindex.ai/framework).
 
-  - **Microsoft – *Semantic Kernel: Open-Source SDK for AI Integration* (2023)**
+- **Microsoft – *Semantic Kernel: Open-Source SDK for AI Integration* (2023)**
   Semantic Kernel is an open-source SDK developed by Microsoft that facilitates the integration of AI services, such as OpenAI and Azure OpenAI, with conventional programming languages like C#, Python, and Java. It provides abstractions for prompt templating, function chaining, and memory management, enabling developers to build AI applications that combine natural language capabilities with traditional code. Semantic Kernel supports the creation of plugins and planners, allowing for the orchestration of complex workflows and multi-agent systems. [Learn more about Semantic Kernel](https://learn.microsoft.com/en-us/dotnet/ai/semantic-kernel-dotnet-overview). [Explore the Semantic Kernel repository](https://github.com/microsoft/semantic-kernel).
 
 - **PromptTools – *Open-Source Framework for Prompt Testing and Evaluation* (2023)**
