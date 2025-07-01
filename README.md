@@ -66,7 +66,7 @@ Agentic systems are more than just prompts or wrappers. They are structured enti
 - **Shunyu Yao et al. – *ReAct: Synergizing Reasoning and Acting in Language Models* (2022)**
   A widely influential paper introducing a simple but powerful approach to agent behavior: combining verbal reasoning with action execution. The ReAct pattern lets agents “think out loud” while taking tool-augmented steps, improving performance on decision-making tasks. This paper laid the foundation for many modern agent frameworks. [Read the full paper from this repo](./papers/yao-react.pdf). [Read the full paper from the source](https://arxiv.org/abs/2210.03629).
 
-  - **Shunyu Yao et al. – *Tree of Thoughts: Deliberate Problem Solving with Large Language Models* (2023)**
+- **Shunyu Yao et al. – *Tree of Thoughts: Deliberate Problem Solving with Large Language Models* (2023)**
   Tree of Thoughts (ToT) introduces a novel inference framework that enables language models to perform deliberate reasoning by exploring multiple reasoning paths and evaluating intermediate steps ("thoughts"). This approach generalizes the Chain-of-Thought prompting by structuring the reasoning process as a tree, allowing for backtracking and strategic planning. ToT significantly enhances problem-solving capabilities in tasks requiring complex reasoning. [Read the full paper from this repo](./papers/yao-tree-of-thoughts.pdf). [Read the full paper from the source](https://arxiv.org/abs/2305.10601). [Explore the Tree of Thought repository](https://github.com/princeton-nlp/tree-of-thought-llm).
 
 - **Schick et al. – *Toolformer: Language Models Can Teach Themselves to Use Tools* (2023)**
