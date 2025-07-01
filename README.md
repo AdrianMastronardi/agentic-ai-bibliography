@@ -111,6 +111,11 @@ Agentic systems are more than just prompts or wrappers. They are structured enti
 - **Dilara Soylu et al. – *Fine-Tuning and Prompt Optimization: Two Great Steps that Work Better Together* (2024)**
   This paper explores strategies to optimize both the module-level language model weights and the associated prompt templates in modular NLP pipelines. The authors propose alternating between fine-tuning and prompt optimization to enhance performance in multi-stage language model programs. Experiments on tasks like multi-hop QA and mathematical reasoning demonstrate that combining these strategies outperforms using either alone. [Read the full paper from this repo](./papers/soylu-dspy-ft-po.pdf). [Read the full paper from the source](https://arxiv.org/abs/2407.10930).
 
+### 2.5 Architectural Innovations for Memory and Context
+
+- **Aydar Bulatov et al. – *Recurrent Memory Transformer* (2022)**
+  The Recurrent Memory Transformer (RMT) augments the standard Transformer architecture with a segment-level recurrent memory mechanism. By introducing special memory tokens, RMT enables the model to store and process both local and global information across long sequences, effectively capturing long-term dependencies without altering the core Transformer structure. This design improves performance on tasks requiring extended context processing. [Read the full paper from this repo](./papers/bulatov-recurrent-memory-transformer.pdf). [Read the full paper from the source](https://arxiv.org/abs/2207.06881).
+
 ## 3. Evaluation and Benchmarks
 
 Designing agentic systems is only half the challenge—understanding how to evaluate them is just as critical. Agents are not static models: they act, reflect, and interact. This section gathers proposals that go beyond raw accuracy to assess qualities like autonomy, tool use, reasoning, collaboration, and decision cycles. From benchmark suites to reflective loops, these works help define what “good” means in Agentic AI.
