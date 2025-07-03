@@ -48,8 +48,20 @@ To build truly agentic systems, we must revisit the early visions that treated t
 - **Joon Sung Park, Joseph O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein – *Generative Agents: Interactive Simulacra of Human Behavior* (2023)**
   A groundbreaking study in which generative agents—powered by LLMs—simulate believable human behavior in an interactive sandbox world. This work bridges human-computer interaction, cognitive simulation, and agent design, offering deep insight into how artificial agents might exhibit memory, planning, and social dynamics. A must-read for understanding the expressive and interactive potential of agentic systems. [Read the full paper from this repo](./papers/park-generative-agents.pdf) · [Read the full paper from the source](https://arxiv.org/abs/2304.03442)
 
+- **Yann LeCun – *A Path Towards Autonomous Machine Intelligence* (2022)**
+  LeCun outlines a proposed architecture for autonomous intelligence, emphasizing modular components like world models, configurators, and cost predictors. He critiques current LLM-based approaches and argues for systems that learn through self-supervised predictive modeling. This roadmap offers a radically different path toward agency and autonomy beyond language. [Read the full paper from this repo](./papers/lecun-autonomous-machine-intelligence.pdf) · [Read the full paper from the source](https://openreview.net/pdf?id=BZ5a1r-kVsf)
+
+- **Andrej Karpathy – *Intro to Large Language Models* (2023)**
+  In this lecture, Karpathy provides a lucid introduction to how large language models work, including tokenization, attention, transformer blocks, and the training process. Designed for programmers and practitioners, it demystifies LLMs and lays the conceptual foundation necessary to understand agentic systems built on top of them. [Watch the full talk](https://www.youtube.com/watch?v=zjkBMFhNj_g)
+
 - **Fei-Fei Li – *The Worlds I See* (2024)**
   A personal and reflective account of Fei-Fei Li’s journey as a scientist and AI leader. While not a technical manual, this book offers a powerful vision of Human-Centered AI—framing intelligence not just as a computational challenge, but as a profoundly human endeavor. Recommended for those seeking to ground Agentic AI systems in ethical, emotional, and societal context.
+
+- **Intel – *Foundations of Agentic AI* (2025)**
+  This industry-produced course introduces Agentic AI as the next evolution in artificial intelligence, emphasizing autonomy, multi-agent orchestration, long-term memory, and real-time adaptation. It contrasts Agentic AI with traditional Generative AI across six architectural and operational dimensions, and explores its impact in domains like software engineering, healthcare, finance, and cybersecurity. The course also presents a detailed case study of Intel’s use of Agentic AI in semiconductor design, and outlines future challenges in standardization, integration, and orchestration. [Access the course](https://builders.intel.com/university/course/foundations-of-agentic-ai)
+
+- **Ranjan Sapkota et al. – *AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges* (2025)**
+  This study critically distinguishes between AI Agents and Agentic AI, offering a structured conceptual taxonomy, application mapping, and challenge analysis to clarify their divergent design philosophies and capabilities. AI Agents are characterized as modular systems driven by Large Language Models (LLMs) and Large Image Models (LIMs) for narrow, task-specific automation. In contrast, Agentic AI systems represent a paradigmatic shift marked by multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The paper presents a comparative analysis across both paradigms, examining application domains such as customer support and research automation, and discusses unique challenges including hallucination and coordination failure. [Read the full paper from this repo](./papers/sapkota-ai-agents-vs-agentic-ai.pdf) · [Read the full paper from the source](https://arxiv.org/abs/2505.10468)
 
 ## 2. Architectures and System Design
 
