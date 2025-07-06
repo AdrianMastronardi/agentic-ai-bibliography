@@ -1,0 +1,38 @@
+name: Fix Citation
+description: Report an error or inaccuracy in a bibliographic entry.
+title: "[Fix] "
+labels: [bug, citation]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🐞 Citation Issue
+
+        Use this form to report a broken link, typo, missing author, or incorrect year in an entry.
+
+  - type: input
+    id: entry-title
+    attributes:
+      label: Affected Entry
+      description: Which entry needs to be corrected?
+      placeholder: e.g., Yann LeCun – A Path Towards Autonomous Machine Intelligence (2022)
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: Describe the issue you found in the citation or summary.
+      placeholder: e.g., The arXiv link is broken. The author's name is misspelled. The summary mentions an outdated result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested Fix
+      description: If possible, include the correct link, author, or reference.
+      placeholder: e.g., The correct link is: https://arxiv.org/abs/2206.06419
+    validations:
+      required: false

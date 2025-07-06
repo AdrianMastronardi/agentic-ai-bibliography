@@ -1,0 +1,38 @@
+name: Feature Request
+description: Suggest a new section, capability, or improvement to the bibliography.
+title: "[Feature] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🙋‍♀️ Feature Request
+
+        Help us improve the Agentic AI Bibliography by proposing a new feature, section, or capability.
+
+  - type: input
+    id: summary
+    attributes:
+      label: Feature Summary
+      description: In one sentence, what are you proposing?
+      placeholder: e.g., Add a new section for Sim2Real transfer agents
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this important?
+      description: Explain the value this addition brings to the bibliography or community.
+      placeholder: Why does this matter now? Who would benefit?
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Proposed implementation or format
+      description: How might this feature be integrated? Suggest a structure, format, or related entries.
+      placeholder: Describe section structure, possible entry examples, or formatting conventions.
+    validations:
+      required: false
