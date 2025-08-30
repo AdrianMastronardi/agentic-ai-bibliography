@@ -7,7 +7,7 @@ This project is primarily a curated bibliography. It does not contain executable
 However, if you believe you've found a **security issue** (e.g., malicious links, file upload risks, or unsafe embedded code), please:
 
 1. **Do not open a public issue.**
-2. Instead, contact us privately at: [your-email@example.com]
+2. Instead, contact us privately at: [adrian at mastronardi.xyz]
 
 We take all reports seriously—even in content-only repositories.
 
