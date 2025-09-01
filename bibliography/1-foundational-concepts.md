@@ -11,7 +11,8 @@ texts shaped the original dream of human-computer symbiosis.
   digital knowledge systems, and ultimately the notion of interactive
   intelligence augmentation. A foundational text for understanding AI not as
   replacement, but as partnership.
-  [Read the full paper from this repo](../papers/bush-1945.pdf) · [Access the
+  [Read the full paper from this repo](../papers/bush-as-we-may-think.pdf) ·
+  [Access the
   source](https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/)
 
 - **J.C.R. Licklider – *Man-Computer Symbiosis* (1960)**
@@ -19,8 +20,8 @@ texts shaped the original dream of human-computer symbiosis.
   collaborate closely, each doing what they do best. Licklider argues that
   progress in computing would come not from automation, but from
   symbiosis—interactive systems that augment human thought.
-  [Read the full paper from this repo](../papers/licklider-1960.pdf) · [Access
-  the
+  [Read the full paper from this
+  repo](../papers/licklider-man-computer-symbiosis.pdf) · [Access the
   source](https://openlib.org/home/krichel/courses/lis654/readings/licklider60_man_comput_symbios.pdf)
 
 - **Marvin Minsky – *Steps Toward Artificial Intelligence* (1961)**
@@ -38,8 +39,8 @@ texts shaped the original dream of human-computer symbiosis.
   invention of the mouse, hypertext, and interactive computing. Essential
   reading to understand the original ethos behind building systems that
   empower human agency.
-  [Read the full paper from this repo](../papers/engelbart-1962.pdf) · [Access
-  the
+  [Read the full paper from this
+  repo](../papers/engelbart-augmenting-human-intellect.pdf) · [Access the
   source](https://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf)
 
 - **Allen Newell & Herbert A. Simon – *Human Problem Solving* (1972)**
@@ -72,7 +73,8 @@ texts shaped the original dream of human-computer symbiosis.
   predictors. He critiques current LLM-based approaches and argues for systems
   that learn through self-supervised predictive modeling. This roadmap offers
   a radically different path toward agency and autonomy beyond language.
-  [Read the full paper from this repo](../papers/lecun-2022.pdf) · [Access the
+  [Read the full paper from this
+  repo](../papers/lecun-autonomous-machine-intelligence.pdf) · [Access the
   source](https://openreview.net/pdf?id=BZ5a1r-kVsf)
 
 - **Andrej Karpathy – *Intro to Large Language Models* (2023)**
@@ -84,14 +86,14 @@ texts shaped the original dream of human-computer symbiosis.
   [Watch the full talk](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 
 - **Joon Sung Park et al. – *Generative Agents: Interactive Simulacra of Human
-- Behavior* (2023)**
+  Behavior* (2023)**
   A groundbreaking study in which generative agents—powered by LLMs—simulate
   believable human behavior in an interactive sandbox world. This work bridges
   human-computer interaction, cognitive simulation, and agent design, offering
   deep insight into how artificial agents might exhibit memory, planning, and
   social dynamics. A must-read for understanding the expressive and
   interactive potential of agentic systems.
-  [Read the full paper from this repo](../papers/joon sung park-2023.pdf) ·
+  [Read the full paper from this repo](../papers/park-generative-agents.pdf) ·
   [Read the full paper from the source](https://arxiv.org/abs/2304.03442) ·
   [Read the full paper from the source](https://arxiv.org/abs/2304.03442)
 
@@ -116,7 +118,7 @@ texts shaped the original dream of human-computer symbiosis.
   source](https://builders.intel.com/university/course/foundations-of-agentic-ai)
 
 - **Ranjan Sapkota et al. – *AI Agents vs. Agentic AI: A Conceptual Taxonomy,
-- Applications and Challenges* (2025)**
+  Applications and Challenges* (2025)**
   This study critically distinguishes between AI Agents and Agentic AI,
   offering a structured conceptual taxonomy, application mapping, and
   challenge analysis to clarify their divergent design philosophies and
@@ -128,6 +130,7 @@ texts shaped the original dream of human-computer symbiosis.
   presents a comparative analysis across both paradigms, examining application
   domains such as customer support and research automation, and discusses
   unique challenges including hallucination and coordination failure.
-  [Read the full paper from this repo](../papers/sapkota-2025.pdf) · [Read the
-  full paper from the source](https://arxiv.org/abs/2505.10468) · [Read the
-  full paper from the source](https://arxiv.org/abs/2505.10468)
+  [Read the full paper from this
+  repo](../papers/sapkota-ai-agents-vs-agentic-ai.pdf) · [Read the full paper
+  from the source](https://arxiv.org/abs/2505.10468) · [Read the full paper
+  from the source](https://arxiv.org/abs/2505.10468)

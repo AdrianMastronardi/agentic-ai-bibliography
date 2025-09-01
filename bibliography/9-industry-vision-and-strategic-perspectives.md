@@ -33,7 +33,7 @@ long-term technological ambition.
   [Access the source](https://www.latent.space/p/why-agents-dont-work)
 
 - **Google DeepMind – *Project Astra: Our Vision for the Future of AI
-- Assistants* (2024)**
+  Assistants* (2024)**
   Project Astra is a research prototype by DeepMind envisioning a real-time,
   multimodal AI assistant capable of continuous perception and dialogue. Built
   for responsiveness across camera, audio, and language modalities, Astra aims
@@ -65,12 +65,12 @@ long-term technological ambition.
   tone, it offers a typology of agent types, suggested adoption phases, and
   early use cases. Valuable more for framing the business narrative than for
   technical rigor.
-  [Read the full paper from this repo](../papers/mckinsey-2025.pdf) · [Access
-  the
+  [Read the full paper from this
+  repo](../papers/mckinsey-seizing-the-agentic-ai-advantage.pdf) · [Access the
   source](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/seizing-the-agentic-ai-advantage)
 
 - **Simon Willison – *The lethal trifecta for AI agents: private data,
-- untrusted content, and external communication* (2025)**
+  untrusted content, and external communication* (2025)**
   Willison warns about the critical risks when AI agents have access to
   private data, process untrusted content, and can communicate externally. He
   emphasizes that combining these capabilities can lead to severe security

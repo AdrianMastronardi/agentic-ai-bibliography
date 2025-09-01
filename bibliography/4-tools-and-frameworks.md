@@ -26,7 +26,7 @@ real world.
   [Explore the code repository](https://github.com/crewAIInc/crewAI)
 
 - **Hong et al. – *MetaGPT: Meta Programming for A Multi-Agent Collaborative
-- Framework* (2023)**
+  Framework* (2023)**
   MetaGPT is a multi-agent framework that simulates a software development
   team by assigning distinct roles—such as product manager, architect, and
   engineer—to AI agents. By encoding Standard Operating Procedures (SOPs) into
@@ -35,7 +35,7 @@ real world.
   approach enhances coherence and reduces errors in generated outputs,
   demonstrating improved performance in collaborative software engineering
   benchmarks.  ·
-  [Read the full paper from this repo](../papers/hong-2023.pdf) · [Read the
+  [Read the full paper from this repo](../papers/hong-metagpt.pdf) · [Read the
   full paper from the source](https://arxiv.org/abs/2308.00352) · [Explore the
   code repository](https://github.com/FoundationAgents/MetaGPT) · [Read the
   full paper from the source](https://arxiv.org/abs/2308.00352)
@@ -102,7 +102,7 @@ real world.
   [Explore the code repository](https://github.com/guidance-ai/guidance)
 
 - **PromptTools – *Open-Source Framework for Prompt Testing and Evaluation*
-- (2023)**
+  (2023)**
   PromptTools provides an interactive framework for evaluating, comparing, and
   managing prompts across different LLMs. It supports side-by-side
   comparisons, regression testing, and metric-based evaluation, with both CLI
@@ -137,7 +137,7 @@ real world.
 ## 4.5 Training and Fine-Tuning Utilities
 
 - **Exploding Gradients – *Funtuner: Supervised Instruction Fine-Tuning
-- Framework for LLMs* (2024)**
+  Framework for LLMs* (2024)**
   Funtuner is a lightweight, scalable framework for supervised fine-tuning of
   LLMs using Hugging Face Trainer and DeepSpeed. It supports LoRA, 8-bit
   quantization, sequence bucketing, and reproducibility features, making it

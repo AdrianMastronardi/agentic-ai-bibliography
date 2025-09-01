@@ -365,7 +365,7 @@
   - type: internal_pdf
     text: Read the full paper from this repo
     url: ./papers/wooldridge-jennings-intelligent-agents.pdf
-- id: gerhard weiss (ed)-2001
+- id: "gerhard weiss (ed)-2001"
   type: book
   title: 'Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence'
   author: Gerhard Weiss (ed.), with contributions from Michael Wooldridge et al.
@@ -1623,7 +1623,7 @@
   - type: source
     text: Read the full paper from the source
     url: https://arxiv.org/abs/2306.06070
-- id: joseph shinn-2023
+- id: "joseph shinn-2023"
   type: paper
   title: 'WebArena: A Realistic Web Environment for Building Autonomous Agents'
   author: Joseph Shinn, Omar Labash & Karthik Gopinath

@@ -17,7 +17,7 @@ define what “good” means in Agentic AI.
   can significantly improve performance without solely relying on model scale,
   highlighting a promising direction for enriching language model
   functionalities.
-  [Read the full paper from this repo](../papers/parisi-2022.pdf) · [Read the
+  [Read the full paper from this repo](../papers/parisi-talm.pdf) · [Read the
   full paper from the source](https://arxiv.org/abs/2205.12255) · [Read the
   full paper from the source](https://arxiv.org/abs/2205.12255)
 
@@ -29,12 +29,12 @@ define what “good” means in Agentic AI.
   real-world applications. By supporting both LLM-only and tool-augmented
   agents, AgentBench provides a unified framework for comparing agentic
   capabilities across platforms.
-  [Read the full paper from this repo](../papers/liu-2023.pdf) · [Read the
-  full paper from the source](https://arxiv.org/abs/2308.11458) · [Read the
-  full paper from the source](https://arxiv.org/abs/2308.11458)
+  [Read the full paper from this repo](../papers/liu-agentbench.pdf) · [Read
+  the full paper from the source](https://arxiv.org/abs/2308.11458) · [Read
+  the full paper from the source](https://arxiv.org/abs/2308.11458)
 
 - **Liu et al. – *CAMEL: Communicative Agents for Mind Exploration of Large
-- Scale Language Model Society* (2023)**
+  Scale Language Model Society* (2023)**
   CAMEL introduces a multi-agent simulation framework where role-playing
   language agents interact to solve tasks via structured dialogue. It explores
   how communication, negotiation, and memory emerge in agent societies. CAMEL
@@ -43,7 +43,7 @@ define what “good” means in Agentic AI.
   lead to successful collaboration. This work anticipates the need to test not
   just task completion, but social alignment and coordination in agentic
   systems.  · .
-  [Read the full paper from this repo](../papers/liu-2023-2.pdf) · [Read the
+  [Read the full paper from this repo](../papers/liu-camel.pdf) · [Read the
   full paper from the source](https://arxiv.org/abs/2303.17760) · [Explore the
   code repository](https://github.com/camel-ai/camel) · [Read the full paper
   from the source](https://arxiv.org/abs/2303.17760)
@@ -57,12 +57,12 @@ define what “good” means in Agentic AI.
   revealing large performance gaps between humans and state-of-the-art models
   like GPT-4. The benchmark highlights the limitations of current LLM-based
   agents in autonomy, planning, and external integration.
-  [Read the full paper from this repo](../papers/mialon-2023.pdf) · [Read the
+  [Read the full paper from this repo](../papers/mialon-gaia.pdf) · [Read the
   full paper from the source](https://arxiv.org/abs/2311.12983) · [Read the
   full paper from the source](https://arxiv.org/abs/2311.12983)
 
 - **Shinn et al. – *Reflexion: Language Agents with Verbal Reinforcement
-- Learning* (2023)**
+  Learning* (2023)**
   Reflexion introduces a framework where language agents enhance their
   performance through self-generated feedback. By converting scalar or binary
   feedback into natural language reflections, agents can iteratively improve
@@ -70,12 +70,12 @@ define what “good” means in Agentic AI.
   and reasoning. This approach allows agents to learn from their mistakes
   without the need for external fine-tuning, leveraging the capabilities of
   large language models for self-improvement.
-  [Read the full paper from this repo](../papers/shinn-2023.pdf) · [Read the
-  full paper from the source](https://arxiv.org/abs/2303.11366) · [Read the
-  full paper from the source](https://arxiv.org/abs/2303.11366)
+  [Read the full paper from this repo](../papers/shinn-reflexion.pdf) · [Read
+  the full paper from the source](https://arxiv.org/abs/2303.11366) · [Read
+  the full paper from the source](https://arxiv.org/abs/2303.11366)
 
 - **Wang et al. – *Voyager: An Open-Ended Embodied Agent with Large Language
-- Models* (2023)**
+  Models* (2023)**
   Voyager is the first LLM-powered embodied lifelong learning agent in
   Minecraft that continuously explores the world, acquires diverse skills, and
   makes novel discoveries without human intervention. It comprises three key
@@ -89,12 +89,12 @@ define what “good” means in Agentic AI.
   prior state-of-the-art methods by obtaining 3.3× more unique items,
   traveling 2.3× longer distances, and unlocking key tech tree milestones up
   to 15.3× faster.
-  [Read the full paper from this repo](../papers/wang-2023.pdf) · [Read the
+  [Read the full paper from this repo](../papers/wang-voyager.pdf) · [Read the
   full paper from the source](https://arxiv.org/abs/2305.16291) · [Read the
   full paper from the source](https://arxiv.org/abs/2305.16291)
 
 - **Ye et al. – *FLASK: Fine-grained Language Model Evaluation based on
-- Alignment Skill Sets* (2023)**
+  Alignment Skill Sets* (2023)**
   FLASK introduces a fine-grained evaluation protocol that decomposes
   coarse-level scoring into skill set-level assessments for each instruction.
   This approach enhances interpretability by considering the specific skills
@@ -104,12 +104,12 @@ define what “good” means in Agentic AI.
   FLASK's methodology allows for a holistic view of language model
   capabilities, emphasizing the importance of skill-specific evaluation in
   aligning models with human values.
-  [Read the full paper from this repo](../papers/ye-2023.pdf) · [Read the full
-  paper from the source](https://arxiv.org/abs/2307.10928) · [Read the full
-  paper from the source](https://arxiv.org/abs/2307.10928)
+  [Read the full paper from this repo](../papers/ye-flask.pdf) · [Read the
+  full paper from the source](https://arxiv.org/abs/2307.10928) · [Read the
+  full paper from the source](https://arxiv.org/abs/2307.10928)
 
 - **Fourney et al. – *AutoGenBench: A Tool for Measuring and Evaluating
-- AutoGen Agents* (2024)**
+  AutoGen Agents* (2024)**
   AutoGenBench is a standalone command-line tool developed by Microsoft
   Research for evaluating AutoGen agents and workflows on established LLM and
   agentic benchmarks. It handles downloading, configuring, running, and
@@ -124,7 +124,7 @@ define what “good” means in Agentic AI.
   source](https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/)
 
 - **Woffinden-Luey & Kiseleva – *AgentEval: A Developer Tool to Assess Utility
-- of LLM-powered Applications* (2024)**
+  of LLM-powered Applications* (2024)**
   AgentEval is a framework developed by Microsoft Research to evaluate the
   utility of applications powered by large language models (LLMs). It
   introduces a multi-agent evaluation process involving three key components:

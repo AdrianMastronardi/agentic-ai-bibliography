@@ -22,7 +22,7 @@ long-term memory, and autonomy in sandboxed settings.
   [Explore the code repository](https://github.com/projectmesa/mesa)
 
 - **Joon Sung Park et al. – *Generative Agents: Interactive Simulacra of Human
-- Behavior* (2023)**
+  Behavior* (2023)**
   This paper introduces generative agents—computational models that simulate
   believable human behavior in an interactive sandbox environment. These
   agents possess memory, reflection, and planning capabilities, enabling them
@@ -31,14 +31,14 @@ long-term memory, and autonomy in sandboxed settings.
   demonstrating how large language models, when embedded in agent
   architectures with memory and retrieval, can simulate rich, autonomous
   personas within a community.
-  [Read the full paper from this repo](../papers/park-2023.pdf) · [Read the
-  full paper from the source](https://arxiv.org/abs/2304.03442) · [Read the
-  full paper from the source](https://arxiv.org/abs/2304.03442)
+  [Read the full paper from this repo](../papers/park-generative-agents.pdf) ·
+  [Read the full paper from the source](https://arxiv.org/abs/2304.03442) ·
+  [Read the full paper from the source](https://arxiv.org/abs/2304.03442)
 
 ## 6.2 Multi-Agent and Coordination Benchmarks
 
 - **Lowe et al. – *Multi-Agent Actor-Critic for Mixed Cooperative-Competitive
-- Environments* (2017)**
+  Environments* (2017)**
   The Multi-Agent Particle Environment (MPE) is a set of simple yet versatile
   environments for multi-agent reinforcement learning. It features agents
   interacting in a 2D continuous space with discrete actions, supporting both
@@ -49,18 +49,18 @@ long-term memory, and autonomy in sandboxed settings.
   repository](https://github.com/openai/multiagent-particle-envs)
 
 - **Oriol Vinyals et al. – *StarCraft II: A New Challenge for Reinforcement
-- Learning* (2017)**
+  Learning* (2017)**
   The StarCraft II Learning Environment (SC2LE) offers a complex, real-time
   strategy domain for training reinforcement learning agents in partially
   observable, multi-agent settings. It has been instrumental in driving
   research on long-horizon planning, adaptive strategies, and coordination
   under uncertainty.
-  [Read the full paper from this repo](../papers/vinyals-2017.pdf) · [Read the
-  full paper from the source](https://arxiv.org/abs/1708.04782) · [Read the
-  full paper from the source](https://arxiv.org/abs/1708.04782)
+  [Read the full paper from this repo](../papers/vinyals-starcraft2.pdf) ·
+  [Read the full paper from the source](https://arxiv.org/abs/1708.04782) ·
+  [Read the full paper from the source](https://arxiv.org/abs/1708.04782)
 
 - **Farama Foundation – *Gymnasium: An API for Reinforcement Learning*
-- (2022)**
+  (2022)**
   Gymnasium is the official successor to OpenAI Gym, developed and maintained
   by the Farama Foundation. It provides a standardized and extensible API for
   experimenting with agents in reinforcement learning environments. Its
@@ -72,7 +72,7 @@ long-term memory, and autonomy in sandboxed settings.
   repository](https://github.com/Farama-Foundation/Gymnasium)
 
 - **Chevalier-Boisvert et al. – *MiniGrid & MiniWorld: Modular & Customizable
-- Reinforcement Learning Environments for Goal-Oriented Tasks* (2023)**
+  Reinforcement Learning Environments for Goal-Oriented Tasks* (2023)**
   MiniGrid and MiniWorld are lightweight, modular environments designed for
   reinforcement learning research. MiniGrid offers 2D grid-based environments,
   while MiniWorld provides 3D simulations. Both are highly customizable,
@@ -86,42 +86,42 @@ long-term memory, and autonomy in sandboxed settings.
 ## 6.3 Embodied and Physical Simulation
 
 - **Mohit Shridhar et al. – *ALFWorld: Aligning Text and Embodied Environments
-- for Interactive Learning* (2020)**
+  for Interactive Learning* (2020)**
   ALFWorld bridges text-based and embodied environments by aligning
   instruction-following tasks in TextWorld with 3D simulations in ALFRED. This
   allows agents to learn policies via text interaction and transfer them into
   visual, embodied execution. The benchmark enables research in policy
   generalization, language grounding, and multi-modal reasoning.
-  [Read the full paper from this repo](../papers/shridhar-2020.pdf) · [Read
-  the full paper from the source](https://arxiv.org/abs/2010.03768) · [Read
-  the full paper from the source](https://arxiv.org/abs/2010.03768)
+  [Read the full paper from this repo](../papers/shridhar-alfworld.pdf) ·
+  [Read the full paper from the source](https://arxiv.org/abs/2010.03768) ·
+  [Read the full paper from the source](https://arxiv.org/abs/2010.03768)
 
 - **Viktor Makoviychuk et al. – *Isaac Gym: High Performance GPU-Based Physics
-- Simulation for Robot Learning* (2021)**
+  Simulation for Robot Learning* (2021)**
   Isaac Gym is a GPU-accelerated simulator for physics-based reinforcement
   learning, enabling massive parallel training of embodied agents. It
   integrates simulation and learning on the same device, allowing fast policy
   optimization for robotics and control tasks at scale.
-  [Read the full paper from this repo](../papers/makoviychuk-2021.pdf) · [Read
-  the full paper from the source](https://arxiv.org/abs/2108.10470) · [Read
-  the full paper from the source](https://arxiv.org/abs/2108.10470)
+  [Read the full paper from this repo](../papers/makoviychuk-isaac-gym.pdf) ·
+  [Read the full paper from the source](https://arxiv.org/abs/2108.10470) ·
+  [Read the full paper from the source](https://arxiv.org/abs/2108.10470)
 
 ## 6.4 Interactive Web and Digital Environments
 
 - **Joseph Shinn, Omar Labash & Karthik Gopinath – *WebArena: A Realistic Web
-- Environment for Building Autonomous Agents* (2023)**
+  Environment for Building Autonomous Agents* (2023)**
   WebArena is a simulated internet with fully functional, interactive websites
   spanning domains like e-commerce, documentation, forums, and code hosting.
   Designed for evaluating long-horizon, tool-augmented LLM agents, it supports
   realistic browser-based actions and open-ended tasks grounded in modern web
   UX. It provides a reproducible benchmark for instruction-following,
   information synthesis, and strategic action in dynamic web environments.
-  [Read the full paper from this repo](../papers/joseph shinn-2023.pdf) ·
-  [Read the full paper from the source](https://arxiv.org/abs/2307.13854) ·
-  [Read the full paper from the source](https://arxiv.org/abs/2307.13854)
+  [Read the full paper from this repo](../papers/shinn-webarena.pdf) · [Read
+  the full paper from the source](https://arxiv.org/abs/2307.13854) · [Read
+  the full paper from the source](https://arxiv.org/abs/2307.13854)
 
 - **Xiang Deng et al. – *Mind2Web: Towards a Generalist Agent for the Web*
-- (2023)**
+  (2023)**
   Mind2Web is a large-scale benchmark designed to develop and evaluate
   generalist web agents capable of following natural language instructions to
   complete complex tasks across diverse real-world websites. It comprises
@@ -130,6 +130,6 @@ long-term memory, and autonomy in sandboxed settings.
   information such as raw HTML, DOM snapshots, screenshots, and interaction
   traces, facilitating research in instruction following, generalization, and
   web automation.
-  [Read the full paper from this repo](../papers/deng-2023.pdf) · [Read the
-  full paper from the source](https://arxiv.org/abs/2306.06070) · [Read the
-  full paper from the source](https://arxiv.org/abs/2306.06070)
+  [Read the full paper from this repo](../papers/deng-mind2web.pdf) · [Read
+  the full paper from the source](https://arxiv.org/abs/2306.06070) · [Read
+  the full paper from the source](https://arxiv.org/abs/2306.06070)

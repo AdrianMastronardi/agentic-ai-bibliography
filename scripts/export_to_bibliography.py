@@ -64,7 +64,15 @@ def _format_single_link(link: Dict[str, Any], entry_id: str) -> str:
         url = fix_cross_references(url)
 
     if link_type == 'internal_pdf':
-        return _format_internal_pdf_link(entry_id)
+        if url:
+            # Use the provided URL, adjusting path for bibliography directory
+            if url.startswith('./papers/'):
+                adjusted_url = '../' + url[2:]  # Convert ./papers/ to ../
+            else:
+                adjusted_url = url
+            return f"[Read the full paper from this repo]({adjusted_url})"
+        else:
+            return _format_internal_pdf_link(entry_id)
     elif link_type == 'source':
         if url:
             return _format_source_link(url)
@@ -163,12 +171,19 @@ def wrap_text(text: str, width: int = 80, indent: str = "") -> str:
     """Wrap text to specified width with proper indentation."""
     import textwrap
 
+    # For bullet points, use different indentation for continuation lines
+    if indent.startswith("- "):
+        # Continuation lines should align with text after the bullet
+        subsequent_indent = "  "  # Two spaces to align with text after "- "
+    else:
+        subsequent_indent = indent
+
     # Use textwrap to handle the wrapping
     wrapped = textwrap.fill(
         text,
         width=width,
         initial_indent=indent,
-        subsequent_indent=indent,
+        subsequent_indent=subsequent_indent,
         break_long_words=False,
         break_on_hyphens=False
     )

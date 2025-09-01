@@ -17,7 +17,7 @@ production, where correctness, reproducibility, and robustness matter.
   [Explore the code repository](https://github.com/openai/evals)
 
 - **Fourney et al. – *AutoGenBench: A Tool for Measuring and Evaluating
-- AutoGen Agents* (2024)**
+  AutoGen Agents* (2024)**
   AutoGenBench is a command-line tool developed by Microsoft Research to
   evaluate AutoGen workflows using established LLM and agentic benchmarks. It
   emphasizes repeatability, isolation, and instrumentation in testing, making
@@ -26,20 +26,20 @@ production, where correctness, reproducibility, and robustness matter.
   [Access the source](3-evaluation-and-benchmarks.md)
 
 - **Shahul Es et al. – *RAGAS: Retrieval-Augmented Generation Assessment*
-- (2024)**
+  (2024)**
   RAGAS is an open-source evaluation framework for Retrieval-Augmented
   Generation (RAG) pipelines. It enables reference-free assessment of
   generation quality, relevance of retrieved context, and faithfulness of
   answers—eliminating the need for ground truth labels. RAGAS introduces
   task-specific metrics and supports batch-level evaluations, making it a
   scalable tool for production-grade RAG systems.  ·
-  [Read the full paper from this repo](../papers/es-2024.pdf) · [Read the full
-  paper from the source](https://arxiv.org/abs/2309.15217) · [Explore the code
-  repository](https://github.com/explodinggradients/ragas) · [Read the full
-  paper from the source](https://arxiv.org/abs/2309.15217)
+  [Read the full paper from this repo](../papers/es-ragas.pdf) · [Read the
+  full paper from the source](https://arxiv.org/abs/2309.15217) · [Explore the
+  code repository](https://github.com/explodinggradients/ragas) · [Read the
+  full paper from the source](https://arxiv.org/abs/2309.15217)
 
 - **UpTrain AI – *UpTrain: Unified Evaluation and Improvement Platform for
-- Generative AI Applications* (2024)**
+  Generative AI Applications* (2024)**
   UpTrain is an open-source platform for evaluating and improving LLM-based
   applications. It provides over 20 prebuilt evaluation checks across
   language, code, and embedding tasks, and supports root-cause analysis of
@@ -49,7 +49,7 @@ production, where correctness, reproducibility, and robustness matter.
   [Explore the code repository](https://github.com/uptrain-ai/uptrain)
 
 - **Woffinden-Luey & Kiseleva – *AgentEval: A Developer Tool to Assess Utility
-- of LLM-powered Applications* (2024)**
+  of LLM-powered Applications* (2024)**
   AgentEval introduces a structured evaluation method where agents serve as
   evaluators, scoring target systems on multiple dimensions (e.g.,
   helpfulness, correctness). It is especially useful for LLM-based
@@ -59,7 +59,7 @@ production, where correctness, reproducibility, and robustness matter.
 ## 5.2 Observability and Debugging
 
 - **LangSmith – *Observability and Evaluation Platform for LLM Applications*
-- (2023)**
+  (2023)**
   LangSmith is a comprehensive platform designed to enhance the observability
   and evaluation of applications built with large language models (LLMs). It
   offers features such as tracing, debugging, and performance monitoring,
@@ -81,7 +81,7 @@ production, where correctness, reproducibility, and robustness matter.
   [Explore the code repository](https://github.com/Arize-ai/phoenix)
 
 - **PromptLayer – *Prompt Management, Versioning, and Observability Platform*
-- (2023)**
+  (2023)**
   PromptLayer is a comprehensive platform designed to streamline prompt
   engineering workflows for large language models (LLMs). It offers features
   such as visual prompt creation, version control, A/B testing, and
@@ -107,7 +107,7 @@ production, where correctness, reproducibility, and robustness matter.
 ## 5.3 Output Validation and Safety
 
 - **Guardrails AI – *Framework for Validating and Correcting LLM Outputs*
-- (2023)**
+  (2023)**
   Guardrails AI is an open-source framework that provides mechanisms to
   validate and correct the outputs of large language models (LLMs). It allows
   developers to define structured output schemas and enforce quality
@@ -119,7 +119,7 @@ production, where correctness, reproducibility, and robustness matter.
   repository](https://github.com/guardrails-ai/guardrails)
 
 - **ProtectAI – *Rebuff: Detecting Prompt Injection Attacks in LLM
-- Applications* (2023)**
+  Applications* (2023)**
   Rebuff is an open-source framework designed to detect and mitigate prompt
   injection attacks against LLMs. It provides a layered defense strategy that
   includes heuristic filters, language model-based scoring, vector similarity
@@ -130,20 +130,20 @@ production, where correctness, reproducibility, and robustness matter.
   repository](https://github.com/protectai/rebuff)
 
 - **Traian Rebedea et al. – *NVIDIA NeMo Guardrails: A Toolkit for
-- Controllable and Safe LLM Applications with Programmable Rails* (2023)**
+  Controllable and Safe LLM Applications with Programmable Rails* (2023)**
   NeMo Guardrails is an open-source framework for implementing programmable
   constraints (or "rails") in LLM-powered applications. It allows developers
   to define conversational boundaries, filter undesired topics, and enforce
   safety behaviors using Colang, a domain-specific language. It includes
   built-in mechanisms to prevent prompt injections and jailbreaks, helping
   ensure trust and control in deployed agentic systems.  ·
-  [Read the full paper from this repo](../papers/rebedea-2023.pdf) · [Read the
-  full paper from the source](https://arxiv.org/abs/2310.10501) · [Explore the
-  code repository](https://github.com/NVIDIA/NeMo-Guardrails) · [Read the full
-  paper from the source](https://arxiv.org/abs/2310.10501)
+  [Read the full paper from this repo](../papers/rebedea-nemo-guardrails.pdf)
+  · [Read the full paper from the source](https://arxiv.org/abs/2310.10501) ·
+  [Explore the code repository](https://github.com/NVIDIA/NeMo-Guardrails) ·
+  [Read the full paper from the source](https://arxiv.org/abs/2310.10501)
 
 - **TruLens – *Framework for Evaluating and Monitoring LLM Applications*
-- (2023)**
+  (2023)**
   TruLens is an open-source framework designed to evaluate and monitor
   applications powered by large language models (LLMs). It introduces
   "feedback functions" that programmatically assess various aspects of LLM
@@ -178,7 +178,7 @@ production, where correctness, reproducibility, and robustness matter.
   [Explore the code repository](https://github.com/argilla-io/argilla)
 
 - **HumanLoop – *Feedback and Iteration Platform for LLM Applications*
-- (2023)**
+  (2023)**
   HumanLoop enables developers to integrate human feedback into LLM-powered
   workflows. It supports ranking, scoring, and fine-tuning based on user or
   evaluator input. HumanLoop offers interfaces for side-by-side comparisons
@@ -190,7 +190,7 @@ production, where correctness, reproducibility, and robustness matter.
 ## 5.5 Alignment and Feedback Learning
 
 - **Exploding Gradients – *Nemesis: A Reward Model Framework for LLMs*
-- (2024)**
+  (2024)**
   Nemesis is an open-source framework for training reward models for
   reinforcement learning with human feedback (RLHF). It supports datasets such
   as HellaSwag, HH-RLHF, and ELI5, and provides tools for reward function
