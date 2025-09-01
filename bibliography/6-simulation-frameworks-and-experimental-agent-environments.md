@@ -4,8 +4,6 @@ title: "6. Simulation Frameworks and Experimental Agent Environments"
 permalink: /bibliography/6-simulation-frameworks-and-experimental-agent-environments/
 ---
 
-# 6. Simulation Frameworks and Experimental Agent Environments
-
 Beyond prompts and pipelines, agents can also inhabit worlds. This section
 gathers platforms used to simulate, study, and experiment with agent behavior in
 controlled, interactive environments. These frameworks—some predating

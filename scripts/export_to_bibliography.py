@@ -291,8 +291,7 @@ def export_to_bibliography():
         content_parts.append(f"permalink: {permalink}\n")
         content_parts.append("---\n\n")
 
-        # Write header
-        content_parts.append(f"# {section_title}\n\n")
+        # Don't add H1 header since Jekyll will handle the title from front matter
 
         # Add description if available
         if section_title in toc_descriptions:

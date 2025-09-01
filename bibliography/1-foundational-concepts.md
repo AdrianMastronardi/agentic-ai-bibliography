@@ -4,8 +4,6 @@ title: "1. Foundational Concepts"
 permalink: /bibliography/1-foundational-concepts/
 ---
 
-# 1. Foundational Concepts
-
 To build truly agentic systems, we must revisit the early visions that treated
 the computer not just as a tool, but as a thinking partner. These foundational
 texts shaped the original dream of human-computer symbiosis.

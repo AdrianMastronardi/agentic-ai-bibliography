@@ -4,8 +4,6 @@ title: "4. Tools and Frameworks"
 permalink: /bibliography/4-tools-and-frameworks/
 ---
 
-# 4. Tools and Frameworks
-
 Building agentic systems requires more than prompting — it demands structured
 frameworks that manage planning, memory, tool use, interaction, and error
 handling. This section curates open-source libraries and platforms that enable

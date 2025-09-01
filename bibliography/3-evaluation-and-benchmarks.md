@@ -4,8 +4,6 @@ title: "3. Evaluation and Benchmarks"
 permalink: /bibliography/3-evaluation-and-benchmarks/
 ---
 
-# 3. Evaluation and Benchmarks
-
 Designing agentic systems is only half the challenge—understanding how to
 evaluate them is just as critical. Agents are not static models: they act,
 reflect, and interact. This section gathers proposals that go beyond raw

@@ -4,8 +4,6 @@ title: "2. Architectures and System Design"
 permalink: /bibliography/2-architectures-and-system-design/
 ---
 
-# 2. Architectures and System Design
-
 Agentic systems are more than just prompts or wrappers. They are structured
 entities that perceive, reason, plan, and act. This section gathers key
 resources that explore how to design agent architectures: from reasoning loops

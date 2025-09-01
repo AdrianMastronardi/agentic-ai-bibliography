@@ -4,8 +4,6 @@ title: "7. Case Studies and Applications"
 permalink: /bibliography/7-case-studies-and-applications/
 ---
 
-# 7. Case Studies and Applications
-
 Agentic AI is not just a research topic — it’s already shaping real-world
 systems. This section highlights concrete applications, case studies, and
 experimental agents deployed in diverse domains. These examples illustrate both

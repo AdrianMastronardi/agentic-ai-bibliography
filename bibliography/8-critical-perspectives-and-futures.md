@@ -4,8 +4,6 @@ title: "8. Critical Perspectives and Futures"
 permalink: /bibliography/8-critical-perspectives-and-futures/
 ---
 
-# 8. Critical Perspectives and Futures
-
 Agentic AI opens new technological possibilities—but also new questions. What
 kinds of labor do agents replace or reinforce? Who designs their goals, and who
 bears their consequences? This section gathers essays, papers, and perspectives
