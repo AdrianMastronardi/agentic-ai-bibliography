@@ -1,3 +1,9 @@
+---
+layout: default
+title: "1. Foundational Concepts"
+permalink: /bibliography/1-foundational-concepts/
+---
+
 # 1. Foundational Concepts
 
 To build truly agentic systems, we must revisit the early visions that treated

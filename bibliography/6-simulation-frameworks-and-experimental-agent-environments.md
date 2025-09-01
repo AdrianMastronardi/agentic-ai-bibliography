@@ -1,3 +1,9 @@
+---
+layout: default
+title: "6. Simulation Frameworks and Experimental Agent Environments"
+permalink: /bibliography/6-simulation-frameworks-and-experimental-agent-environments/
+---
+
 # 6. Simulation Frameworks and Experimental Agent Environments
 
 Beyond prompts and pipelines, agents can also inhabit worlds. This section

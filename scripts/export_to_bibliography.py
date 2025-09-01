@@ -282,6 +282,15 @@ def export_to_bibliography():
         # Build content first, then clean it
         content_parts = []
 
+        # Add Jekyll front matter
+        safe_title = section_title.replace('"', '\\"')
+        permalink = f"/bibliography/{section_filename.replace('.md', '')}/"
+        content_parts.append("---\n")
+        content_parts.append("layout: default\n")
+        content_parts.append(f'title: "{safe_title}"\n')
+        content_parts.append(f"permalink: {permalink}\n")
+        content_parts.append("---\n\n")
+
         # Write header
         content_parts.append(f"# {section_title}\n\n")
 

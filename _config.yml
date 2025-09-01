@@ -1,0 +1,31 @@
+theme: minima
+title: "Agentic AI Bibliography"
+description: "A curated collection of papers, frameworks, and resources related to agentic artificial intelligence"
+author: "Adrian Mastronardi"
+url: "https://adrianmastronardi.github.io"
+baseurl: "/agentic-ai-bibliography"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  bibliography:
+    output: true
+    permalink: /:collection/:name/
+
+# Exclude files from processing
+exclude:
+  - scripts/
+  - data/
+  - papers/
+  - requirements.txt
+  - .gitignore
+  - .markdownlint.json
+  - .mypy_cache/
+  - .venv/
+  - .flake8

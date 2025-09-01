@@ -1,3 +1,9 @@
+---
+layout: default
+title: "4. Tools and Frameworks"
+permalink: /bibliography/4-tools-and-frameworks/
+---
+
 # 4. Tools and Frameworks
 
 Building agentic systems requires more than prompting — it demands structured

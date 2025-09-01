@@ -1,3 +1,9 @@
+---
+layout: default
+title: "9. Industry Vision and Strategic Perspectives"
+permalink: /bibliography/9-industry-vision-and-strategic-perspectives/
+---
+
 # 9. Industry Vision and Strategic Perspectives
 
 This section includes high-level essays, industrial whitepapers, and strategic
