@@ -1,0 +1,66 @@
+# Bibliography Entry Template
+# This template shows the structure for bibliographic entries in the Agentic AI Bibliography
+# 
+# Related files:
+# - data/bib.yml: Complete bibliography entries
+# - data/toc.yml: Table of contents structure
+#
+# The section and subsection fields should match entries in toc.yml
+
+# Example entry with all possible fields
+- id: "author-year"                    # Format: last_name_of_first_author-year (lowercase, no special chars)
+  type: "paper"                        # Options: paper, book, tool, course, article
+  title: "Title of the Work"           # The full title of the work
+  author: "Author Name"                # Full author name(s) as they appear in the source
+  year: 2024                           # Publication year (integer)
+  section: "2. Architectures and System Design"     # Main section from README.md structure
+  subsection: "2.1 Reasoning and Action Patterns"  # Subsection from README.md structure (optional)
+  cross_references:                    # Optional: Cross-references to other sections where this work is mentioned
+    - section: "7. Case Studies and Applications"
+      subsection: "7.2 Multi-Agent Platforms and Roleplay Environments"
+      context: "Referenced as an example of multi-agent collaboration in real-world applications"
+  summary: >                           # Multi-line summary/abstract (use > for folded text)
+    A brief summary of the work, typically 2-5 sentences describing the main 
+    contributions, methodology, and significance. This should be informative 
+    and help readers understand what the work is about without being too lengthy.
+  doi: "10.1000/example.doi"          # Optional: DOI if available
+  arxiv: "2024.12345"                  # Optional: arXiv ID if available
+  links:                               # List of related links
+    - type: "internal_pdf"             # For PDFs stored in ./papers/
+      text: "Read the full paper from this repo"
+      url: "./papers/filename.pdf"
+    - type: "source"                   # For external sources (original publication, websites, etc.)
+      text: "Read the full paper from the source"
+      url: "https://example.com/paper"
+    - type: "repo"                     # For code repositories (GitHub, GitLab, etc.)
+      text: "Explore the code repository"
+      url: "https://github.com/user/repo"
+
+# Entry type descriptions:
+# - paper: Academic papers, research articles
+# - book: Books, edited volumes, reports
+# - tool: Software tools, frameworks, libraries
+# - course: Educational courses, tutorials
+# - article: Blog posts, industry articles, non-academic publications
+
+# Link type descriptions:
+# - internal_pdf: PDF files stored in the ./papers/ directory
+# - source: External sources like journals, websites, archives
+# - repo: Code repositories on GitHub, GitLab, etc.
+
+# Field requirements:
+# Required: id, type, title, author, year, section, summary
+# Optional: subsection, cross_references, doi, arxiv, links
+
+# Cross-references field:
+# Use when the same work is referenced in multiple sections of the bibliography.
+# Each cross-reference should include:
+# - section: The section where this work is also mentioned
+# - subsection: The subsection where mentioned (optional)
+# - context: Brief description of why it's referenced in that section
+
+# Style guidelines:
+# - Use lowercase for IDs with hyphens (no underscores or special characters)
+# - Keep summaries concise but informative (2-5 sentences)
+# - Use consistent link text patterns
+# - Include DOI/arXiv when available for academic papers

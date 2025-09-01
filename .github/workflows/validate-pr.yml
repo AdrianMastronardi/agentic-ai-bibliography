@@ -1,0 +1,154 @@
+name: Validate Bibliography Changes
+
+on:
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'data/bib.yml'
+      - 'data/toc.yml'
+
+jobs:
+  validate-changes:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Install markdownlint
+      run: |
+        npm install -g markdownlint-cli
+        
+    - name: Validate YAML syntax
+      run: |
+        echo "🔧 Validating YAML syntax..."
+        python -c "
+        import yaml
+        import sys
+        
+        try:
+            with open('data/bib.yml', 'r', encoding='utf-8') as f:
+                bib_data = yaml.safe_load(f)
+            print(f'✅ bib.yml is valid YAML with {len(bib_data)} entries')
+        except Exception as e:
+            print(f'❌ bib.yml validation failed: {e}')
+            sys.exit(1)
+            
+        try:
+            with open('data/toc.yml', 'r', encoding='utf-8') as f:
+                toc_data = yaml.safe_load(f)
+            sections = len(toc_data.get('toc', []))
+            print(f'✅ toc.yml is valid YAML with {sections} sections')
+        except Exception as e:
+            print(f'❌ toc.yml validation failed: {e}')
+            sys.exit(1)
+        "
+        
+    - name: Run consistency checks
+      run: |
+        echo "🔧 Running consistency checks..."
+        python scripts/check_consistency_simple.py
+        echo "✅ Consistency checks passed"
+        
+    - name: Test bibliography generation
+      run: |
+        echo "🔧 Testing bibliography generation..."
+        python scripts/export_to_bibliography.py
+        echo "✅ Bibliography generation successful"
+        
+    - name: Validate generated markdown with markdownlint
+      run: |
+        echo "🔧 Validating generated markdown files..."
+        markdownlint bibliography/*.md --config .markdownlint.json
+        echo "✅ All generated markdown files pass markdownlint validation"
+        
+    - name: Check for required fields
+      run: |
+        echo "🔧 Checking for required fields..."
+        python -c "
+        import yaml
+        import sys
+        
+        with open('data/bib.yml', 'r', encoding='utf-8') as f:
+            entries = yaml.safe_load(f)
+            
+        required_fields = ['id', 'title', 'author', 'year', 'section', 'summary']
+        missing_fields = []
+        
+        for i, entry in enumerate(entries):
+            for field in required_fields:
+                if field not in entry or not entry[field]:
+                    missing_fields.append(f'Entry {i+1} ({entry.get(\"id\", \"unknown\")}): missing {field}')
+        
+        if missing_fields:
+            print('❌ Missing required fields:')
+            for msg in missing_fields[:10]:
+                print(f'  {msg}')
+            if len(missing_fields) > 10:
+                print(f'  ... and {len(missing_fields) - 10} more')
+            sys.exit(1)
+        else:
+            print(f'✅ All {len(entries)} entries have required fields')
+        "
+        
+    - name: Check for duplicate IDs
+      run: |
+        echo "🔧 Checking for duplicate IDs..."
+        python -c "
+        import yaml
+        import sys
+        from collections import Counter
+        
+        with open('data/bib.yml', 'r', encoding='utf-8') as f:
+            entries = yaml.safe_load(f)
+            
+        ids = [entry.get('id', '') for entry in entries]
+        duplicates = [id for id, count in Counter(ids).items() if count > 1]
+        
+        if duplicates:
+            print(f'❌ Duplicate IDs found: {duplicates}')
+            sys.exit(1)
+        else:
+            print(f'✅ All {len(ids)} entries have unique IDs')
+        "
+        
+    - name: Upload generated files for review
+      uses: actions/upload-artifact@v3
+      with:
+        name: preview-bibliography-changes
+        path: bibliography/
+        retention-days: 7
+        
+    - name: Generate PR summary
+      run: |
+        echo "## 📋 Bibliography Validation Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "✅ **All validations passed successfully**" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Changes validated:" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ YAML syntax validation" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Consistency checks" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Required fields validation" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Duplicate ID checks" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Bibliography generation test" >> $GITHUB_STEP_SUMMARY
+        echo "- ✅ Markdownlint validation" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "### Generated files:" >> $GITHUB_STEP_SUMMARY
+        echo "Preview of generated bibliography files is available in the artifacts." >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        echo "🚀 **Ready for merge** - Upon merge, bibliography will be auto-regenerated." >> $GITHUB_STEP_SUMMARY
