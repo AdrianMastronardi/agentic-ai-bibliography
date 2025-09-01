@@ -7,7 +7,8 @@ goes beyond shortcuts.
 
 ## 📖 Browse the Bibliography
 
-The complete bibliography is organized into thematic sections. Each section is available as an individual markdown file with detailed summaries and links:
+The complete bibliography is organized into thematic sections. Each section is
+available as an individual markdown file with detailed summaries and links:
 
 - **📚 [Browse All Sections](./bibliography/)** - Start with the bibliography index
 - **📋 [Quick Navigation](#sections)** - Jump directly to any section below
