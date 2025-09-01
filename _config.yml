@@ -12,12 +12,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# Collections
-collections:
-  bibliography:
-    output: true
-    permalink: /:collection/:name/
-
 # Exclude files from processing
 exclude:
   - scripts/

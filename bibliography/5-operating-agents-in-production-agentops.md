@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "5. Operating Agents in Production (AgentOps)"
-permalink: /bibliography/5-operating-agents-in-production-agentops/
 ---
 
 Building an agent is only the beginning. Running it reliably in the

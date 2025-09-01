@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "7. Case Studies and Applications"
-permalink: /bibliography/7-case-studies-and-applications/
 ---
 
 Agentic AI is not just a research topic — it’s already shaping real-world

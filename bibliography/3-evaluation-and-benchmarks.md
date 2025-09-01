@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "3. Evaluation and Benchmarks"
-permalink: /bibliography/3-evaluation-and-benchmarks/
 ---
 
 Designing agentic systems is only half the challenge—understanding how to

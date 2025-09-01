@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "2. Architectures and System Design"
-permalink: /bibliography/2-architectures-and-system-design/
 ---
 
 Agentic systems are more than just prompts or wrappers. They are structured

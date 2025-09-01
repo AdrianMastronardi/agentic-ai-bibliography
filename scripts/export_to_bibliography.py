@@ -284,14 +284,10 @@ def export_to_bibliography():
 
         # Add Jekyll front matter
         safe_title = section_title.replace('"', '\\"')
-        permalink = f"/bibliography/{section_filename.replace('.md', '')}/"
         content_parts.append("---\n")
         content_parts.append("layout: default\n")
         content_parts.append(f'title: "{safe_title}"\n')
-        content_parts.append(f"permalink: {permalink}\n")
         content_parts.append("---\n\n")
-
-        # Don't add H1 header since Jekyll will handle the title from front matter
 
         # Add description if available
         if section_title in toc_descriptions:

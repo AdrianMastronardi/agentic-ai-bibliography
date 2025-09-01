@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "8. Critical Perspectives and Futures"
-permalink: /bibliography/8-critical-perspectives-and-futures/
 ---
 
 Agentic AI opens new technological possibilities—but also new questions. What
