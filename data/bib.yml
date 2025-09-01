@@ -51,6 +51,10 @@
     about how machines might reason, act, and adapt.
 
     '
+  links:
+  - type: source
+    text: Read the full paper from the source
+    url: https://www.mit.edu/~dxh/marvin/web.media.mit.edu/~minsky/papers/steps.html
 - id: engelbart-1962
   type: paper
   title: Augmenting Human Intellect
