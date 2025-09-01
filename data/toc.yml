@@ -1,0 +1,118 @@
+# Table of Contents for Agentic AI Bibliography
+# Generated from README.md structure
+# This file provides a hierarchical overview of the bibliography organization
+
+toc:
+  - title: "1. Foundational Concepts"
+    description: >
+      To build truly agentic systems, we must revisit the early visions that treated
+      the computer not just as a tool, but as a thinking partner. These foundational
+      texts shaped the original dream of human-computer symbiosis.
+
+  - title: "2. Architectures and System Design"
+    description: >
+      Agentic systems are more than just prompts or wrappers. They are structured
+      entities that perceive, reason, plan, and act. This section gathers key
+      resources that explore how to design agent architectures: from reasoning loops
+      and memory to multi-agent coordination, planning, and tool integration. These
+      works bridge theory and implementation, offering blueprints for building
+      intelligent, autonomous behavior.
+    subsections:
+      - title: "2.1 Reasoning and Action Patterns"
+      - title: "2.2 Multi-Agent Architectures"
+      - title: "2.3 Agent Frameworks and Control Flows"
+      - title: "2.4 Structured Programming and Optimization"
+      - title: "2.5 Architectural Innovations for Memory and Context"
+
+  - title: "3. Evaluation and Benchmarks"
+    description: >
+      Designing agentic systems is only half the challenge—understanding how to
+      evaluate them is just as critical. Agents are not static models: they act,
+      reflect, and interact. This section gathers proposals that go beyond raw
+      accuracy to assess qualities like autonomy, tool use, reasoning, collaboration,
+      and decision cycles. From benchmark suites to reflective loops, these works help
+      define what “good” means in Agentic AI.
+
+  - title: "4. Tools and Frameworks"
+    description: >
+      Building agentic systems requires more than prompting — it demands structured
+      frameworks that manage planning, memory, tool use, interaction, and error
+      handling. This section curates open-source libraries and platforms that enable
+      the development, orchestration, and experimentation of LLM-based agents in the
+      real world.
+    subsections:
+      - title: "4.1 Agent Orchestration Frameworks"
+      - title: "4.2 Application-Level Agent Frameworks"
+      - title: "4.3 Prompt and Programmatic Control"
+      - title: "4.4 Data & Memory Integration"
+      - title: "4.5 Training and Fine-Tuning Utilities"
+
+  - title: "5. Operating Agents in Production (AgentOps)"
+    description: >
+      Building an agent is only the beginning. Running it reliably in the
+      wild—handling failures, tracking performance, debugging behaviors, and aligning
+      it with business needs—requires a new discipline: AgentOps. This section gathers
+      tools and practices to monitor, validate, and continuously improve agents in
+      production, where correctness, reproducibility, and robustness matter.
+    subsections:
+      - title: "5.1 Evaluation Metrics and Testing Pipelines"
+      - title: "5.2 Observability and Debugging"
+      - title: "5.3 Output Validation and Safety"
+      - title: "5.4 Human-in-the-Loop Supervision"
+      - title: "5.5 Alignment and Feedback Learning"
+
+  - title: "6. Simulation Frameworks and Experimental Agent Environments"
+    description: >
+      Beyond prompts and pipelines, agents can also inhabit worlds. This section
+      gathers platforms used to simulate, study, and experiment with agent behavior in
+      controlled, interactive environments. These frameworks—some predating
+      LLMs—support research in decision-making, coordination, embodiment, and learning
+      through interaction. They are invaluable for testing agentic architectures under
+      pressure, prototyping behaviors at scale, or exploring social emergence,
+      long-term memory, and autonomy in sandboxed settings.
+    subsections:
+      - title: "6.1 Social Simulations and Emergent Behavior"
+      - title: "6.2 Multi-Agent and Coordination Benchmarks"
+      - title: "6.3 Embodied and Physical Simulation"
+      - title: "6.4 Interactive Web and Digital Environments"
+
+  - title: "7. Case Studies and Applications"
+    description: >
+      Agentic AI is not just a research topic — it’s already shaping real-world
+      systems. This section highlights concrete applications, case studies, and
+      experimental agents deployed in diverse domains. These examples illustrate both
+      the promise and the complexity of building agents that operate under real-world
+      constraints.
+    subsections:
+      - title: "7.1 Software Engineering Agents"
+      - title: "7.2 Multi-Agent Platforms and Roleplay Environments"
+      - title: "7.3 Vertical and Industry-Specific Applications"
+      - title: "7.4 Scientific Discovery and Research Automation"
+      - title: "7.5 Lifelong Autonomy and Open-Ended Environments"
+
+  - title: "8. Critical Perspectives and Futures"
+    description: >
+      Agentic AI opens new technological possibilities—but also new questions. What
+      kinds of labor do agents replace or reinforce? Who designs their goals, and who
+      bears their consequences? This section gathers essays, papers, and perspectives
+      that critically examine the development and deployment of agentic systems. It
+      includes reflections on labor, power, bias, evaluation limits, speculative
+      risks, and long-term trajectories. These works are essential for those who not
+      only build agents, but question what kind of world they help build.
+    subsections:
+      - title: "8.1 Social, Philosophical and Planetary Critiques"
+      - title: "8.2 Technical Criticism and Evaluation Reform"
+      - title: "8.3 Speculative Risks and Long-Term Futures"
+
+  - title: "9. Industry Vision and Strategic Perspectives"
+    description: >
+      This section includes high-level essays, industrial whitepapers, and strategic
+      blog posts that explore the potential of Agentic AI across sectors. While often
+      less technical than academic papers, these resources help situate agentic
+      systems in the broader narrative of digital transformation, business impact, and
+      long-term technological ambition.
+
+  - title: "See also"
+    description: >
+      - Contribution Guide - Glossary of Key Terms
+
