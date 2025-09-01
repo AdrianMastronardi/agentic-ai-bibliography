@@ -1,0 +1,2 @@
+# Python dependencies for Agentic AI Bibliography
+pyyaml>=6.0
