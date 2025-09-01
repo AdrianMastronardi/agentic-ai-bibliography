@@ -32,6 +32,8 @@ texts shaped the original dream of human-computer symbiosis.
   solutions, and cognitive architecture—still resonate in modern agent
   systems. A foundational text for thinking about how machines might reason,
   act, and adapt.
+  [Access the
+  source](https://www.mit.edu/~dxh/marvin/web.media.mit.edu/~minsky/papers/steps.html)
 
 - **Douglas Engelbart – *Augmenting Human Intellect* (1962)**
   A foundational report proposing the use of computers to amplify human
