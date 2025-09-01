@@ -72,14 +72,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action Bot"
-        git add bibliography/
-        git commit -m "🤖 Auto-regenerate bibliography from data/bib.yml
-
-- Updated bibliography files from latest data/bib.yml changes
-- All files validated with markdownlint for proper formatting
-- Generated $(date +'%Y-%m-%d %H:%M:%S UTC')
-
-[skip ci]"
+  git add bibliography/
+  git commit -m "🤖 Auto-regenerate bibliography from data/bib.yml [skip ci]"
         git push
         echo "✅ Bibliography changes committed and pushed"
         
