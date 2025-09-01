@@ -1,1677 +1,2222 @@
-# Agentic AI Bibliography
-# Generated from README.md
-
-- id: "bush-1945"
-  type: "paper"
-  title: "As We May Think"
-  author: "Vannevar Bush"
+- id: bush-1945
+  type: paper
+  title: As We May Think
+  author: Vannevar Bush
   year: 1945
-  section: "1. Foundational Concepts"
-  summary: >
-    A prophetic essay written at the end of World War II, envisioning a machine—the “Memex”—that would extend human memory and association through technology. Bush’s vision laid the conceptual groundwork for hypertext, digital knowledge systems, and ultimately the notion of interactive intelligence augmentation. A foundational text for understanding AI not as replacement, but as partnership.
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/bush-as-we-may-think.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/"
+  section: 1. Foundational Concepts
+  summary: 'A prophetic essay written at the end of World War II, envisioning a machine—the
+    “Memex”—that would extend human memory and association through technology. Bush’s
+    vision laid the conceptual groundwork for hypertext, digital knowledge systems,
+    and ultimately the notion of interactive intelligence augmentation. A foundational
+    text for understanding AI not as replacement, but as partnership.
 
-- id: "licklider-1960"
-  type: "paper"
-  title: "Man-Computer Symbiosis"
-  author: "J.C.R. Licklider"
+    '
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/bush-as-we-may-think.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://www.theatlantic.com/magazine/archive/1945/07/as-we-may-think/303881/
+- id: licklider-1960
+  type: paper
+  title: Man-Computer Symbiosis
+  author: J.C.R. Licklider
   year: 1960
-  section: "1. Foundational Concepts"
-  summary: >
-    A visionary essay that imagines a future where humans and computers collaborate closely, each doing what they do best. Licklider argues that progress in computing would come not from automation, but from symbiosis—interactive systems that augment human thought.
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/licklider-man-computer-symbiosis.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://openlib.org/home/krichel/courses/lis654/readings/licklider60_man_comput_symbios.pdf"
+  section: 1. Foundational Concepts
+  summary: 'A visionary essay that imagines a future where humans and computers collaborate
+    closely, each doing what they do best. Licklider argues that progress in computing
+    would come not from automation, but from symbiosis—interactive systems that augment
+    human thought.
 
-- id: "minsky-1961"
-  type: "paper"
-  title: "Steps Toward Artificial Intelligence"
-  author: "Marvin Minsky"
+    '
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/licklider-man-computer-symbiosis.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://openlib.org/home/krichel/courses/lis654/readings/licklider60_man_comput_symbios.pdf
+- id: minsky-1961
+  type: paper
+  title: Steps Toward Artificial Intelligence
+  author: Marvin Minsky
   year: 1961
-  section: "1. Foundational Concepts"
-  summary: >
-    This seminal paper lays out a roadmap for modeling intelligent behavior computationally. Minsky surveys early methods for learning, planning, memory, and self-modifying programs, proposing building blocks for general intelligence. Many of these concepts—such as task decomposition, partial solutions, and cognitive architecture—still resonate in modern agent systems. A foundational text for thinking about how machines might reason, act, and adapt.
+  section: 1. Foundational Concepts
+  summary: 'This seminal paper lays out a roadmap for modeling intelligent behavior
+    computationally. Minsky surveys early methods for learning, planning, memory,
+    and self-modifying programs, proposing building blocks for general intelligence.
+    Many of these concepts—such as task decomposition, partial solutions, and cognitive
+    architecture—still resonate in modern agent systems. A foundational text for thinking
+    about how machines might reason, act, and adapt.
 
-- id: "engelbart-1962"
-  type: "paper"
-  title: "Augmenting Human Intellect"
-  author: "Douglas Engelbart"
+    '
+- id: engelbart-1962
+  type: paper
+  title: Augmenting Human Intellect
+  author: Douglas Engelbart
   year: 1962
-  section: "1. Foundational Concepts"
-  summary: >
-    A foundational report proposing the use of computers to amplify human intelligence. Engelbart lays out principles that would later lead to the invention of the mouse, hypertext, and interactive computing. Essential reading to understand the original ethos behind building systems that empower human agency.
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/engelbart-augmenting-human-intellect.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf"
+  section: 1. Foundational Concepts
+  summary: 'A foundational report proposing the use of computers to amplify human
+    intelligence. Engelbart lays out principles that would later lead to the invention
+    of the mouse, hypertext, and interactive computing. Essential reading to understand
+    the original ethos behind building systems that empower human agency.
 
-- id: "newell-1972"
-  type: "book"
-  title: "Human Problem Solving"
-  author: "Allen Newell & Herbert A. Simon"
+    '
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/engelbart-augmenting-human-intellect.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://www.dougengelbart.org/pubs/papers/scanned/Doug_Engelbart-AugmentingHumanIntellect.pdf
+- id: newell-1972
+  type: book
+  title: Human Problem Solving
+  author: Allen Newell & Herbert A. Simon
   year: 1972
-  section: "1. Foundational Concepts"
-  summary: >
-    This landmark book presents a theory of cognition grounded in problem-solving processes, search in problem spaces, and production systems. It formalizes the idea that intelligent behavior emerges from reasoning over symbolic representations and heuristics. The authors’ models inspired entire generations of agent architectures, from symbolic AI to modern deliberative frameworks. While predating neural models, its conceptual rigor remains crucial for understanding goal-driven agency.
+  section: 1. Foundational Concepts
+  summary: 'This landmark book presents a theory of cognition grounded in problem-solving
+    processes, search in problem spaces, and production systems. It formalizes the
+    idea that intelligent behavior emerges from reasoning over symbolic representations
+    and heuristics. The authors’ models inspired entire generations of agent architectures,
+    from symbolic AI to modern deliberative frameworks. While predating neural models,
+    its conceptual rigor remains crucial for understanding goal-driven agency.
 
-- id: "norman-2007"
-  type: "paper"
-  title: "The Design of Future Things"
-  author: "Don Norman"
+    '
+- id: norman-2007
+  type: paper
+  title: The Design of Future Things
+  author: Don Norman
   year: 2007
-  section: "1. Foundational Concepts"
-  summary: >
-    A seminal exploration of how intelligent systems should interact with humans—not through control, but through communication and understanding. Norman anticipates the challenges of designing proactive, semi-autonomous technologies, emphasizing the importance of feedback, transparency, and the psychology of interaction. A must-read for thinking about AI agents not just as tools, but as social actors.
+  section: 1. Foundational Concepts
+  summary: 'A seminal exploration of how intelligent systems should interact with
+    humans—not through control, but through communication and understanding. Norman
+    anticipates the challenges of designing proactive, semi-autonomous technologies,
+    emphasizing the importance of feedback, transparency, and the psychology of interaction.
+    A must-read for thinking about AI agents not just as tools, but as social actors.
 
-- id: "turkle-2011"
-  type: "paper"
-  title: "Alone Together"
-  author: "Sherry Turkle"
+    '
+- id: turkle-2011
+  type: paper
+  title: Alone Together
+  author: Sherry Turkle
   year: 2011
-  section: "1. Foundational Concepts"
-  summary: >
-    A sociological and psychological exploration of how digital agents reshape our sense of intimacy and self. Turkle raises critical questions about emotional delegation to machines and warns against the illusion of companionship without relationship. Essential for thinking critically about agents as social actors, not just functional tools.
+  section: 1. Foundational Concepts
+  summary: 'A sociological and psychological exploration of how digital agents reshape
+    our sense of intimacy and self. Turkle raises critical questions about emotional
+    delegation to machines and warns against the illusion of companionship without
+    relationship. Essential for thinking critically about agents as social actors,
+    not just functional tools.
 
-- id: "lecun-2022"
-  type: "paper"
-  title: "A Path Towards Autonomous Machine Intelligence"
-  author: "Yann LeCun"
+    '
+- id: lecun-2022
+  type: paper
+  title: A Path Towards Autonomous Machine Intelligence
+  author: Yann LeCun
   year: 2022
-  section: "1. Foundational Concepts"
-  summary: >
-    LeCun outlines a proposed architecture for autonomous intelligence, emphasizing modular components like world models, configurators, and cost predictors. He critiques current LLM-based approaches and argues for systems that learn through self-supervised predictive modeling. This roadmap offers a radically different path toward agency and autonomy beyond language.
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/lecun-autonomous-machine-intelligence.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://openreview.net/pdf?id=BZ5a1r-kVsf"
+  section: 1. Foundational Concepts
+  summary: 'LeCun outlines a proposed architecture for autonomous intelligence, emphasizing
+    modular components like world models, configurators, and cost predictors. He critiques
+    current LLM-based approaches and argues for systems that learn through self-supervised
+    predictive modeling. This roadmap offers a radically different path toward agency
+    and autonomy beyond language.
 
-- id: "karpathy-2023"
-  type: "paper"
-  title: "Intro to Large Language Models"
-  author: "Andrej Karpathy"
+    '
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/lecun-autonomous-machine-intelligence.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://openreview.net/pdf?id=BZ5a1r-kVsf
+- id: karpathy-2023
+  type: paper
+  title: Intro to Large Language Models
+  author: Andrej Karpathy
   year: 2023
-  section: "1. Foundational Concepts"
-  summary: >
-    In this lecture, Karpathy provides a lucid introduction to how large language models work, including tokenization, attention, transformer blocks, and the training process. Designed for programmers and practitioners, it demystifies LLMs and lays the conceptual foundation necessary to understand agentic systems built on top of them.
-  links:
-    - type: "source"
-      text: "Watch the full talk"
-      url: "https://www.youtube.com/watch?v=zjkBMFhNj_g"
+  section: 1. Foundational Concepts
+  summary: 'In this lecture, Karpathy provides a lucid introduction to how large language
+    models work, including tokenization, attention, transformer blocks, and the training
+    process. Designed for programmers and practitioners, it demystifies LLMs and lays
+    the conceptual foundation necessary to understand agentic systems built on top
+    of them.
 
-- id: "joon sung park-2023"
-  type: "paper"
-  title: "Generative Agents: Interactive Simulacra of Human Behavior"
-  author: "Joon Sung Park, Joseph O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy Liang, Michael S. Bernstein"
+    '
+  links:
+  - type: source
+    text: Watch the full talk
+    url: https://www.youtube.com/watch?v=zjkBMFhNj_g
+- id: joon sung park-2023
+  type: paper
+  title: 'Generative Agents: Interactive Simulacra of Human Behavior'
+  author: Joon Sung Park, Joseph O'Brien, Carrie J. Cai, Meredith Ringel Morris, Percy
+    Liang, Michael S. Bernstein
   year: 2023
-  section: "1. Foundational Concepts"
-  summary: >
-    A groundbreaking study in which generative agents—powered by LLMs—simulate believable human behavior in an interactive sandbox world. This work bridges human-computer interaction, cognitive simulation, and agent design, offering deep insight into how artificial agents might exhibit memory, planning, and social dynamics. A must-read for understanding the expressive and interactive potential of agentic systems.
-  arxiv: "2304.03442"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/park-generative-agents.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2304.03442"
+  section: 1. Foundational Concepts
+  summary: 'A groundbreaking study in which generative agents—powered by LLMs—simulate
+    believable human behavior in an interactive sandbox world. This work bridges human-computer
+    interaction, cognitive simulation, and agent design, offering deep insight into
+    how artificial agents might exhibit memory, planning, and social dynamics. A must-read
+    for understanding the expressive and interactive potential of agentic systems.
 
-- id: "li-2024"
-  type: "book"
-  title: "The Worlds I See"
-  author: "Fei-Fei Li"
+    '
+  arxiv: '2304.03442'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/park-generative-agents.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2304.03442
+- id: li-2024
+  type: book
+  title: The Worlds I See
+  author: Fei-Fei Li
   year: 2024
-  section: "1. Foundational Concepts"
-  summary: >
-    A personal and reflective account of Fei-Fei Li’s journey as a scientist and AI leader. While not a technical manual, this book offers a powerful vision of Human-Centered AI—framing intelligence not just as a computational challenge, but as a profoundly human endeavor. Recommended for those seeking to ground Agentic AI systems in ethical, emotional, and societal context.
+  section: 1. Foundational Concepts
+  summary: 'A personal and reflective account of Fei-Fei Li’s journey as a scientist
+    and AI leader. While not a technical manual, this book offers a powerful vision
+    of Human-Centered AI—framing intelligence not just as a computational challenge,
+    but as a profoundly human endeavor. Recommended for those seeking to ground Agentic
+    AI systems in ethical, emotional, and societal context.
 
-- id: "intel-2025"
-  type: "paper"
-  title: "Foundations of Agentic AI"
-  author: "Intel"
+    '
+- id: intel-2025
+  type: paper
+  title: Foundations of Agentic AI
+  author: Intel
   year: 2025
-  section: "1. Foundational Concepts"
-  summary: >
-    This industry-produced course introduces Agentic AI as the next evolution in artificial intelligence, emphasizing autonomy, multi-agent orchestration, long-term memory, and real-time adaptation. It contrasts Agentic AI with traditional Generative AI across six architectural and operational dimensions, and explores its impact in domains like software engineering, healthcare, finance, and cybersecurity. The course also presents a detailed case study of Intel’s use of Agentic AI in semiconductor design, and outlines future challenges in standardization, integration, and orchestration.
-  links:
-    - type: "source"
-      text: "Access the course"
-      url: "https://builders.intel.com/university/course/foundations-of-agentic-ai"
+  section: 1. Foundational Concepts
+  summary: 'This industry-produced course introduces Agentic AI as the next evolution
+    in artificial intelligence, emphasizing autonomy, multi-agent orchestration, long-term
+    memory, and real-time adaptation. It contrasts Agentic AI with traditional Generative
+    AI across six architectural and operational dimensions, and explores its impact
+    in domains like software engineering, healthcare, finance, and cybersecurity.
+    The course also presents a detailed case study of Intel’s use of Agentic AI in
+    semiconductor design, and outlines future challenges in standardization, integration,
+    and orchestration.
 
-- id: "sapkota-2025"
-  type: "paper"
-  title: "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges"
-  author: "Ranjan Sapkota et al."
+    '
+  links:
+  - type: source
+    text: Access the course
+    url: https://builders.intel.com/university/course/foundations-of-agentic-ai
+- id: sapkota-2025
+  type: paper
+  title: 'AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges'
+  author: Ranjan Sapkota et al.
   year: 2025
-  section: "1. Foundational Concepts"
-  summary: >
-    This study critically distinguishes between AI Agents and Agentic AI, offering a structured conceptual taxonomy, application mapping, and challenge analysis to clarify their divergent design philosophies and capabilities. AI Agents are characterized as modular systems driven by Large Language Models (LLMs) and Large Image Models (LIMs) for narrow, task-specific automation. In contrast, Agentic AI systems represent a paradigmatic shift marked by multi-agent collaboration, dynamic task decomposition, persistent memory, and orchestrated autonomy. The paper presents a comparative analysis across both paradigms, examining application domains such as customer support and research automation, and discusses unique challenges including hallucination and coordination failure.
-  arxiv: "2505.10468"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/sapkota-ai-agents-vs-agentic-ai.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2505.10468"
+  section: 1. Foundational Concepts
+  summary: 'This study critically distinguishes between AI Agents and Agentic AI,
+    offering a structured conceptual taxonomy, application mapping, and challenge
+    analysis to clarify their divergent design philosophies and capabilities. AI Agents
+    are characterized as modular systems driven by Large Language Models (LLMs) and
+    Large Image Models (LIMs) for narrow, task-specific automation. In contrast, Agentic
+    AI systems represent a paradigmatic shift marked by multi-agent collaboration,
+    dynamic task decomposition, persistent memory, and orchestrated autonomy. The
+    paper presents a comparative analysis across both paradigms, examining application
+    domains such as customer support and research automation, and discusses unique
+    challenges including hallucination and coordination failure.
 
-- id: "wang-2022"
-  type: "paper"
-  title: "Self-Consistency Improves Chain of Thought Reasoning in Large Language Models"
-  author: "Wang et al."
+    '
+  arxiv: '2505.10468'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/sapkota-ai-agents-vs-agentic-ai.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2505.10468
+- id: wang-2022
+  type: paper
+  title: Self-Consistency Improves Chain of Thought Reasoning in Large Language Models
+  author: Wang et al.
   year: 2022
-  section: "2. Architectures and System Design"
-  subsection: "2.1 Reasoning and Action Patterns"
-  summary: >
-    Building on Chain-of-Thought prompting, this paper proposes Self-Consistency: a decoding strategy that samples multiple reasoning paths and selects the most consistent final answer. Rather than relying on a single greedy output, the model explores diverse chains of reasoning and chooses the dominant conclusion. This approach boosts accuracy across several reasoning benchmarks and anticipates agentic behaviors like self-reflection, verification, and ensemble thought.
-  arxiv: "2203.11171"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/wang-self-consistency.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2203.11171"
+  section: 2. Architectures and System Design
+  subsection: 2.1 Reasoning and Action Patterns
+  summary: 'Building on Chain-of-Thought prompting, this paper proposes Self-Consistency:
+    a decoding strategy that samples multiple reasoning paths and selects the most
+    consistent final answer. Rather than relying on a single greedy output, the model
+    explores diverse chains of reasoning and chooses the dominant conclusion. This
+    approach boosts accuracy across several reasoning benchmarks and anticipates agentic
+    behaviors like self-reflection, verification, and ensemble thought.
 
-- id: "wei-2022"
-  type: "paper"
-  title: "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
-  author: "Wei et al."
+    '
+  arxiv: '2203.11171'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/wang-self-consistency.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2203.11171
+- id: wei-2022
+  type: paper
+  title: Chain-of-Thought Prompting Elicits Reasoning in Large Language Models
+  author: Wei et al.
   year: 2022
-  section: "2. Architectures and System Design"
-  subsection: "2.1 Reasoning and Action Patterns"
-  summary: >
-    This foundational paper introduces Chain-of-Thought (CoT) prompting: a simple technique where models are guided to reason through problems step-by-step by including intermediate reasoning steps in the prompt. CoT significantly improves performance on arithmetic, commonsense, and symbolic reasoning tasks—especially in larger models like PaLM. The paper laid the groundwork for later developments like ReAct and Reflexion, and reframed prompting as a tool for inducing emergent reasoning.
-  arxiv: "2201.11903"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/wei-chain-of-thought.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2201.11903"
+  section: 2. Architectures and System Design
+  subsection: 2.1 Reasoning and Action Patterns
+  summary: 'This foundational paper introduces Chain-of-Thought (CoT) prompting: a
+    simple technique where models are guided to reason through problems step-by-step
+    by including intermediate reasoning steps in the prompt. CoT significantly improves
+    performance on arithmetic, commonsense, and symbolic reasoning tasks—especially
+    in larger models like PaLM. The paper laid the groundwork for later developments
+    like ReAct and Reflexion, and reframed prompting as a tool for inducing emergent
+    reasoning.
 
-- id: "yao-2022"
-  type: "paper"
-  title: "ReAct: Synergizing Reasoning and Acting in Language Models"
-  author: "Shunyu Yao et al."
+    '
+  arxiv: '2201.11903'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/wei-chain-of-thought.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2201.11903
+- id: yao-2022
+  type: paper
+  title: 'ReAct: Synergizing Reasoning and Acting in Language Models'
+  author: Shunyu Yao et al.
   year: 2022
-  section: "2. Architectures and System Design"
-  subsection: "2.1 Reasoning and Action Patterns"
-  summary: >
-    A widely influential paper introducing a simple but powerful approach to agent behavior: combining verbal reasoning with action execution. The ReAct pattern lets agents “think out loud” while taking tool-augmented steps, improving performance on decision-making tasks. This paper laid the foundation for many modern agent frameworks · .
-  arxiv: "2210.03629"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/yao-react.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2210.03629"
+  section: 2. Architectures and System Design
+  subsection: 2.1 Reasoning and Action Patterns
+  summary: 'A widely influential paper introducing a simple but powerful approach
+    to agent behavior: combining verbal reasoning with action execution. The ReAct
+    pattern lets agents “think out loud” while taking tool-augmented steps, improving
+    performance on decision-making tasks. This paper laid the foundation for many
+    modern agent frameworks · .
 
-- id: "yao-2023"
-  type: "tool"
-  title: "Tree of Thoughts: Deliberate Problem Solving with Large Language Models"
-  author: "Shunyu Yao et al."
+    '
+  arxiv: '2210.03629'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/yao-react.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2210.03629
+- id: yao-2023
+  type: tool
+  title: 'Tree of Thoughts: Deliberate Problem Solving with Large Language Models'
+  author: Shunyu Yao et al.
   year: 2023
-  section: "2. Architectures and System Design"
-  subsection: "2.1 Reasoning and Action Patterns"
-  summary: >
-    Tree of Thoughts (ToT) introduces a novel inference framework that enables language models to perform deliberate reasoning by exploring multiple reasoning paths and evaluating intermediate steps ("thoughts"). This approach generalizes the Chain-of-Thought prompting by structuring the reasoning process as a tree, allowing for backtracking and strategic planning. ToT significantly enhances problem-solving capabilities in tasks requiring complex reasoning.  ·
-  arxiv: "2305.10601"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/yao-tree-of-thoughts.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2305.10601"
-    - type: "repo"
-      text: "Explore the Tree of Thought repository"
-      url: "https://github.com/princeton-nlp/tree-of-thought-llm"
+  section: 2. Architectures and System Design
+  subsection: 2.1 Reasoning and Action Patterns
+  summary: 'Tree of Thoughts (ToT) introduces a novel inference framework that enables
+    language models to perform deliberate reasoning by exploring multiple reasoning
+    paths and evaluating intermediate steps ("thoughts"). This approach generalizes
+    the Chain-of-Thought prompting by structuring the reasoning process as a tree,
+    allowing for backtracking and strategic planning. ToT significantly enhances problem-solving
+    capabilities in tasks requiring complex reasoning.  ·
 
-- id: "schick-2023"
-  type: "tool"
-  title: "Toolformer: Language Models Can Teach Themselves to Use Tools"
-  author: "Schick et al."
+    '
+  arxiv: '2305.10601'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/yao-tree-of-thoughts.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2305.10601
+  - type: repo
+    text: Explore the Tree of Thought repository
+    url: https://github.com/princeton-nlp/tree-of-thought-llm
+- id: schick-2023
+  type: tool
+  title: 'Toolformer: Language Models Can Teach Themselves to Use Tools'
+  author: Schick et al.
   year: 2023
-  section: "2. Architectures and System Design"
-  subsection: "2.1 Reasoning and Action Patterns"
-  summary: >
-    Toolformer presents a method by which a language model can autonomously learn to use external tools—such as search engines, calculators, or translation APIs—through self-supervised data generation. Rather than relying on human annotation or fine-tuning, the model decides when and how to call tools during text generation. Toolformer laid foundational ideas for autonomous tool use and remains a key reference in the evolution of agent capabilities.
-  arxiv: "2302.04761"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/schick-toolformer.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2302.04761"
+  section: 2. Architectures and System Design
+  subsection: 2.1 Reasoning and Action Patterns
+  summary: 'Toolformer presents a method by which a language model can autonomously
+    learn to use external tools—such as search engines, calculators, or translation
+    APIs—through self-supervised data generation. Rather than relying on human annotation
+    or fine-tuning, the model decides when and how to call tools during text generation.
+    Toolformer laid foundational ideas for autonomous tool use and remains a key reference
+    in the evolution of agent capabilities.
 
-- id: "wooldridge-1995"
-  type: "paper"
-  title: "Intelligent Agents: Theory and Practice"
-  author: "Michael Wooldridge & Nicholas R. Jennings"
+    '
+  arxiv: '2302.04761'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/schick-toolformer.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2302.04761
+- id: wooldridge-1995
+  type: paper
+  title: 'Intelligent Agents: Theory and Practice'
+  author: Michael Wooldridge & Nicholas R. Jennings
   year: 1995
-  section: "2. Architectures and System Design"
-  subsection: "2.2 Multi-Agent Architectures"
-  summary: >
-    This foundational paper defines key properties of intelligent agents—autonomy, reactivity, proactiveness, and social ability—and introduces architectural classifications (reactive, deliberative, hybrid). It establishes a formal language for understanding agent behavior and sets the stage for multi-agent system design. Though predating LLMs, many of its insights remain relevant for designing collaborative, goal-directed systems. .
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/wooldridge-jennings-intelligent-agents.pdf"
+  section: 2. Architectures and System Design
+  subsection: 2.2 Multi-Agent Architectures
+  summary: 'This foundational paper defines key properties of intelligent agents—autonomy,
+    reactivity, proactiveness, and social ability—and introduces architectural classifications
+    (reactive, deliberative, hybrid). It establishes a formal language for understanding
+    agent behavior and sets the stage for multi-agent system design. Though predating
+    LLMs, many of its insights remain relevant for designing collaborative, goal-directed
+    systems. .
 
-- id: "gerhard weiss (ed)-2001"
-  type: "book"
-  title: "Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence"
-  author: "Gerhard Weiss (ed.), with contributions from Michael Wooldridge et al."
+    '
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/wooldridge-jennings-intelligent-agents.pdf
+- id: gerhard weiss (ed)-2001
+  type: book
+  title: 'Multiagent Systems: A Modern Approach to Distributed Artificial Intelligence'
+  author: Gerhard Weiss (ed.), with contributions from Michael Wooldridge et al.
   year: 2001
-  section: "2. Architectures and System Design"
-  subsection: "2.2 Multi-Agent Architectures"
-  summary: >
-    This edited volume offers a comprehensive overview of multi-agent system theory, including architectures, coordination, negotiation, and distributed problem solving. A classic in the field, it provides deep theoretical foundations that continue to inform contemporary agent-based system design—even in the age of LLM-powered agents. [This is a recommended extended reference; no online version is redistributed here].
+  section: 2. Architectures and System Design
+  subsection: 2.2 Multi-Agent Architectures
+  summary: 'This edited volume offers a comprehensive overview of multi-agent system
+    theory, including architectures, coordination, negotiation, and distributed problem
+    solving. A classic in the field, it provides deep theoretical foundations that
+    continue to inform contemporary agent-based system design—even in the age of LLM-powered
+    agents. [This is a recommended extended reference; no online version is redistributed
+    here].
 
-- id: "shen-2023"
-  type: "tool"
-  title: "HuggingGPT: Solving AI Tasks with ChatGPT and Hugging Face Tools"
-  author: "Shen et al."
+    '
+- id: shen-2023
+  type: tool
+  title: 'HuggingGPT: Solving AI Tasks with ChatGPT and Hugging Face Tools'
+  author: Shen et al.
   year: 2023
-  section: "2. Architectures and System Design"
-  subsection: "2.2 Multi-Agent Architectures"
-  summary: >
-    HuggingGPT proposes a planner-executor architecture in which a central LLM (ChatGPT) interprets user intent, plans task execution, and delegates subtasks to expert models (e.g., for text, vision, or audio) hosted on Hugging Face. It formalizes a task-routing agent design with components for task planning, model selection, execution, and response generation. HuggingGPT is an important early example of agentic orchestration across multiple modalities and tools.
-  arxiv: "2303.17580"
+  section: 2. Architectures and System Design
+  subsection: 2.2 Multi-Agent Architectures
+  summary: 'HuggingGPT proposes a planner-executor architecture in which a central
+    LLM (ChatGPT) interprets user intent, plans task execution, and delegates subtasks
+    to expert models (e.g., for text, vision, or audio) hosted on Hugging Face. It
+    formalizes a task-routing agent design with components for task planning, model
+    selection, execution, and response generation. HuggingGPT is an important early
+    example of agentic orchestration across multiple modalities and tools.
+
+    '
+  arxiv: '2303.17580'
   links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/shen-hugginggpt.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2303.17580"
-
-- id: "wu-2023"
-  type: "paper"
-  title: "AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation"
-  author: "Qingyun Wu et al."
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/shen-hugginggpt.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2303.17580
+- id: wu-2023
+  type: paper
+  title: 'AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation'
+  author: Qingyun Wu et al.
   year: 2023
-  section: "2. Architectures and System Design"
-  subsection: "2.2 Multi-Agent Architectures"
-  summary: >
-    AutoGen is an open-source framework that allows developers to build LLM applications via multiple agents that can converse with each other to accomplish tasks. AutoGen agents are customizable, conversable, and can operate in various modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen, developers can also flexibly define agent interaction behaviors. Both natural language and computer code can be used to program flexible conversation patterns for different applications. AutoGen serves as a generic infrastructure to build diverse applications of various complexities and LLM capacities. Empirical studies demonstrate the effectiveness of the framework in many example applications, with domains ranging from mathematics, coding, question answering, operations research, online decision-making, entertainment, etc.
-  arxiv: "2308.08155"
+  section: 2. Architectures and System Design
+  subsection: 2.2 Multi-Agent Architectures
+  summary: 'AutoGen is an open-source framework that allows developers to build LLM
+    applications via multiple agents that can converse with each other to accomplish
+    tasks. AutoGen agents are customizable, conversable, and can operate in various
+    modes that employ combinations of LLMs, human inputs, and tools. Using AutoGen,
+    developers can also flexibly define agent interaction behaviors. Both natural
+    language and computer code can be used to program flexible conversation patterns
+    for different applications. AutoGen serves as a generic infrastructure to build
+    diverse applications of various complexities and LLM capacities. Empirical studies
+    demonstrate the effectiveness of the framework in many example applications, with
+    domains ranging from mathematics, coding, question answering, operations research,
+    online decision-making, entertainment, etc.
+
+    '
+  arxiv: '2308.08155'
   links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/qingyun-autogen-multi-agent-conversation.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2308.08155"
-
-- id: "xie-2023"
-  type: "paper"
-  title: "OpenAgents: An Open Platform for Language Agents in the Wild"
-  author: "Xie et al."
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/qingyun-autogen-multi-agent-conversation.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2308.08155
+- id: xie-2023
+  type: paper
+  title: 'OpenAgents: An Open Platform for Language Agents in the Wild'
+  author: Xie et al.
   year: 2023
-  section: "2. Architectures and System Design"
-  subsection: "2.2 Multi-Agent Architectures"
+  section: 2. Architectures and System Design
+  subsection: 2.2 Multi-Agent Architectures
   cross_references:
-    - section: "7. Case Studies and Applications"
-      subsection: "7.2 Multi-Agent Platforms and Roleplay Environments"
-      context: "OpenAgents is an open-source platform designed to deploy and manage collaborative LLM agents in real-world applications. It provides a set of ready-to-use agents\u2014including a Data Agent, a Web Agent, and a Plugins Agent\u2014each tailored for specific tasks like data analysis, tool use, and web navigation. With a clean web interface and support for custom deployment, OpenAgents illustrates how multi-agent systems can transition from research prototypes to user-facing tools."
-  summary: >
-    OpenAgents is an open-source platform designed to deploy and study language agents in real-world settings. It introduces three specialized agents: (1) Data Agent for data analysis using Python/SQL and data tools; (2) Plugins Agent integrating over 200 daily-use APIs; and (3) Web Agent for autonomous web browsing. The platform emphasizes accessibility for non-expert users through a web interface optimized for swift responses and common failures, while providing developers and researchers with a seamless deployment experience on local setups. OpenAgents aims to facilitate the development of innovative language agents and support real-world evaluations.
-  arxiv: "2310.10634"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/xie-openagents.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2310.10634"
+  - section: 7. Case Studies and Applications
+    subsection: 7.2 Multi-Agent Platforms and Roleplay Environments
+    context: OpenAgents is an open-source platform designed to deploy and manage collaborative
+      LLM agents in real-world applications. It provides a set of ready-to-use agents—including
+      a Data Agent, a Web Agent, and a Plugins Agent—each tailored for specific tasks
+      like data analysis, tool use, and web navigation. With a clean web interface
+      and support for custom deployment, OpenAgents illustrates how multi-agent systems
+      can transition from research prototypes to user-facing tools.
+  summary: 'OpenAgents is an open-source platform designed to deploy and study language
+    agents in real-world settings. It introduces three specialized agents: (1) Data
+    Agent for data analysis using Python/SQL and data tools; (2) Plugins Agent integrating
+    over 200 daily-use APIs; and (3) Web Agent for autonomous web browsing. The platform
+    emphasizes accessibility for non-expert users through a web interface optimized
+    for swift responses and common failures, while providing developers and researchers
+    with a seamless deployment experience on local setups. OpenAgents aims to facilitate
+    the development of innovative language agents and support real-world evaluations.
 
-- id: "crewai-2024"
-  type: "tool"
-  title: "Composable Multi-Agent Framework for Task-Specific Collaboration"
-  author: "CrewAI"
+    '
+  arxiv: '2310.10634'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/xie-openagents.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2310.10634
+- id: crewai-2024
+  type: tool
+  title: Composable Multi-Agent Framework for Task-Specific Collaboration
+  author: CrewAI
   year: 2024
-  section: "2. Architectures and System Design"
-  subsection: "2.2 Multi-Agent Architectures"
-  summary: >
-    CrewAI is an open-source Python framework for building multi-agent systems composed of specialized agents assigned to roles and responsibilities. Inspired by real-world workflows, it introduces concepts like task delegation, crew orchestration, memory sharing, and agent-to-agent messaging. Though still evolving, CrewAI reflects an important design philosophy: modeling agent collaboration with explicit structure and human-like coordination patterns.
-  links:
-    - type: "repo"
-      text: "Read the full documentation from the source"
-      url: "https://github.com/crewAIInc/crewAI"
+  section: 2. Architectures and System Design
+  subsection: 2.2 Multi-Agent Architectures
+  summary: 'CrewAI is an open-source Python framework for building multi-agent systems
+    composed of specialized agents assigned to roles and responsibilities. Inspired
+    by real-world workflows, it introduces concepts like task delegation, crew orchestration,
+    memory sharing, and agent-to-agent messaging. Though still evolving, CrewAI reflects
+    an important design philosophy: modeling agent collaboration with explicit structure
+    and human-like coordination patterns.
 
-- id: "chase-2024"
-  type: "tool"
-  title: "LangGraph: State Machine Framework for LLM Agents"
-  author: "Harrison Chase"
+    '
+  links:
+  - type: repo
+    text: Read the full documentation from the source
+    url: https://github.com/crewAIInc/crewAI
+- id: chase-2024
+  type: tool
+  title: 'LangGraph: State Machine Framework for LLM Agents'
+  author: Harrison Chase
   year: 2024
-  section: "2. Architectures and System Design"
-  subsection: "2.3 Agent Frameworks and Control Flows"
-  summary: >
-    LangGraph introduces a novel framework for building agentic workflows using state machines. It enables developers to define execution paths with branching, looping, memory, and failure handling—all in a structured and observable way. Built on top of LangChain, LangGraph emphasizes reliability, modularity, and production-readiness. It is especially suited for orchestrating complex multi-step tasks in real-world applications.
-  links:
-    - type: "repo"
-      text: "Read the full paper from the source"
-      url: "https://github.com/langchain-ai/langgraph"
+  section: 2. Architectures and System Design
+  subsection: 2.3 Agent Frameworks and Control Flows
+  summary: 'LangGraph introduces a novel framework for building agentic workflows
+    using state machines. It enables developers to define execution paths with branching,
+    looping, memory, and failure handling—all in a structured and observable way.
+    Built on top of LangChain, LangGraph emphasizes reliability, modularity, and production-readiness.
+    It is especially suited for orchestrating complex multi-step tasks in real-world
+    applications.
 
-- id: "khattab-2023"
-  type: "paper"
-  title: "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines"
-  author: "Omar Khattab et al."
+    '
+  links:
+  - type: repo
+    text: Read the full paper from the source
+    url: https://github.com/langchain-ai/langgraph
+- id: khattab-2023
+  type: paper
+  title: 'DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines'
+  author: Omar Khattab et al.
   year: 2023
-  section: "2. Architectures and System Design"
-  subsection: "2.4 Structured Programming and Optimization"
-  summary: >
-    DSPy introduces a programming model that abstracts language model pipelines as text transformation graphs, where LMs are invoked through declarative modules. These modules are parameterized, allowing them to learn how to apply compositions of prompting, fine-tuning, augmentation, and reasoning techniques. DSPy includes a compiler that optimizes any pipeline to maximize a given metric, enabling the development of sophisticated LM pipelines that reason about tasks like math word problems and multi-hop retrieval. . .
-  arxiv: "2310.03714"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/khattab-dspy.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2310.03714"
+  section: 2. Architectures and System Design
+  subsection: 2.4 Structured Programming and Optimization
+  summary: 'DSPy introduces a programming model that abstracts language model pipelines
+    as text transformation graphs, where LMs are invoked through declarative modules.
+    These modules are parameterized, allowing them to learn how to apply compositions
+    of prompting, fine-tuning, augmentation, and reasoning techniques. DSPy includes
+    a compiler that optimizes any pipeline to maximize a given metric, enabling the
+    development of sophisticated LM pipelines that reason about tasks like math word
+    problems and multi-hop retrieval. . .
 
-- id: "opsahl-ong-2024"
-  type: "paper"
-  title: "Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs"
-  author: "Opsahl-Ong et al."
+    '
+  arxiv: '2310.03714'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/khattab-dspy.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2310.03714
+- id: opsahl-ong-2024
+  type: paper
+  title: Optimizing Instructions and Demonstrations for Multi-Stage Language Model
+    Programs
+  author: Opsahl-Ong et al.
   year: 2024
-  section: "2. Architectures and System Design"
-  subsection: "2.4 Structured Programming and Optimization"
-  summary: >
-    This paper presents MIPRO, a novel optimizer designed to enhance the performance of complex, multi-stage language model (LM) pipelines. By optimizing task-specific instructions and demonstrations across stages, MIPRO supports more modular and composable architectures—an essential trait for building reliable agents. The authors demonstrate that MIPRO outperforms baseline optimizers on five of seven diverse LM programs using a best-in-class open-source model (Llama-3-8B), achieving up to 13% accuracy improvement.
-  arxiv: "2406.11695"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/opsahlong-dspy-multistage.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2406.11695"
+  section: 2. Architectures and System Design
+  subsection: 2.4 Structured Programming and Optimization
+  summary: 'This paper presents MIPRO, a novel optimizer designed to enhance the performance
+    of complex, multi-stage language model (LM) pipelines. By optimizing task-specific
+    instructions and demonstrations across stages, MIPRO supports more modular and
+    composable architectures—an essential trait for building reliable agents. The
+    authors demonstrate that MIPRO outperforms baseline optimizers on five of seven
+    diverse LM programs using a best-in-class open-source model (Llama-3-8B), achieving
+    up to 13% accuracy improvement.
 
-- id: "soylu-2024"
-  type: "paper"
-  title: "Fine-Tuning and Prompt Optimization: Two Great Steps that Work Better Together"
-  author: "Dilara Soylu et al."
+    '
+  arxiv: '2406.11695'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/opsahlong-dspy-multistage.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2406.11695
+- id: soylu-2024
+  type: paper
+  title: 'Fine-Tuning and Prompt Optimization: Two Great Steps that Work Better Together'
+  author: Dilara Soylu et al.
   year: 2024
-  section: "2. Architectures and System Design"
-  subsection: "2.4 Structured Programming and Optimization"
-  summary: >
-    This paper explores strategies to optimize both the module-level language model weights and the associated prompt templates in modular NLP pipelines. The authors propose alternating between fine-tuning and prompt optimization to enhance performance in multi-stage language model programs. Experiments on tasks like multi-hop QA and mathematical reasoning demonstrate that combining these strategies outperforms using either alone.
-  arxiv: "2407.10930"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/soylu-dspy-ft-po.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2407.10930"
+  section: 2. Architectures and System Design
+  subsection: 2.4 Structured Programming and Optimization
+  summary: 'This paper explores strategies to optimize both the module-level language
+    model weights and the associated prompt templates in modular NLP pipelines. The
+    authors propose alternating between fine-tuning and prompt optimization to enhance
+    performance in multi-stage language model programs. Experiments on tasks like
+    multi-hop QA and mathematical reasoning demonstrate that combining these strategies
+    outperforms using either alone.
 
-- id: "bulatov-2022"
-  type: "paper"
-  title: "Recurrent Memory Transformer"
-  author: "Aydar Bulatov et al."
+    '
+  arxiv: '2407.10930'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/soylu-dspy-ft-po.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2407.10930
+- id: bulatov-2022
+  type: paper
+  title: Recurrent Memory Transformer
+  author: Aydar Bulatov et al.
   year: 2022
-  section: "2. Architectures and System Design"
-  subsection: "2.5 Architectural Innovations for Memory and Context"
-  summary: >
-    The Recurrent Memory Transformer (RMT) augments the standard Transformer architecture with a segment-level recurrent memory mechanism. By introducing special memory tokens, RMT enables the model to store and process both local and global information across long sequences, effectively capturing long-term dependencies without altering the core Transformer structure. This design improves performance on tasks requiring extended context processing.
-  arxiv: "2207.06881"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/bulatov-recurrent-memory-transformer.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2207.06881"
+  section: 2. Architectures and System Design
+  subsection: 2.5 Architectural Innovations for Memory and Context
+  summary: 'The Recurrent Memory Transformer (RMT) augments the standard Transformer
+    architecture with a segment-level recurrent memory mechanism. By introducing special
+    memory tokens, RMT enables the model to store and process both local and global
+    information across long sequences, effectively capturing long-term dependencies
+    without altering the core Transformer structure. This design improves performance
+    on tasks requiring extended context processing.
 
-- id: "parisi-2022"
-  type: "tool"
-  title: "TALM: Tool Augmented Language Models"
-  author: "Parisi et al."
+    '
+  arxiv: '2207.06881'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/bulatov-recurrent-memory-transformer.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2207.06881
+- id: parisi-2022
+  type: tool
+  title: 'TALM: Tool Augmented Language Models'
+  author: Parisi et al.
   year: 2022
-  section: "3. Evaluation and Benchmarks"
-  summary: >
-    TALM presents a framework that augments language models with external tools to enhance their capabilities in tasks requiring access to dynamic or private data. By integrating non-differentiable tools and employing an iterative "self-play" technique, TALM enables models to perform tasks beyond their training data, such as knowledge-intensive question answering and mathematical reasoning. This approach demonstrates that tool augmentation can significantly improve performance without solely relying on model scale, highlighting a promising direction for enriching language model functionalities.
-  arxiv: "2205.12255"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/parisi-talm.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2205.12255"
+  section: 3. Evaluation and Benchmarks
+  summary: 'TALM presents a framework that augments language models with external
+    tools to enhance their capabilities in tasks requiring access to dynamic or private
+    data. By integrating non-differentiable tools and employing an iterative "self-play"
+    technique, TALM enables models to perform tasks beyond their training data, such
+    as knowledge-intensive question answering and mathematical reasoning. This approach
+    demonstrates that tool augmentation can significantly improve performance without
+    solely relying on model scale, highlighting a promising direction for enriching
+    language model functionalities.
 
-- id: "mialon-2023"
-  type: "paper"
-  title: "GAIA: A Benchmark for General AI Assistants"
-  author: "Mialon et al."
-  year: 2023
-  section: "3. Evaluation and Benchmarks"
-  summary: >
-    GAIA is a benchmark designed to evaluate the capabilities of general-purpose AI assistants across realistic, goal-oriented tasks. It includes 466 human-posed questions that require multimodal reasoning, web navigation, tool use, and access to real-world information. Unlike abstract logic puzzles, GAIA focuses on conceptually simple but practically grounded tasks, revealing large performance gaps between humans and state-of-the-art models like GPT-4. The benchmark highlights the limitations of current LLM-based agents in autonomy, planning, and external integration.
-  arxiv: "2311.12983"
+    '
+  arxiv: '2205.12255'
   links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/mialon-gaia.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2311.12983"
-
-- id: "liu-2023"
-  type: "paper"
-  title: "AgentBench: Evaluating LLMs as Agents"
-  author: "Liu et al."
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/parisi-talm.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2205.12255
+- id: mialon-2023
+  type: paper
+  title: 'GAIA: A Benchmark for General AI Assistants'
+  author: Mialon et al.
   year: 2023
-  section: "3. Evaluation and Benchmarks"
-  summary: >
-    AgentBench is a standardized benchmark suite designed to evaluate foundation models acting as autonomous agents across a range of tasks: web navigation, tool use, decision-making, and embodied interaction. It defines task formats, input-output schemas, and performance metrics aligned with real-world applications. By supporting both LLM-only and tool-augmented agents, AgentBench provides a unified framework for comparing agentic capabilities across platforms.
-  arxiv: "2308.11458"
+  section: 3. Evaluation and Benchmarks
+  summary: 'GAIA is a benchmark designed to evaluate the capabilities of general-purpose
+    AI assistants across realistic, goal-oriented tasks. It includes 466 human-posed
+    questions that require multimodal reasoning, web navigation, tool use, and access
+    to real-world information. Unlike abstract logic puzzles, GAIA focuses on conceptually
+    simple but practically grounded tasks, revealing large performance gaps between
+    humans and state-of-the-art models like GPT-4. The benchmark highlights the limitations
+    of current LLM-based agents in autonomy, planning, and external integration.
+
+    '
+  arxiv: '2311.12983'
   links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/liu-agentbench.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2308.11458"
-
-- id: "liu-2023"
-  type: "tool"
-  title: "CAMEL: Communicative Agents for Mind Exploration of Large Scale Language Model Society"
-  author: "Liu et al."
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/mialon-gaia.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2311.12983
+- id: liu-2023
+  type: paper
+  title: 'AgentBench: Evaluating LLMs as Agents'
+  author: Liu et al.
   year: 2023
-  section: "3. Evaluation and Benchmarks"
+  section: 3. Evaluation and Benchmarks
+  summary: 'AgentBench is a standardized benchmark suite designed to evaluate foundation
+    models acting as autonomous agents across a range of tasks: web navigation, tool
+    use, decision-making, and embodied interaction. It defines task formats, input-output
+    schemas, and performance metrics aligned with real-world applications. By supporting
+    both LLM-only and tool-augmented agents, AgentBench provides a unified framework
+    for comparing agentic capabilities across platforms.
+
+    '
+  arxiv: '2308.11458'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/liu-agentbench.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2308.11458
+- id: liu-2023-2
+  type: tool
+  title: 'CAMEL: Communicative Agents for Mind Exploration of Large Scale Language
+    Model Society'
+  author: Liu et al.
+  year: 2023
+  section: 3. Evaluation and Benchmarks
   cross_references:
-    - section: "7. Case Studies and Applications"
-      subsection: "7.2 Multi-Agent Platforms and Roleplay Environments"
-      context: "CAMEL demonstrates how LLM-based agents can role-play specialized roles (e.g., doctor & patient) to accomplish tasks through multi-turn dialogue. As a case study, it illustrates the potential of autonomous, fully self-directed collaboration \u2014 offering a glimpse into scalable agent societies without orchestration."
-  summary: >
-    CAMEL introduces a multi-agent simulation framework where role-playing language agents interact to solve tasks via structured dialogue. It explores how communication, negotiation, and memory emerge in agent societies. CAMEL is particularly valuable for evaluating the emergent behavior of autonomous agents—highlighting how assigning roles, goals, and interaction rules can lead to successful collaboration. This work anticipates the need to test not just task completion, but social alignment and coordination in agentic systems.  · .
-  arxiv: "2303.17760"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/liu-camel.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2303.17760"
-    - type: "repo"
-      text: "Explore the CAMEL repository"
-      url: "https://github.com/camel-ai/camel"
+  - section: 7. Case Studies and Applications
+    subsection: 7.2 Multi-Agent Platforms and Roleplay Environments
+    context: CAMEL demonstrates how LLM-based agents can role-play specialized roles
+      (e.g., doctor & patient) to accomplish tasks through multi-turn dialogue. As
+      a case study, it illustrates the potential of autonomous, fully self-directed
+      collaboration — offering a glimpse into scalable agent societies without orchestration.
+  summary: 'CAMEL introduces a multi-agent simulation framework where role-playing
+    language agents interact to solve tasks via structured dialogue. It explores how
+    communication, negotiation, and memory emerge in agent societies. CAMEL is particularly
+    valuable for evaluating the emergent behavior of autonomous agents—highlighting
+    how assigning roles, goals, and interaction rules can lead to successful collaboration.
+    This work anticipates the need to test not just task completion, but social alignment
+    and coordination in agentic systems.  · .
 
-- id: "shinn-2023"
-  type: "paper"
-  title: "Reflexion: Language Agents with Verbal Reinforcement Learning"
-  author: "Shinn et al."
-  year: 2023
-  section: "3. Evaluation and Benchmarks"
-  summary: >
-    Reflexion introduces a framework where language agents enhance their performance through self-generated feedback. By converting scalar or binary feedback into natural language reflections, agents can iteratively improve their decision-making across tasks like sequential decision-making, coding, and reasoning. This approach allows agents to learn from their mistakes without the need for external fine-tuning, leveraging the capabilities of large language models for self-improvement.
-  arxiv: "2303.11366"
+    '
+  arxiv: '2303.17760'
   links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/shinn-reflexion.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2303.11366"
-
-- id: "wang-2023"
-  type: "paper"
-  title: "Voyager: An Open-Ended Embodied Agent with Large Language Models"
-  author: "Wang et al."
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/liu-camel.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2303.17760
+  - type: repo
+    text: Explore the CAMEL repository
+    url: https://github.com/camel-ai/camel
+- id: shinn-2023
+  type: paper
+  title: 'Reflexion: Language Agents with Verbal Reinforcement Learning'
+  author: Shinn et al.
   year: 2023
-  section: "3. Evaluation and Benchmarks"
+  section: 3. Evaluation and Benchmarks
+  summary: 'Reflexion introduces a framework where language agents enhance their performance
+    through self-generated feedback. By converting scalar or binary feedback into
+    natural language reflections, agents can iteratively improve their decision-making
+    across tasks like sequential decision-making, coding, and reasoning. This approach
+    allows agents to learn from their mistakes without the need for external fine-tuning,
+    leveraging the capabilities of large language models for self-improvement.
+
+    '
+  arxiv: '2303.11366'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/shinn-reflexion.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2303.11366
+- id: wang-2023
+  type: paper
+  title: 'Voyager: An Open-Ended Embodied Agent with Large Language Models'
+  author: Wang et al.
+  year: 2023
+  section: 3. Evaluation and Benchmarks
   cross_references:
-    - section: "7. Case Studies and Applications"
-      subsection: "7.5 Lifelong Autonomy and Open-Ended Environments"
-      context: "Voyager demonstrates an autonomous LLM-based agent operating in Minecraft. Its ability to learn skills over time and adapt to unstructured environments makes it one of the most complete agentic applications to date."
-  summary: >
-    Voyager is the first LLM-powered embodied lifelong learning agent in Minecraft that continuously explores the world, acquires diverse skills, and makes novel discoveries without human intervention. It comprises three key components: (1) an automatic curriculum that maximizes exploration, (2) an ever-growing skill library of executable code for storing and retrieving complex behaviors, and (3) a new iterative prompting mechanism that incorporates environment feedback, execution errors, and self-verification for program improvement. Voyager interacts with GPT-4 via blackbox queries, bypassing the need for model parameter fine-tuning. Empirically, Voyager demonstrates strong in-context lifelong learning capabilities, outperforming prior state-of-the-art methods by obtaining 3.3× more unique items, traveling 2.3× longer distances, and unlocking key tech tree milestones up to 15.3× faster.
-  arxiv: "2305.16291"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/wang-voyager.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2305.16291"
+  - section: 7. Case Studies and Applications
+    subsection: 7.5 Lifelong Autonomy and Open-Ended Environments
+    context: Voyager demonstrates an autonomous LLM-based agent operating in Minecraft.
+      Its ability to learn skills over time and adapt to unstructured environments
+      makes it one of the most complete agentic applications to date.
+  summary: 'Voyager is the first LLM-powered embodied lifelong learning agent in Minecraft
+    that continuously explores the world, acquires diverse skills, and makes novel
+    discoveries without human intervention. It comprises three key components: (1)
+    an automatic curriculum that maximizes exploration, (2) an ever-growing skill
+    library of executable code for storing and retrieving complex behaviors, and (3)
+    a new iterative prompting mechanism that incorporates environment feedback, execution
+    errors, and self-verification for program improvement. Voyager interacts with
+    GPT-4 via blackbox queries, bypassing the need for model parameter fine-tuning.
+    Empirically, Voyager demonstrates strong in-context lifelong learning capabilities,
+    outperforming prior state-of-the-art methods by obtaining 3.3× more unique items,
+    traveling 2.3× longer distances, and unlocking key tech tree milestones up to
+    15.3× faster.
 
-- id: "ye-2023"
-  type: "paper"
-  title: "FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets"
-  author: "Ye et al."
+    '
+  arxiv: '2305.16291'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/wang-voyager.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2305.16291
+- id: ye-2023
+  type: paper
+  title: 'FLASK: Fine-grained Language Model Evaluation based on Alignment Skill Sets'
+  author: Ye et al.
   year: 2023
-  section: "3. Evaluation and Benchmarks"
-  summary: >
-    FLASK introduces a fine-grained evaluation protocol that decomposes coarse-level scoring into skill set-level assessments for each instruction. This approach enhances interpretability by considering the specific skills required for different instructions, providing a more nuanced understanding of model performance. The framework supports both human-based and model-based evaluations, demonstrating high correlation between the two. FLASK's methodology allows for a holistic view of language model capabilities, emphasizing the importance of skill-specific evaluation in aligning models with human values.
-  arxiv: "2307.10928"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/ye-flask.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2307.10928"
+  section: 3. Evaluation and Benchmarks
+  summary: 'FLASK introduces a fine-grained evaluation protocol that decomposes coarse-level
+    scoring into skill set-level assessments for each instruction. This approach enhances
+    interpretability by considering the specific skills required for different instructions,
+    providing a more nuanced understanding of model performance. The framework supports
+    both human-based and model-based evaluations, demonstrating high correlation between
+    the two. FLASK''s methodology allows for a holistic view of language model capabilities,
+    emphasizing the importance of skill-specific evaluation in aligning models with
+    human values.
 
-- id: "fourney-2024"
-  type: "tool"
-  title: "AutoGenBench: A Tool for Measuring and Evaluating AutoGen Agents"
-  author: "Fourney et al."
+    '
+  arxiv: '2307.10928'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/ye-flask.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2307.10928
+- id: fourney-2024
+  type: tool
+  title: 'AutoGenBench: A Tool for Measuring and Evaluating AutoGen Agents'
+  author: Fourney et al.
   year: 2024
-  section: "3. Evaluation and Benchmarks"
-  summary: >
-    AutoGenBench is a standalone command-line tool developed by Microsoft Research for evaluating AutoGen agents and workflows on established LLM and agentic benchmarks. It handles downloading, configuring, running, and reporting results of agents on various public benchmark datasets. AutoGenBench emphasizes three core design principles: repetition, isolation, and instrumentation. Repetition accounts for the stochastic nature of LLMs, isolation ensures that each task runs in a clean environment using Docker containers, and instrumentation provides comprehensive logs for debugging and profiling. This tool is integral for developers aiming to assess and improve the performance of their AutoGen-based applications.
-  links:
-    - type: "source"
-      text: "Read the full article from the source"
-      url: "https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/"
+  section: 3. Evaluation and Benchmarks
+  summary: 'AutoGenBench is a standalone command-line tool developed by Microsoft
+    Research for evaluating AutoGen agents and workflows on established LLM and agentic
+    benchmarks. It handles downloading, configuring, running, and reporting results
+    of agents on various public benchmark datasets. AutoGenBench emphasizes three
+    core design principles: repetition, isolation, and instrumentation. Repetition
+    accounts for the stochastic nature of LLMs, isolation ensures that each task runs
+    in a clean environment using Docker containers, and instrumentation provides comprehensive
+    logs for debugging and profiling. This tool is integral for developers aiming
+    to assess and improve the performance of their AutoGen-based applications.
 
-- id: "woffinden-luey-2024"
-  type: "tool"
-  title: "AgentEval: A Developer Tool to Assess Utility of LLM-powered Applications"
-  author: "Woffinden-Luey & Kiseleva"
+    '
+  links:
+  - type: source
+    text: Read the full article from the source
+    url: https://microsoft.github.io/autogen/0.2/blog/2024/01/25/AutoGenBench/
+- id: woffinden-luey-2024
+  type: tool
+  title: 'AgentEval: A Developer Tool to Assess Utility of LLM-powered Applications'
+  author: Woffinden-Luey & Kiseleva
   year: 2024
-  section: "3. Evaluation and Benchmarks"
-  summary: >
-    AgentEval is a framework developed by Microsoft Research to evaluate the utility of applications powered by large language models (LLMs). It introduces a multi-agent evaluation process involving three key components: the CriticAgent, which suggests evaluation criteria based on the application's task; the QuantifierAgent, which quantifies performance against these criteria; and the VerifierAgent, which ensures the robustness and relevance of the evaluation. This structured approach allows developers to assess applications across various dimensions, such as effectiveness, efficiency, and user satisfaction, providing a comprehensive understanding of an application's performance.
-  links:
-    - type: "source"
-      text: "Read the full article from the source"
-      url: "https://microsoft.github.io/autogen/0.2/blog/2024/06/21/AgentEval/"
+  section: 3. Evaluation and Benchmarks
+  summary: 'AgentEval is a framework developed by Microsoft Research to evaluate the
+    utility of applications powered by large language models (LLMs). It introduces
+    a multi-agent evaluation process involving three key components: the CriticAgent,
+    which suggests evaluation criteria based on the application''s task; the QuantifierAgent,
+    which quantifies performance against these criteria; and the VerifierAgent, which
+    ensures the robustness and relevance of the evaluation. This structured approach
+    allows developers to assess applications across various dimensions, such as effectiveness,
+    efficiency, and user satisfaction, providing a comprehensive understanding of
+    an application''s performance.
 
-- id: "autogen-2023"
-  type: "tool"
-  title: "Framework for Multi-Agent LLM Applications"
-  author: "AutoGen"
+    '
+  links:
+  - type: source
+    text: Read the full article from the source
+    url: https://microsoft.github.io/autogen/0.2/blog/2024/06/21/AgentEval/
+- id: autogen-2023
+  type: tool
+  title: Framework for Multi-Agent LLM Applications
+  author: AutoGen
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.1 Agent Orchestration Frameworks"
-  summary: >
-    Developed by Microsoft Research, AutoGen is an open-source framework that streamlines the creation of multi-agent applications using LLMs. It allows developers to define agents with specific roles and behaviors, facilitating conversations between agents to accomplish tasks. AutoGen supports integration with tools, human inputs, and various LLMs, providing a flexible infrastructure for building complex AI applications.
-  links:
-    - type: "source"
-      text: "Learn more about AutoGen"
-      url: "https://microsoft.github.io/autogen/0.2/"
+  section: 4. Tools and Frameworks
+  subsection: 4.1 Agent Orchestration Frameworks
+  summary: 'Developed by Microsoft Research, AutoGen is an open-source framework that
+    streamlines the creation of multi-agent applications using LLMs. It allows developers
+    to define agents with specific roles and behaviors, facilitating conversations
+    between agents to accomplish tasks. AutoGen supports integration with tools, human
+    inputs, and various LLMs, providing a flexible infrastructure for building complex
+    AI applications.
 
-- id: "crewai-2023"
-  type: "tool"
-  title: "Framework for Orchestrating Role-Playing Agents"
-  author: "CrewAI"
+    '
+  links:
+  - type: source
+    text: Learn more about AutoGen
+    url: https://microsoft.github.io/autogen/0.2/
+- id: crewai-2023
+  type: tool
+  title: Framework for Orchestrating Role-Playing Agents
+  author: CrewAI
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.1 Agent Orchestration Frameworks"
-  summary: >
-    CrewAI is a Python-based framework designed to simplify the development of multi-agent systems. It enables the definition of agents with distinct roles, goals, and behaviors, allowing them to collaborate on tasks. CrewAI's architecture supports the creation of structured workflows where agents can interact, share information, and make decisions collectively.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/crewAIInc/crewAI"
+  section: 4. Tools and Frameworks
+  subsection: 4.1 Agent Orchestration Frameworks
+  summary: 'CrewAI is a Python-based framework designed to simplify the development
+    of multi-agent systems. It enables the definition of agents with distinct roles,
+    goals, and behaviors, allowing them to collaborate on tasks. CrewAI''s architecture
+    supports the creation of structured workflows where agents can interact, share
+    information, and make decisions collectively.
 
-- id: "hong-2023"
-  type: "tool"
-  title: "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework"
-  author: "Hong et al."
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/crewAIInc/crewAI
+- id: hong-2023
+  type: tool
+  title: 'MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework'
+  author: Hong et al.
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.1 Agent Orchestration Frameworks"
-  summary: >
-    MetaGPT is a multi-agent framework that simulates a software development team by assigning distinct roles—such as product manager, architect, and engineer—to AI agents. By encoding Standard Operating Procedures (SOPs) into prompt sequences, MetaGPT enables agents to collaborate effectively, breaking down complex tasks into manageable subtasks. This structured approach enhances coherence and reduces errors in generated outputs, demonstrating improved performance in collaborative software engineering benchmarks.  ·
-  arxiv: "2308.00352"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/hong-metagpt.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2308.00352"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/FoundationAgents/MetaGPT"
+  section: 4. Tools and Frameworks
+  subsection: 4.1 Agent Orchestration Frameworks
+  summary: 'MetaGPT is a multi-agent framework that simulates a software development
+    team by assigning distinct roles—such as product manager, architect, and engineer—to
+    AI agents. By encoding Standard Operating Procedures (SOPs) into prompt sequences,
+    MetaGPT enables agents to collaborate effectively, breaking down complex tasks
+    into manageable subtasks. This structured approach enhances coherence and reduces
+    errors in generated outputs, demonstrating improved performance in collaborative
+    software engineering benchmarks.  ·
 
-- id: "langgraph-2023"
-  type: "tool"
-  title: "Runtime for Agentic Workflows"
-  author: "LangGraph"
+    '
+  arxiv: '2308.00352'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/hong-metagpt.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2308.00352
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/FoundationAgents/MetaGPT
+- id: langgraph-2023
+  type: tool
+  title: Runtime for Agentic Workflows
+  author: LangGraph
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.1 Agent Orchestration Frameworks"
-  summary: >
-    LangGraph is a runtime framework built atop LangChain, focusing on the orchestration of agentic workflows. It enables the construction of dynamic computation graphs where nodes represent agents or tools, and edges define the flow of information. LangGraph supports features like human-in-the-loop interactions, state management, and parallel execution, facilitating the development of complex, multi-agent systems.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/langchain-ai/langgraph"
+  section: 4. Tools and Frameworks
+  subsection: 4.1 Agent Orchestration Frameworks
+  summary: 'LangGraph is a runtime framework built atop LangChain, focusing on the
+    orchestration of agentic workflows. It enables the construction of dynamic computation
+    graphs where nodes represent agents or tools, and edges define the flow of information.
+    LangGraph supports features like human-in-the-loop interactions, state management,
+    and parallel execution, facilitating the development of complex, multi-agent systems.
 
-- id: "microsoft-2023"
-  type: "tool"
-  title: "Semantic Kernel: Open-Source SDK for AI Integration"
-  author: "Microsoft"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/langchain-ai/langgraph
+- id: microsoft-2023
+  type: tool
+  title: 'Semantic Kernel: Open-Source SDK for AI Integration'
+  author: Microsoft
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.1 Agent Orchestration Frameworks"
-  summary: >
-    Semantic Kernel is an open-source SDK developed by Microsoft that facilitates the integration of AI services, such as OpenAI and Azure OpenAI, with conventional programming languages like C#, Python, and Java. It provides abstractions for prompt templating, function chaining, and memory management, enabling developers to build AI applications that combine natural language capabilities with traditional code. Semantic Kernel supports the creation of plugins and planners, allowing for the orchestration of complex workflows and multi-agent systems.
-  links:
-    - type: "source"
-      text: "Learn more about Semantic Kernel"
-      url: "https://learn.microsoft.com/en-us/dotnet/ai/semantic-kernel-dotnet-overview"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/microsoft/semantic-kernel"
+  section: 4. Tools and Frameworks
+  subsection: 4.1 Agent Orchestration Frameworks
+  summary: 'Semantic Kernel is an open-source SDK developed by Microsoft that facilitates
+    the integration of AI services, such as OpenAI and Azure OpenAI, with conventional
+    programming languages like C#, Python, and Java. It provides abstractions for
+    prompt templating, function chaining, and memory management, enabling developers
+    to build AI applications that combine natural language capabilities with traditional
+    code. Semantic Kernel supports the creation of plugins and planners, allowing
+    for the orchestration of complex workflows and multi-agent systems.
 
-- id: "studio-2024"
-  type: "paper"
-  title: "No-Code Interface for Multi-Agent Systems"
-  author: "AutoGen Studio"
+    '
+  links:
+  - type: source
+    text: Learn more about Semantic Kernel
+    url: https://learn.microsoft.com/en-us/dotnet/ai/semantic-kernel-dotnet-overview
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/microsoft/semantic-kernel
+- id: studio-2024
+  type: paper
+  title: No-Code Interface for Multi-Agent Systems
+  author: AutoGen Studio
   year: 2024
-  section: "4. Tools and Frameworks"
-  subsection: "4.1 Agent Orchestration Frameworks"
-  summary: >
-    AutoGen Studio is a visual development environment built on the AutoGen framework, enabling users to prototype, debug, and evaluate multi-agent workflows without extensive coding. It offers a drag-and-drop interface for composing agents, defining workflows, and monitoring interactions, streamlining the development of complex AI systems.
-  links:
-    - type: "source"
-      text: "Explore AutoGen Studio"
-      url: "https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/index.html"
+  section: 4. Tools and Frameworks
+  subsection: 4.1 Agent Orchestration Frameworks
+  summary: 'AutoGen Studio is a visual development environment built on the AutoGen
+    framework, enabling users to prototype, debug, and evaluate multi-agent workflows
+    without extensive coding. It offers a drag-and-drop interface for composing agents,
+    defining workflows, and monitoring interactions, streamlining the development
+    of complex AI systems.
 
-- id: "devika-2023"
-  type: "tool"
-  title: "Agentic AI Software Engineer"
-  author: "Devika"
+    '
+  links:
+  - type: source
+    text: Explore AutoGen Studio
+    url: https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/index.html
+- id: devika-2023
+  type: tool
+  title: Agentic AI Software Engineer
+  author: Devika
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.2 Application-Level Agent Frameworks"
-  summary: >
-    Devika is an open-source AI agent designed to function as a software engineer. It interprets high-level human instructions, decomposes them into actionable steps, conducts research, and writes code to fulfill specified objectives. Devika leverages LLMs, planning algorithms, and web browsing capabilities to autonomously handle software development tasks.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/stitionai/devika"
+  section: 4. Tools and Frameworks
+  subsection: 4.2 Application-Level Agent Frameworks
+  summary: 'Devika is an open-source AI agent designed to function as a software engineer.
+    It interprets high-level human instructions, decomposes them into actionable steps,
+    conducts research, and writes code to fulfill specified objectives. Devika leverages
+    LLMs, planning algorithms, and web browsing capabilities to autonomously handle
+    software development tasks.
 
-- id: "dspy-2023"
-  type: "tool"
-  title: "Declarative Self-Improving Python"
-  author: "DSPy"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/stitionai/devika
+- id: dspy-2023
+  type: tool
+  title: Declarative Self-Improving Python
+  author: DSPy
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.3 Prompt and Programmatic Control"
-  summary: >
-    DSPy is an open-source framework from Stanford University that reimagines the development of LLM applications through declarative programming. Instead of crafting prompts manually, developers define tasks and metrics, and DSPy compiles these specifications into optimized prompts and model configurations. This approach facilitates the creation of modular, self-improving AI systems.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/stanfordnlp/dspy"
+  section: 4. Tools and Frameworks
+  subsection: 4.3 Prompt and Programmatic Control
+  summary: 'DSPy is an open-source framework from Stanford University that reimagines
+    the development of LLM applications through declarative programming. Instead of
+    crafting prompts manually, developers define tasks and metrics, and DSPy compiles
+    these specifications into optimized prompts and model configurations. This approach
+    facilitates the creation of modular, self-improving AI systems.
 
-- id: "guidance-2023"
-  type: "tool"
-  title: "Framework for Structured LLM Generation"
-  author: "Guidance"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/stanfordnlp/dspy
+- id: guidance-2023
+  type: tool
+  title: Framework for Structured LLM Generation
+  author: Guidance
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.3 Prompt and Programmatic Control"
-  summary: >
-    Guidance is a framework that offers fine-grained control over LLM outputs by combining templating with programmatic logic. It allows developers to enforce output structures, integrate conditionals and loops, and interleave generation with tool usage. This structured approach enhances the reliability and consistency of LLM-generated content.
-  links:
-    - type: "repo"
-      text: "Visit the Guidance repository"
-      url: "https://github.com/guidance-ai/guidance"
+  section: 4. Tools and Frameworks
+  subsection: 4.3 Prompt and Programmatic Control
+  summary: 'Guidance is a framework that offers fine-grained control over LLM outputs
+    by combining templating with programmatic logic. It allows developers to enforce
+    output structures, integrate conditionals and loops, and interleave generation
+    with tool usage. This structured approach enhances the reliability and consistency
+    of LLM-generated content.
 
-- id: "prompttools-2023"
-  type: "tool"
-  title: "Open-Source Framework for Prompt Testing and Evaluation"
-  author: "PromptTools"
+    '
+  links:
+  - type: repo
+    text: Visit the Guidance repository
+    url: https://github.com/guidance-ai/guidance
+- id: prompttools-2023
+  type: tool
+  title: Open-Source Framework for Prompt Testing and Evaluation
+  author: PromptTools
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.3 Prompt and Programmatic Control"
-  summary: >
-    PromptTools provides an interactive framework for evaluating, comparing, and managing prompts across different LLMs. It supports side-by-side comparisons, regression testing, and metric-based evaluation, with both CLI and visual interfaces. By enabling structured experimentation with prompts and model configurations, PromptTools helps teams improve reliability and consistency in agentic workflows. It’s especially useful for A/B testing, failure analysis, and systematic refinement of prompt strategies.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/hegelai/prompttools"
+  section: 4. Tools and Frameworks
+  subsection: 4.3 Prompt and Programmatic Control
+  summary: 'PromptTools provides an interactive framework for evaluating, comparing,
+    and managing prompts across different LLMs. It supports side-by-side comparisons,
+    regression testing, and metric-based evaluation, with both CLI and visual interfaces.
+    By enabling structured experimentation with prompts and model configurations,
+    PromptTools helps teams improve reliability and consistency in agentic workflows.
+    It’s especially useful for A/B testing, failure analysis, and systematic refinement
+    of prompt strategies.
 
-- id: "langchain-2023"
-  type: "tool"
-  title: "Framework for Building LLM-Powered Applications"
-  author: "LangChain"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/hegelai/prompttools
+- id: langchain-2023
+  type: tool
+  title: Framework for Building LLM-Powered Applications
+  author: LangChain
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.4 Data & Memory Integration"
-  summary: >
-    LangChain is an open-source framework designed to simplify the development of applications powered by large language models (LLMs). It provides a modular approach to connect LLMs with external data sources, tools, and APIs, enabling the creation of context-aware and dynamic applications. LangChain's architecture supports the chaining of components, allowing developers to build complex workflows that integrate memory, decision-making, and tool usage.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/langchain-ai/langchain"
+  section: 4. Tools and Frameworks
+  subsection: 4.4 Data & Memory Integration
+  summary: 'LangChain is an open-source framework designed to simplify the development
+    of applications powered by large language models (LLMs). It provides a modular
+    approach to connect LLMs with external data sources, tools, and APIs, enabling
+    the creation of context-aware and dynamic applications. LangChain''s architecture
+    supports the chaining of components, allowing developers to build complex workflows
+    that integrate memory, decision-making, and tool usage.
 
-- id: "llamaindex-2023"
-  type: "tool"
-  title: "Data Framework for LLM Applications"
-  author: "LlamaIndex"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/langchain-ai/langchain
+- id: llamaindex-2023
+  type: tool
+  title: Data Framework for LLM Applications
+  author: LlamaIndex
   year: 2023
-  section: "4. Tools and Frameworks"
-  subsection: "4.4 Data & Memory Integration"
-  summary: >
-    LlamaIndex is an open-source data framework designed to bridge the gap between large language models (LLMs) and private or domain-specific data. It provides tools for data ingestion, indexing, and querying, enabling LLMs to access and interpret custom data sources such as PDFs, databases, and APIs. LlamaIndex supports context augmentation techniques like Retrieval-Augmented Generation (RAG), facilitating the development of applications like question-answering systems, chatbots, and autonomous agents.
-  links:
-    - type: "source"
-      text: "Explore LlamaIndex"
-      url: "https://www.llamaindex.ai/framework"
+  section: 4. Tools and Frameworks
+  subsection: 4.4 Data & Memory Integration
+  summary: 'LlamaIndex is an open-source data framework designed to bridge the gap
+    between large language models (LLMs) and private or domain-specific data. It provides
+    tools for data ingestion, indexing, and querying, enabling LLMs to access and
+    interpret custom data sources such as PDFs, databases, and APIs. LlamaIndex supports
+    context augmentation techniques like Retrieval-Augmented Generation (RAG), facilitating
+    the development of applications like question-answering systems, chatbots, and
+    autonomous agents.
 
-- id: "gradients-2024"
-  type: "tool"
-  title: "Funtuner: Supervised Instruction Fine-Tuning Framework for LLMs"
-  author: "Exploding Gradients"
+    '
+  links:
+  - type: source
+    text: Explore LlamaIndex
+    url: https://www.llamaindex.ai/framework
+- id: gradients-2024
+  type: tool
+  title: 'Funtuner: Supervised Instruction Fine-Tuning Framework for LLMs'
+  author: Exploding Gradients
   year: 2024
-  section: "4. Tools and Frameworks"
-  subsection: "4.5 Training and Fine-Tuning Utilities"
-  summary: >
-    Funtuner is a lightweight, scalable framework for supervised fine-tuning of LLMs using Hugging Face Trainer and DeepSpeed. It supports LoRA, 8-bit quantization, sequence bucketing, and reproducibility features, making it suitable for instruction-tuned pipelines, adapter training, or prototyping of domain-specific models.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/explodinggradients/Funtuner"
+  section: 4. Tools and Frameworks
+  subsection: 4.5 Training and Fine-Tuning Utilities
+  summary: 'Funtuner is a lightweight, scalable framework for supervised fine-tuning
+    of LLMs using Hugging Face Trainer and DeepSpeed. It supports LoRA, 8-bit quantization,
+    sequence bucketing, and reproducibility features, making it suitable for instruction-tuned
+    pipelines, adapter training, or prototyping of domain-specific models.
 
-- id: "openai-2023"
-  type: "tool"
-  title: "Evals: Framework for Evaluating LLMs and LLM Systems"
-  author: "OpenAI"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/explodinggradients/Funtuner
+- id: openai-2023
+  type: tool
+  title: 'Evals: Framework for Evaluating LLMs and LLM Systems'
+  author: OpenAI
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.1 Evaluation Metrics and Testing Pipelines"
-  summary: >
-    Evals is OpenAI’s open-source framework to define, run, and analyze systematic tests for LLMs. It supports prompt-based benchmarks, scoring pipelines, and custom evaluations. While initially built for OpenAI models, it provides a structure for reproducible validation in any LLM-powered application.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/openai/evals"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.1 Evaluation Metrics and Testing Pipelines
+  summary: 'Evals is OpenAI’s open-source framework to define, run, and analyze systematic
+    tests for LLMs. It supports prompt-based benchmarks, scoring pipelines, and custom
+    evaluations. While initially built for OpenAI models, it provides a structure
+    for reproducible validation in any LLM-powered application.
 
-- id: "es-2024"
-  type: "tool"
-  title: "RAGAS: Retrieval-Augmented Generation Assessment"
-  author: "Shahul Es et al."
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/openai/evals
+- id: es-2024
+  type: tool
+  title: 'RAGAS: Retrieval-Augmented Generation Assessment'
+  author: Shahul Es et al.
   year: 2024
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.1 Evaluation Metrics and Testing Pipelines"
-  summary: >
-    RAGAS is an open-source evaluation framework for Retrieval-Augmented Generation (RAG) pipelines. It enables reference-free assessment of generation quality, relevance of retrieved context, and faithfulness of answers—eliminating the need for ground truth labels. RAGAS introduces task-specific metrics and supports batch-level evaluations, making it a scalable tool for production-grade RAG systems.  ·
-  arxiv: "2309.15217"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/es-ragas.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2309.15217"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/explodinggradients/ragas"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.1 Evaluation Metrics and Testing Pipelines
+  summary: 'RAGAS is an open-source evaluation framework for Retrieval-Augmented Generation
+    (RAG) pipelines. It enables reference-free assessment of generation quality, relevance
+    of retrieved context, and faithfulness of answers—eliminating the need for ground
+    truth labels. RAGAS introduces task-specific metrics and supports batch-level
+    evaluations, making it a scalable tool for production-grade RAG systems.  ·
 
-- id: "fourney-2024"
-  type: "tool"
-  title: "AutoGenBench: A Tool for Measuring and Evaluating AutoGen Agents"
-  author: "Fourney et al."
+    '
+  arxiv: '2309.15217'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/es-ragas.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2309.15217
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/explodinggradients/ragas
+- id: fourney-2024-2
+  type: tool
+  title: 'AutoGenBench: A Tool for Measuring and Evaluating AutoGen Agents'
+  author: Fourney et al.
   year: 2024
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.1 Evaluation Metrics and Testing Pipelines"
-  summary: >
-    AutoGenBench is a command-line tool developed by Microsoft Research to evaluate AutoGen workflows using established LLM and agentic benchmarks. It emphasizes repeatability, isolation, and instrumentation in testing, making it suitable for tracking performance of multi-agent systems in production environments.
-  links:
-    - type: "source"
-      text: "See full entry in Section 3"
-      url: "#3-evaluation-and-benchmarks"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.1 Evaluation Metrics and Testing Pipelines
+  summary: 'AutoGenBench is a command-line tool developed by Microsoft Research to
+    evaluate AutoGen workflows using established LLM and agentic benchmarks. It emphasizes
+    repeatability, isolation, and instrumentation in testing, making it suitable for
+    tracking performance of multi-agent systems in production environments.
 
-- id: "ai-2024"
-  type: "tool"
-  title: "UpTrain: Unified Evaluation and Improvement Platform for Generative AI Applications"
-  author: "UpTrain AI"
+    '
+  links:
+  - type: source
+    text: See full entry in Section 3
+    url: '#3-evaluation-and-benchmarks'
+- id: ai-2024
+  type: tool
+  title: 'UpTrain: Unified Evaluation and Improvement Platform for Generative AI Applications'
+  author: UpTrain AI
   year: 2024
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.1 Evaluation Metrics and Testing Pipelines"
-  summary: >
-    UpTrain is an open-source platform for evaluating and improving LLM-based applications. It provides over 20 prebuilt evaluation checks across language, code, and embedding tasks, and supports root-cause analysis of failure cases. With a privacy-respecting local dashboard, UpTrain allows users to run, visualize, and iterate on test suites for generative applications.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/uptrain-ai/uptrain"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.1 Evaluation Metrics and Testing Pipelines
+  summary: 'UpTrain is an open-source platform for evaluating and improving LLM-based
+    applications. It provides over 20 prebuilt evaluation checks across language,
+    code, and embedding tasks, and supports root-cause analysis of failure cases.
+    With a privacy-respecting local dashboard, UpTrain allows users to run, visualize,
+    and iterate on test suites for generative applications.
 
-- id: "woffinden-luey-2024"
-  type: "tool"
-  title: "AgentEval: A Developer Tool to Assess Utility of LLM-powered Applications"
-  author: "Woffinden-Luey & Kiseleva"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/uptrain-ai/uptrain
+- id: woffinden-luey-2024-2
+  type: tool
+  title: 'AgentEval: A Developer Tool to Assess Utility of LLM-powered Applications'
+  author: Woffinden-Luey & Kiseleva
   year: 2024
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.1 Evaluation Metrics and Testing Pipelines"
-  summary: >
-    AgentEval introduces a structured evaluation method where agents serve as evaluators, scoring target systems on multiple dimensions (e.g., helpfulness, correctness). It is especially useful for LLM-based applications that require customized and scalable feedback loops.
-  links:
-    - type: "source"
-      text: "See full entry in Section 3"
-      url: "#3-evaluation-and-benchmarks"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.1 Evaluation Metrics and Testing Pipelines
+  summary: 'AgentEval introduces a structured evaluation method where agents serve
+    as evaluators, scoring target systems on multiple dimensions (e.g., helpfulness,
+    correctness). It is especially useful for LLM-based applications that require
+    customized and scalable feedback loops.
 
-- id: "langsmith-2023"
-  type: "paper"
-  title: "Observability and Evaluation Platform for LLM Applications"
-  author: "LangSmith"
+    '
+  links:
+  - type: source
+    text: See full entry in Section 3
+    url: '#3-evaluation-and-benchmarks'
+- id: langsmith-2023
+  type: paper
+  title: Observability and Evaluation Platform for LLM Applications
+  author: LangSmith
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.2 Observability and Debugging"
-  summary: >
-    LangSmith is a comprehensive platform designed to enhance the observability and evaluation of applications built with large language models (LLMs). It offers features such as tracing, debugging, and performance monitoring, enabling developers to gain insights into the behavior of their LLM-powered applications. LangSmith integrates seamlessly with frameworks like LangChain, providing tools to visualize execution flows, assess prompt effectiveness, and monitor system performance in real-time.
-  links:
-    - type: "source"
-      text: "Explore LangSmith"
-      url: "https://www.langchain.com/langsmith"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.2 Observability and Debugging
+  summary: 'LangSmith is a comprehensive platform designed to enhance the observability
+    and evaluation of applications built with large language models (LLMs). It offers
+    features such as tracing, debugging, and performance monitoring, enabling developers
+    to gain insights into the behavior of their LLM-powered applications. LangSmith
+    integrates seamlessly with frameworks like LangChain, providing tools to visualize
+    execution flows, assess prompt effectiveness, and monitor system performance in
+    real-time.
 
-- id: "phoenix-2023"
-  type: "tool"
-  title: "Open-Source LLM Observability and Evaluation Platform"
-  author: "Phoenix"
+    '
+  links:
+  - type: source
+    text: Explore LangSmith
+    url: https://www.langchain.com/langsmith
+- id: phoenix-2023
+  type: tool
+  title: Open-Source LLM Observability and Evaluation Platform
+  author: Phoenix
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.2 Observability and Debugging"
-  summary: >
-    Developed by Arize AI, Phoenix is an open-source platform that provides observability and evaluation tools for applications powered by large language models. It enables developers to trace LLM application runtimes using OpenTelemetry-based instrumentation, evaluate performance through response and retrieval metrics, and manage versioned datasets for experimentation. Phoenix supports integration with popular frameworks like LangChain, LlamaIndex, and DSPy, offering a comprehensive solution for monitoring and optimizing LLM applications.
-  links:
-    - type: "repo"
-      text: "Explore the Phoenix repository"
-      url: "https://github.com/Arize-ai/phoenix"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.2 Observability and Debugging
+  summary: 'Developed by Arize AI, Phoenix is an open-source platform that provides
+    observability and evaluation tools for applications powered by large language
+    models. It enables developers to trace LLM application runtimes using OpenTelemetry-based
+    instrumentation, evaluate performance through response and retrieval metrics,
+    and manage versioned datasets for experimentation. Phoenix supports integration
+    with popular frameworks like LangChain, LlamaIndex, and DSPy, offering a comprehensive
+    solution for monitoring and optimizing LLM applications.
 
-- id: "promptlayer-2023"
-  type: "tool"
-  title: "Prompt Management, Versioning, and Observability Platform"
-  author: "PromptLayer"
+    '
+  links:
+  - type: repo
+    text: Explore the Phoenix repository
+    url: https://github.com/Arize-ai/phoenix
+- id: promptlayer-2023
+  type: tool
+  title: Prompt Management, Versioning, and Observability Platform
+  author: PromptLayer
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.2 Observability and Debugging"
-  summary: >
-    PromptLayer is a comprehensive platform designed to streamline prompt engineering workflows for large language models (LLMs). It offers features such as visual prompt creation, version control, A/B testing, and performance monitoring. PromptLayer's collaborative environment allows both technical and non-technical team members to manage and iterate on prompts efficiently. Its integration capabilities with various LLM providers and frameworks make it a versatile tool for maintaining prompt quality and consistency in production environments.
-  links:
-    - type: "source"
-      text: "Explore PromptLayer"
-      url: "https://www.promptlayer.com/"
-    - type: "repo"
-      text: "Explore the PromptLayer repository"
-      url: "https://github.com/MagnivOrg/prompt-layer-library"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.2 Observability and Debugging
+  summary: 'PromptLayer is a comprehensive platform designed to streamline prompt
+    engineering workflows for large language models (LLMs). It offers features such
+    as visual prompt creation, version control, A/B testing, and performance monitoring.
+    PromptLayer''s collaborative environment allows both technical and non-technical
+    team members to manage and iterate on prompts efficiently. Its integration capabilities
+    with various LLM providers and frameworks make it a versatile tool for maintaining
+    prompt quality and consistency in production environments.
 
-- id: "whylabs-2023"
-  type: "tool"
-  title: "AI Observability and Monitoring Platform"
-  author: "WhyLabs"
+    '
+  links:
+  - type: source
+    text: Explore PromptLayer
+    url: https://www.promptlayer.com/
+  - type: repo
+    text: Explore the PromptLayer repository
+    url: https://github.com/MagnivOrg/prompt-layer-library
+- id: whylabs-2023
+  type: tool
+  title: AI Observability and Monitoring Platform
+  author: WhyLabs
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.2 Observability and Debugging"
-  summary: >
-    WhyLabs is a comprehensive observability platform designed to monitor and secure AI applications, including those powered by large language models (LLMs). It offers tools to detect data drift, monitor model performance, and enforce security policies, ensuring the reliability and safety of AI systems in production. WhyLabs integrates with various data and ML frameworks, providing real-time insights and alerts to preemptively address potential issues.
-  links:
-    - type: "source"
-      text: "Explore WhyLabs"
-      url: "https://whylabs.ai/"
-    - type: "repo"
-      text: "Explore the WhyLabs repository"
-      url: "https://github.com/whylabs"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.2 Observability and Debugging
+  summary: 'WhyLabs is a comprehensive observability platform designed to monitor
+    and secure AI applications, including those powered by large language models (LLMs).
+    It offers tools to detect data drift, monitor model performance, and enforce security
+    policies, ensuring the reliability and safety of AI systems in production. WhyLabs
+    integrates with various data and ML frameworks, providing real-time insights and
+    alerts to preemptively address potential issues.
 
-- id: "ai-2023"
-  type: "tool"
-  title: "Framework for Validating and Correcting LLM Outputs"
-  author: "Guardrails AI"
+    '
+  links:
+  - type: source
+    text: Explore WhyLabs
+    url: https://whylabs.ai/
+  - type: repo
+    text: Explore the WhyLabs repository
+    url: https://github.com/whylabs
+- id: ai-2023
+  type: tool
+  title: Framework for Validating and Correcting LLM Outputs
+  author: Guardrails AI
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.3 Output Validation and Safety"
-  summary: >
-    Guardrails AI is an open-source framework that provides mechanisms to validate and correct the outputs of large language models (LLMs). It allows developers to define structured output schemas and enforce quality constraints, ensuring that LLM responses adhere to specified formats and content guidelines. Guardrails AI supports integration with various LLMs, offering tools to detect and rectify issues such as hallucinations, bias, and formatting errors.
-  links:
-    - type: "source"
-      text: "Learn more about Guardrails AI"
-      url: "https://www.guardrailsai.com/"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/guardrails-ai/guardrails"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.3 Output Validation and Safety
+  summary: 'Guardrails AI is an open-source framework that provides mechanisms to
+    validate and correct the outputs of large language models (LLMs). It allows developers
+    to define structured output schemas and enforce quality constraints, ensuring
+    that LLM responses adhere to specified formats and content guidelines. Guardrails
+    AI supports integration with various LLMs, offering tools to detect and rectify
+    issues such as hallucinations, bias, and formatting errors.
 
-- id: "protectai-2023"
-  type: "tool"
-  title: "Rebuff: Detecting Prompt Injection Attacks in LLM Applications"
-  author: "ProtectAI"
+    '
+  links:
+  - type: source
+    text: Learn more about Guardrails AI
+    url: https://www.guardrailsai.com/
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/guardrails-ai/guardrails
+- id: protectai-2023
+  type: tool
+  title: 'Rebuff: Detecting Prompt Injection Attacks in LLM Applications'
+  author: ProtectAI
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.3 Output Validation and Safety"
-  summary: >
-    Rebuff is an open-source framework designed to detect and mitigate prompt injection attacks against LLMs. It provides a layered defense strategy that includes heuristic filters, language model-based scoring, vector similarity search, and canary token detection. Rebuff can be integrated into LLM pipelines to monitor and protect both input and output from adversarial manipulation, making it a critical tool for secure agentic deployments.
-  links:
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://blog.langchain.dev/rebuff/"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/protectai/rebuff"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.3 Output Validation and Safety
+  summary: 'Rebuff is an open-source framework designed to detect and mitigate prompt
+    injection attacks against LLMs. It provides a layered defense strategy that includes
+    heuristic filters, language model-based scoring, vector similarity search, and
+    canary token detection. Rebuff can be integrated into LLM pipelines to monitor
+    and protect both input and output from adversarial manipulation, making it a critical
+    tool for secure agentic deployments.
 
-- id: "rebedea-2023"
-  type: "tool"
-  title: "NVIDIA NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications with Programmable Rails"
-  author: "Traian Rebedea et al."
+    '
+  links:
+  - type: source
+    text: Read the full paper from the source
+    url: https://blog.langchain.dev/rebuff/
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/protectai/rebuff
+- id: rebedea-2023
+  type: tool
+  title: 'NVIDIA NeMo Guardrails: A Toolkit for Controllable and Safe LLM Applications
+    with Programmable Rails'
+  author: Traian Rebedea et al.
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.3 Output Validation and Safety"
-  summary: >
-    NeMo Guardrails is an open-source framework for implementing programmable constraints (or "rails") in LLM-powered applications. It allows developers to define conversational boundaries, filter undesired topics, and enforce safety behaviors using Colang, a domain-specific language. It includes built-in mechanisms to prevent prompt injections and jailbreaks, helping ensure trust and control in deployed agentic systems.  ·
-  arxiv: "2310.10501"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/rebedea-nemo-guardrails.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2310.10501"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/NVIDIA/NeMo-Guardrails"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.3 Output Validation and Safety
+  summary: 'NeMo Guardrails is an open-source framework for implementing programmable
+    constraints (or "rails") in LLM-powered applications. It allows developers to
+    define conversational boundaries, filter undesired topics, and enforce safety
+    behaviors using Colang, a domain-specific language. It includes built-in mechanisms
+    to prevent prompt injections and jailbreaks, helping ensure trust and control
+    in deployed agentic systems.  ·
 
-- id: "trulens-2023"
-  type: "tool"
-  title: "Framework for Evaluating and Monitoring LLM Applications"
-  author: "TruLens"
+    '
+  arxiv: '2310.10501'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/rebedea-nemo-guardrails.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2310.10501
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/NVIDIA/NeMo-Guardrails
+- id: trulens-2023
+  type: tool
+  title: Framework for Evaluating and Monitoring LLM Applications
+  author: TruLens
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.3 Output Validation and Safety"
-  summary: >
-    TruLens is an open-source framework designed to evaluate and monitor applications powered by large language models (LLMs). It introduces "feedback functions" that programmatically assess various aspects of LLM outputs, such as relevance, groundedness, and toxicity. TruLens integrates seamlessly with frameworks like LangChain and LlamaIndex, providing developers with tools to trace, debug, and improve their LLM applications. Its compatibility with OpenTelemetry enhances observability, making it a valuable asset for ensuring the reliability and safety of LLM deployments.
-  links:
-    - type: "source"
-      text: "Explore TruLens"
-      url: "https://www.trulens.org/"
-    - type: "repo"
-      text: "Explore the TrueLens repository"
-      url: "https://github.com/truera/trulens/"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.3 Output Validation and Safety
+  summary: 'TruLens is an open-source framework designed to evaluate and monitor applications
+    powered by large language models (LLMs). It introduces "feedback functions" that
+    programmatically assess various aspects of LLM outputs, such as relevance, groundedness,
+    and toxicity. TruLens integrates seamlessly with frameworks like LangChain and
+    LlamaIndex, providing developers with tools to trace, debug, and improve their
+    LLM applications. Its compatibility with OpenTelemetry enhances observability,
+    making it a valuable asset for ensuring the reliability and safety of LLM deployments.
 
-- id: "studio-2020"
-  type: "tool"
-  title: "Open-Source Data Labeling and Annotation Tool"
-  author: "Label Studio"
+    '
+  links:
+  - type: source
+    text: Explore TruLens
+    url: https://www.trulens.org/
+  - type: repo
+    text: Explore the TrueLens repository
+    url: https://github.com/truera/trulens/
+- id: studio-2020
+  type: tool
+  title: Open-Source Data Labeling and Annotation Tool
+  author: Label Studio
   year: 2020
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.4 Human-in-the-Loop Supervision"
-  summary: >
-    Label Studio is a widely used open-source platform for labeling, annotating, and reviewing data—including text, images, and audio. In LLM and agentic contexts, it supports workflows for human validation of generated outputs, task scoring, and building gold datasets. Label Studio is ideal for building supervised training datasets or setting up post-deployment human feedback loops.
-  links:
-    - type: "source"
-      text: "Explore Label Studio"
-      url: "https://labelstud.io/"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/HumanSignal/label-studio"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.4 Human-in-the-Loop Supervision
+  summary: 'Label Studio is a widely used open-source platform for labeling, annotating,
+    and reviewing data—including text, images, and audio. In LLM and agentic contexts,
+    it supports workflows for human validation of generated outputs, task scoring,
+    and building gold datasets. Label Studio is ideal for building supervised training
+    datasets or setting up post-deployment human feedback loops.
 
-- id: "argilla-2023"
-  type: "tool"
-  title: "Open-Source Data Curation Platform for LLMs"
-  author: "Argilla"
+    '
+  links:
+  - type: source
+    text: Explore Label Studio
+    url: https://labelstud.io/
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/HumanSignal/label-studio
+- id: argilla-2023
+  type: tool
+  title: Open-Source Data Curation Platform for LLMs
+  author: Argilla
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.4 Human-in-the-Loop Supervision"
-  summary: >
-    Argilla is an open-source platform that enables collaborative human-in-the-loop workflows for curating high-quality datasets for NLP and LLM applications. It provides a customizable UI and Python SDK to configure annotation and feedback loops for tasks like text classification, entity recognition, and generative response review. Argilla integrates with popular tools such as Hugging Face, spaCy, and OpenAI, and supports both self-hosted and Hugging Face Spaces deployment.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/argilla-io/argilla"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.4 Human-in-the-Loop Supervision
+  summary: 'Argilla is an open-source platform that enables collaborative human-in-the-loop
+    workflows for curating high-quality datasets for NLP and LLM applications. It
+    provides a customizable UI and Python SDK to configure annotation and feedback
+    loops for tasks like text classification, entity recognition, and generative response
+    review. Argilla integrates with popular tools such as Hugging Face, spaCy, and
+    OpenAI, and supports both self-hosted and Hugging Face Spaces deployment.
 
-- id: "humanloop-2023"
-  type: "tool"
-  title: "Feedback and Iteration Platform for LLM Applications"
-  author: "HumanLoop"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/argilla-io/argilla
+- id: humanloop-2023
+  type: tool
+  title: Feedback and Iteration Platform for LLM Applications
+  author: HumanLoop
   year: 2023
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.4 Human-in-the-Loop Supervision"
-  summary: >
-    HumanLoop enables developers to integrate human feedback into LLM-powered workflows. It supports ranking, scoring, and fine-tuning based on user or evaluator input. HumanLoop offers interfaces for side-by-side comparisons and annotation tasks, helping teams identify weak points and systematically improve agent behavior in production.
-  links:
-    - type: "source"
-      text: "Explore HumanLoop"
-      url: "https://www.humanloop.com/"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/humanloop"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.4 Human-in-the-Loop Supervision
+  summary: 'HumanLoop enables developers to integrate human feedback into LLM-powered
+    workflows. It supports ranking, scoring, and fine-tuning based on user or evaluator
+    input. HumanLoop offers interfaces for side-by-side comparisons and annotation
+    tasks, helping teams identify weak points and systematically improve agent behavior
+    in production.
 
-- id: "gradients-2024"
-  type: "tool"
-  title: "Nemesis: A Reward Model Framework for LLMs"
-  author: "Exploding Gradients"
+    '
+  links:
+  - type: source
+    text: Explore HumanLoop
+    url: https://www.humanloop.com/
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/humanloop
+- id: gradients-2024-2
+  type: tool
+  title: 'Nemesis: A Reward Model Framework for LLMs'
+  author: Exploding Gradients
   year: 2024
-  section: "5. Operating Agents in Production (AgentOps)"
-  subsection: "5.5 Alignment and Feedback Learning"
-  summary: >
-    Nemesis is an open-source framework for training reward models for reinforcement learning with human feedback (RLHF). It supports datasets such as HellaSwag, HH-RLHF, and ELI5, and provides tools for reward function training, validation, and integration into downstream fine-tuning or agent pipelines. Built on PyTorch and Hugging Face, Nemesis simplifies the RLHF loop for scalable, reproducible experimentation.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/explodinggradients/nemesis"
+  section: 5. Operating Agents in Production (AgentOps)
+  subsection: 5.5 Alignment and Feedback Learning
+  summary: 'Nemesis is an open-source framework for training reward models for reinforcement
+    learning with human feedback (RLHF). It supports datasets such as HellaSwag, HH-RLHF,
+    and ELI5, and provides tools for reward function training, validation, and integration
+    into downstream fine-tuning or agent pipelines. Built on PyTorch and Hugging Face,
+    Nemesis simplifies the RLHF loop for scalable, reproducible experimentation.
 
-- id: "masad-2015"
-  type: "tool"
-  title: "Mesa: Agent-Based Modeling Framework in Python"
-  author: "Masad & Kazil"
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/explodinggradients/nemesis
+- id: masad-2015
+  type: tool
+  title: 'Mesa: Agent-Based Modeling Framework in Python'
+  author: Masad & Kazil
   year: 2015
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.1 Social Simulations and Emergent Behavior"
-  summary: >
-    Mesa is a modular, extensible framework for building agent-based models in Python. Widely used in computational social science and complex systems research, Mesa allows developers to define agents, environments, and schedules of interaction. It supports visualization, data collection, and experimentation with heterogeneous agent behaviors. Though not LLM-centric, Mesa remains a powerful tool for simulating decentralized systems, testing coordination dynamics, and modeling emergent phenomena—offering a complementary lens to modern agentic AI.
-  links:
-    - type: "repo"
-      text: "Explore Mesa on GitHub"
-      url: "https://github.com/projectmesa/mesa"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.1 Social Simulations and Emergent Behavior
+  summary: 'Mesa is a modular, extensible framework for building agent-based models
+    in Python. Widely used in computational social science and complex systems research,
+    Mesa allows developers to define agents, environments, and schedules of interaction.
+    It supports visualization, data collection, and experimentation with heterogeneous
+    agent behaviors. Though not LLM-centric, Mesa remains a powerful tool for simulating
+    decentralized systems, testing coordination dynamics, and modeling emergent phenomena—offering
+    a complementary lens to modern agentic AI.
 
-- id: "park-2023"
-  type: "paper"
-  title: "Generative Agents: Interactive Simulacra of Human Behavior"
-  author: "Joon Sung Park et al."
+    '
+  links:
+  - type: repo
+    text: Explore Mesa on GitHub
+    url: https://github.com/projectmesa/mesa
+- id: park-2023
+  type: paper
+  title: 'Generative Agents: Interactive Simulacra of Human Behavior'
+  author: Joon Sung Park et al.
   year: 2023
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.1 Social Simulations and Emergent Behavior"
-  summary: >
-    This paper introduces generative agents—computational models that simulate believable human behavior in an interactive sandbox environment. These agents possess memory, reflection, and planning capabilities, enabling them to exhibit emergent social behavior, form routines, organize events, and respond coherently to interactions over time. The work is notable for demonstrating how large language models, when embedded in agent architectures with memory and retrieval, can simulate rich, autonomous personas within a community.
-  arxiv: "2304.03442"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/park-generative-agents.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2304.03442"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.1 Social Simulations and Emergent Behavior
+  summary: 'This paper introduces generative agents—computational models that simulate
+    believable human behavior in an interactive sandbox environment. These agents
+    possess memory, reflection, and planning capabilities, enabling them to exhibit
+    emergent social behavior, form routines, organize events, and respond coherently
+    to interactions over time. The work is notable for demonstrating how large language
+    models, when embedded in agent architectures with memory and retrieval, can simulate
+    rich, autonomous personas within a community.
 
-- id: "lowe-2017"
-  type: "tool"
-  title: "Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments"
-  author: "Lowe et al."
+    '
+  arxiv: '2304.03442'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/park-generative-agents.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2304.03442
+- id: lowe-2017
+  type: tool
+  title: Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments
+  author: Lowe et al.
   year: 2017
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.2 Multi-Agent and Coordination Benchmarks"
-  summary: >
-    The Multi-Agent Particle Environment (MPE) is a set of simple yet versatile environments for multi-agent reinforcement learning. It features agents interacting in a 2D continuous space with discrete actions, supporting both cooperative and competitive scenarios. MPE has been widely used to benchmark algorithms in settings that require communication, coordination, and competition among agents.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/openai/multiagent-particle-envs"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.2 Multi-Agent and Coordination Benchmarks
+  summary: 'The Multi-Agent Particle Environment (MPE) is a set of simple yet versatile
+    environments for multi-agent reinforcement learning. It features agents interacting
+    in a 2D continuous space with discrete actions, supporting both cooperative and
+    competitive scenarios. MPE has been widely used to benchmark algorithms in settings
+    that require communication, coordination, and competition among agents.
 
-- id: "vinyals-2017"
-  type: "paper"
-  title: "StarCraft II: A New Challenge for Reinforcement Learning"
-  author: "Oriol Vinyals et al."
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/openai/multiagent-particle-envs
+- id: vinyals-2017
+  type: paper
+  title: 'StarCraft II: A New Challenge for Reinforcement Learning'
+  author: Oriol Vinyals et al.
   year: 2017
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.2 Multi-Agent and Coordination Benchmarks"
-  summary: >
-    The StarCraft II Learning Environment (SC2LE) offers a complex, real-time strategy domain for training reinforcement learning agents in partially observable, multi-agent settings. It has been instrumental in driving research on long-horizon planning, adaptive strategies, and coordination under uncertainty.
-  arxiv: "1708.04782"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/vinyals-starcraft2.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/1708.04782"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.2 Multi-Agent and Coordination Benchmarks
+  summary: 'The StarCraft II Learning Environment (SC2LE) offers a complex, real-time
+    strategy domain for training reinforcement learning agents in partially observable,
+    multi-agent settings. It has been instrumental in driving research on long-horizon
+    planning, adaptive strategies, and coordination under uncertainty.
 
-- id: "foundation-2022"
-  type: "tool"
-  title: "Gymnasium: An API for Reinforcement Learning"
-  author: "Farama Foundation"
+    '
+  arxiv: '1708.04782'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/vinyals-starcraft2.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/1708.04782
+- id: foundation-2022
+  type: tool
+  title: 'Gymnasium: An API for Reinforcement Learning'
+  author: Farama Foundation
   year: 2022
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.2 Multi-Agent and Coordination Benchmarks"
-  summary: >
-    Gymnasium is the official successor to OpenAI Gym, developed and maintained by the Farama Foundation. It provides a standardized and extensible API for experimenting with agents in reinforcement learning environments. Its modular design and active open-source community ensure long-term continuity and compatibility with complementary libraries such as PettingZoo and SuperSuit. Gymnasium is widely used to evaluate agentic behaviors in simulated contexts, including hybrid architectures with LLMs.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/Farama-Foundation/Gymnasium"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.2 Multi-Agent and Coordination Benchmarks
+  summary: 'Gymnasium is the official successor to OpenAI Gym, developed and maintained
+    by the Farama Foundation. It provides a standardized and extensible API for experimenting
+    with agents in reinforcement learning environments. Its modular design and active
+    open-source community ensure long-term continuity and compatibility with complementary
+    libraries such as PettingZoo and SuperSuit. Gymnasium is widely used to evaluate
+    agentic behaviors in simulated contexts, including hybrid architectures with LLMs.
 
-- id: "chevalier-boisvert-2023"
-  type: "tool"
-  title: "MiniGrid & MiniWorld: Modular & Customizable Reinforcement Learning Environments for Goal-Oriented Tasks"
-  author: "Chevalier-Boisvert et al."
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/Farama-Foundation/Gymnasium
+- id: chevalier-boisvert-2023
+  type: tool
+  title: 'MiniGrid & MiniWorld: Modular & Customizable Reinforcement Learning Environments
+    for Goal-Oriented Tasks'
+  author: Chevalier-Boisvert et al.
   year: 2023
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.2 Multi-Agent and Coordination Benchmarks"
-  summary: >
-    MiniGrid and MiniWorld are lightweight, modular environments designed for reinforcement learning research. MiniGrid offers 2D grid-based environments, while MiniWorld provides 3D simulations. Both are highly customizable, facilitating research in areas like curriculum learning, exploration, and meta-learning. Their unified API allows for seamless experimentation across different observation spaces.  · .
-  links:
-    - type: "source"
-      text: "Explore MiniGrid"
-      url: "https://minigrid.farama.org/"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/Farama-Foundation/Minigrid"
-    - type: "source"
-      text: "Explore MiniWorld"
-      url: "https://miniworld.farama.org/"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.2 Multi-Agent and Coordination Benchmarks
+  summary: 'MiniGrid and MiniWorld are lightweight, modular environments designed
+    for reinforcement learning research. MiniGrid offers 2D grid-based environments,
+    while MiniWorld provides 3D simulations. Both are highly customizable, facilitating
+    research in areas like curriculum learning, exploration, and meta-learning. Their
+    unified API allows for seamless experimentation across different observation spaces.  ·
+    .
 
-- id: "shridhar-2020"
-  type: "paper"
-  title: "ALFWorld: Aligning Text and Embodied Environments for Interactive Learning"
-  author: "Mohit Shridhar et al."
+    '
+  links:
+  - type: source
+    text: Explore MiniGrid
+    url: https://minigrid.farama.org/
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/Farama-Foundation/Minigrid
+  - type: source
+    text: Explore MiniWorld
+    url: https://miniworld.farama.org/
+- id: shridhar-2020
+  type: paper
+  title: 'ALFWorld: Aligning Text and Embodied Environments for Interactive Learning'
+  author: Mohit Shridhar et al.
   year: 2020
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.3 Embodied and Physical Simulation"
-  summary: >
-    ALFWorld bridges text-based and embodied environments by aligning instruction-following tasks in TextWorld with 3D simulations in ALFRED. This allows agents to learn policies via text interaction and transfer them into visual, embodied execution. The benchmark enables research in policy generalization, language grounding, and multi-modal reasoning.
-  arxiv: "2010.03768"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/shridhar-alfworld.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2010.03768"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.3 Embodied and Physical Simulation
+  summary: 'ALFWorld bridges text-based and embodied environments by aligning instruction-following
+    tasks in TextWorld with 3D simulations in ALFRED. This allows agents to learn
+    policies via text interaction and transfer them into visual, embodied execution.
+    The benchmark enables research in policy generalization, language grounding, and
+    multi-modal reasoning.
 
-- id: "makoviychuk-2021"
-  type: "paper"
-  title: "Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning"
-  author: "Viktor Makoviychuk et al."
+    '
+  arxiv: '2010.03768'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/shridhar-alfworld.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2010.03768
+- id: makoviychuk-2021
+  type: paper
+  title: 'Isaac Gym: High Performance GPU-Based Physics Simulation for Robot Learning'
+  author: Viktor Makoviychuk et al.
   year: 2021
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.3 Embodied and Physical Simulation"
-  summary: >
-    Isaac Gym is a GPU-accelerated simulator for physics-based reinforcement learning, enabling massive parallel training of embodied agents. It integrates simulation and learning on the same device, allowing fast policy optimization for robotics and control tasks at scale.
-  arxiv: "2108.10470"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/makoviychuk-isaac-gym.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2108.10470"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.3 Embodied and Physical Simulation
+  summary: 'Isaac Gym is a GPU-accelerated simulator for physics-based reinforcement
+    learning, enabling massive parallel training of embodied agents. It integrates
+    simulation and learning on the same device, allowing fast policy optimization
+    for robotics and control tasks at scale.
 
-- id: "deng-2023"
-  type: "paper"
-  title: "Mind2Web: Towards a Generalist Agent for the Web"
-  author: "Xiang Deng et al."
+    '
+  arxiv: '2108.10470'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/makoviychuk-isaac-gym.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2108.10470
+- id: deng-2023
+  type: paper
+  title: 'Mind2Web: Towards a Generalist Agent for the Web'
+  author: Xiang Deng et al.
   year: 2023
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.4 Interactive Web and Digital Environments"
-  summary: >
-    Mind2Web is a large-scale benchmark designed to develop and evaluate generalist web agents capable of following natural language instructions to complete complex tasks across diverse real-world websites. It comprises 2,350 open-ended tasks collected from 137 websites spanning 31 domains, with human-annotated action sequences. The dataset includes rich contextual information such as raw HTML, DOM snapshots, screenshots, and interaction traces, facilitating research in instruction following, generalization, and web automation.
-  arxiv: "2306.06070"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/deng-mind2web.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2306.06070"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.4 Interactive Web and Digital Environments
+  summary: 'Mind2Web is a large-scale benchmark designed to develop and evaluate generalist
+    web agents capable of following natural language instructions to complete complex
+    tasks across diverse real-world websites. It comprises 2,350 open-ended tasks
+    collected from 137 websites spanning 31 domains, with human-annotated action sequences.
+    The dataset includes rich contextual information such as raw HTML, DOM snapshots,
+    screenshots, and interaction traces, facilitating research in instruction following,
+    generalization, and web automation.
 
-- id: "joseph shinn-2023"
-  type: "paper"
-  title: "WebArena: A Realistic Web Environment for Building Autonomous Agents"
-  author: "Joseph Shinn, Omar Labash & Karthik Gopinath"
+    '
+  arxiv: '2306.06070'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/deng-mind2web.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2306.06070
+- id: joseph shinn-2023
+  type: paper
+  title: 'WebArena: A Realistic Web Environment for Building Autonomous Agents'
+  author: Joseph Shinn, Omar Labash & Karthik Gopinath
   year: 2023
-  section: "6. Simulation Frameworks and Experimental Agent Environments"
-  subsection: "6.4 Interactive Web and Digital Environments"
-  summary: >
-    WebArena is a simulated internet with fully functional, interactive websites spanning domains like e-commerce, documentation, forums, and code hosting. Designed for evaluating long-horizon, tool-augmented LLM agents, it supports realistic browser-based actions and open-ended tasks grounded in modern web UX. It provides a reproducible benchmark for instruction-following, information synthesis, and strategic action in dynamic web environments.
-  arxiv: "2307.13854"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/shinn-webarena.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2307.13854"
+  section: 6. Simulation Frameworks and Experimental Agent Environments
+  subsection: 6.4 Interactive Web and Digital Environments
+  summary: 'WebArena is a simulated internet with fully functional, interactive websites
+    spanning domains like e-commerce, documentation, forums, and code hosting. Designed
+    for evaluating long-horizon, tool-augmented LLM agents, it supports realistic
+    browser-based actions and open-ended tasks grounded in modern web UX. It provides
+    a reproducible benchmark for instruction-following, information synthesis, and
+    strategic action in dynamic web environments.
 
-- id: "osika-2023"
-  type: "tool"
-  title: "GPT-Engineer: Autonomous Codebase Generation via Prompt-Driven Agents"
-  author: "Anton Osika et al."
+    '
+  arxiv: '2307.13854'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/shinn-webarena.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2307.13854
+- id: osika-2023
+  type: tool
+  title: 'GPT-Engineer: Autonomous Codebase Generation via Prompt-Driven Agents'
+  author: Anton Osika et al.
   year: 2023
-  section: "7. Case Studies and Applications"
-  subsection: "7.1 Software Engineering Agents"
-  summary: >
-    GPT-Engineer is an open-source CLI tool that enables users to generate entire codebases from natural language prompts. It guides users through requirement clarification, architectural planning, and iterative code generation using LLMs like GPT-4. The system supports persistent memory, customizable agent identities, and benchmarking tools, making it a practical example of LLM agents applied to real-world software engineering tasks.
-  links:
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/AntonOsika/gpt-engineer"
+  section: 7. Case Studies and Applications
+  subsection: 7.1 Software Engineering Agents
+  summary: 'GPT-Engineer is an open-source CLI tool that enables users to generate
+    entire codebases from natural language prompts. It guides users through requirement
+    clarification, architectural planning, and iterative code generation using LLMs
+    like GPT-4. The system supports persistent memory, customizable agent identities,
+    and benchmarking tools, making it a practical example of LLM agents applied to
+    real-world software engineering tasks.
 
-- id: "zhang-2024"
-  type: "tool"
-  title: "AutoCodeRover: Autonomous Program Improvement"
-  author: "Yuntong Zhang et al."
+    '
+  links:
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/AntonOsika/gpt-engineer
+- id: zhang-2024
+  type: tool
+  title: 'AutoCodeRover: Autonomous Program Improvement'
+  author: Yuntong Zhang et al.
   year: 2024
-  section: "7. Case Studies and Applications"
-  subsection: "7.1 Software Engineering Agents"
-  summary: >
-    AutoCodeRover is an LLM-based agent designed to autonomously resolve software issues, such as bug fixes and feature requests, directly from GitHub repositories. The system integrates program structure-aware code search and spectrum-based fault localization to identify relevant code segments, generate patches, and validate fixes. Evaluated on the SWE-bench-lite benchmark, it achieves a 19% issue resolution rate with significantly lower costs than prior baselines, demonstrating the feasibility of agentic program repair in real-world codebases.  ·
-  arxiv: "2404.05427"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/zhang-autocoderover.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2404.05427"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/AutoCodeRoverSG/auto-code-rover"
+  section: 7. Case Studies and Applications
+  subsection: 7.1 Software Engineering Agents
+  summary: 'AutoCodeRover is an LLM-based agent designed to autonomously resolve software
+    issues, such as bug fixes and feature requests, directly from GitHub repositories.
+    The system integrates program structure-aware code search and spectrum-based fault
+    localization to identify relevant code segments, generate patches, and validate
+    fixes. Evaluated on the SWE-bench-lite benchmark, it achieves a 19% issue resolution
+    rate with significantly lower costs than prior baselines, demonstrating the feasibility
+    of agentic program repair in real-world codebases.  ·
 
-- id: "yao-2022"
-  type: "tool"
-  title: "WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents"
-  author: "Shunyu Yao et al."
+    '
+  arxiv: '2404.05427'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/zhang-autocoderover.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2404.05427
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/AutoCodeRoverSG/auto-code-rover
+- id: yao-2022-2
+  type: tool
+  title: 'WebShop: Towards Scalable Real-World Web Interaction with Grounded Language
+    Agents'
+  author: Shunyu Yao et al.
   year: 2022
-  section: "7. Case Studies and Applications"
-  subsection: "7.3 Vertical and Industry-Specific Applications"
-  summary: >
-    WebShop introduces a large-scale, simulated e-commerce environment designed to train and evaluate goal-directed shopping agents. It features over 1.18 million real-world product listings and 12,087 crowd-sourced natural language instructions. Agents navigate various webpage types—search, results, item, and item-detail pages—to locate, customize, and purchase products based on user instructions. While entirely simulated, WebShop closely mirrors real-world e-commerce interactions and supports sim-to-real transfer, as demonstrated by agent evaluations on platforms like Amazon and eBay.  ·
-  arxiv: "2207.01206"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/yao-webshop.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2207.01206"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/princeton-nlp/webshop"
+  section: 7. Case Studies and Applications
+  subsection: 7.3 Vertical and Industry-Specific Applications
+  summary: 'WebShop introduces a large-scale, simulated e-commerce environment designed
+    to train and evaluate goal-directed shopping agents. It features over 1.18 million
+    real-world product listings and 12,087 crowd-sourced natural language instructions.
+    Agents navigate various webpage types—search, results, item, and item-detail pages—to
+    locate, customize, and purchase products based on user instructions. While entirely
+    simulated, WebShop closely mirrors real-world e-commerce interactions and supports
+    sim-to-real transfer, as demonstrated by agent evaluations on platforms like Amazon
+    and eBay.  ·
 
-- id: "zhang-2024"
-  type: "tool"
-  title: "A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist"
-  author: "Wentao Zhang et al."
+    '
+  arxiv: '2207.01206'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/yao-webshop.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2207.01206
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/princeton-nlp/webshop
+- id: zhang-2024-2
+  type: tool
+  title: 'A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified,
+    and Generalist'
+  author: Wentao Zhang et al.
   year: 2024
-  section: "7. Case Studies and Applications"
-  subsection: "7.3 Vertical and Industry-Specific Applications"
-  summary: >
-    FinAgent is a multimodal LLM-based agent designed for financial trading tasks. It integrates textual, numerical, and visual modalities—such as news headlines, time-series data, and candlestick charts—through a tool-augmented architecture that includes diversified memory retrieval and dual-level reflection. The agent demonstrates strong generalization across six financial datasets involving stocks and cryptocurrencies, achieving a 92.27% return on one benchmark and outperforming 12 state-of-the-art baselines.
-  arxiv: "2402.18485"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/zhang-finagent.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2402.18485"
+  section: 7. Case Studies and Applications
+  subsection: 7.3 Vertical and Industry-Specific Applications
+  summary: 'FinAgent is a multimodal LLM-based agent designed for financial trading
+    tasks. It integrates textual, numerical, and visual modalities—such as news headlines,
+    time-series data, and candlestick charts—through a tool-augmented architecture
+    that includes diversified memory retrieval and dual-level reflection. The agent
+    demonstrates strong generalization across six financial datasets involving stocks
+    and cryptocurrencies, achieving a 92.27% return on one benchmark and outperforming
+    12 state-of-the-art baselines.
 
-- id: "bousetouane-2025"
-  type: "tool"
-  title: "Agentic Systems: A Guide to Transforming Industries with Vertical AI Agents"
-  author: "Fouad Bousetouane"
+    '
+  arxiv: '2402.18485'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/zhang-finagent.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2402.18485
+- id: bousetouane-2025
+  type: tool
+  title: 'Agentic Systems: A Guide to Transforming Industries with Vertical AI Agents'
+  author: Fouad Bousetouane
   year: 2025
-  section: "7. Case Studies and Applications"
-  subsection: "7.3 Vertical and Industry-Specific Applications"
-  summary: >
-    This paper introduces agentic systems as a new generation of AI solutions that leverage Large Language Models (LLMs) to create adaptable, industry-specific software agents. These agents offer advantages over traditional systems by providing domain expertise, real-time adaptability, and end-to-end workflow automation. The paper details the core components of these agents, including memory, a reasoning engine, cognitive skills modules, and tools, and explores different categories of agentic systems: task-specific, multi-agent, and human-augmented. It further discusses current industry and academic efforts in building these systems and outlines future research directions.  ·
-  arxiv: "2501.00881"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/bousetouane-agentic-systems.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2501.00881"
-    - type: "repo"
-      text: "Explore the code repository"
-      url: "https://github.com/nagarx/vertical_agents_implementation"
+  section: 7. Case Studies and Applications
+  subsection: 7.3 Vertical and Industry-Specific Applications
+  summary: 'This paper introduces agentic systems as a new generation of AI solutions
+    that leverage Large Language Models (LLMs) to create adaptable, industry-specific
+    software agents. These agents offer advantages over traditional systems by providing
+    domain expertise, real-time adaptability, and end-to-end workflow automation.
+    The paper details the core components of these agents, including memory, a reasoning
+    engine, cognitive skills modules, and tools, and explores different categories
+    of agentic systems: task-specific, multi-agent, and human-augmented. It further
+    discusses current industry and academic efforts in building these systems and
+    outlines future research directions.  ·
 
-- id: "lu-2024"
-  type: "paper"
-  title: "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery"
-  author: "Chris Lu et al."
+    '
+  arxiv: '2501.00881'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/bousetouane-agentic-systems.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2501.00881
+  - type: repo
+    text: Explore the code repository
+    url: https://github.com/nagarx/vertical_agents_implementation
+- id: lu-2024
+  type: paper
+  title: 'The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery'
+  author: Chris Lu et al.
   year: 2024
-  section: "7. Case Studies and Applications"
-  subsection: "7.4 Scientific Discovery and Research Automation"
-  summary: >
-    This work presents The AI Scientist, a framework enabling large language models to autonomously conduct scientific research. The system can generate novel research ideas, write code, execute experiments, analyze results, and compose scientific papers. The authors demonstrate the framework's capabilities across various machine learning domains, highlighting its potential to transform the landscape of scientific discovery.
-  arxiv: "2408.06292"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/lu-ai-scientist.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2408.06292"
+  section: 7. Case Studies and Applications
+  subsection: 7.4 Scientific Discovery and Research Automation
+  summary: 'This work presents The AI Scientist, a framework enabling large language
+    models to autonomously conduct scientific research. The system can generate novel
+    research ideas, write code, execute experiments, analyze results, and compose
+    scientific papers. The authors demonstrate the framework''s capabilities across
+    various machine learning domains, highlighting its potential to transform the
+    landscape of scientific discovery.
 
-- id: "reddy-2024"
-  type: "paper"
-  title: "Towards Scientific Discovery with Generative AI: Progress, Opportunities, and Challenges"
-  author: "Chandan K. Reddy & Parshin Shojaee"
+    '
+  arxiv: '2408.06292'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/lu-ai-scientist.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2408.06292
+- id: reddy-2024
+  type: paper
+  title: 'Towards Scientific Discovery with Generative AI: Progress, Opportunities,
+    and Challenges'
+  author: Chandan K. Reddy & Parshin Shojaee
   year: 2024
-  section: "7. Case Studies and Applications"
-  subsection: "7.4 Scientific Discovery and Research Automation"
-  summary: >
-    This paper explores the current state and future prospects of applying generative AI to scientific discovery. The authors discuss the potential of AI to accelerate research processes, the need for science-focused AI agents, improved benchmarks, and multimodal scientific representations. They also highlight challenges such as ensuring transparency, reproducibility, and ethical considerations in AI-driven scientific research.
-  arxiv: "2412.11427"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/reddy-generative-ai-scientific-discovery.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2412.11427"
+  section: 7. Case Studies and Applications
+  subsection: 7.4 Scientific Discovery and Research Automation
+  summary: 'This paper explores the current state and future prospects of applying
+    generative AI to scientific discovery. The authors discuss the potential of AI
+    to accelerate research processes, the need for science-focused AI agents, improved
+    benchmarks, and multimodal scientific representations. They also highlight challenges
+    such as ensuring transparency, reproducibility, and ethical considerations in
+    AI-driven scientific research.
 
-- id: "gridach-2025"
-  type: "paper"
-  title: "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and Future Directions"
-  author: "Mourad Gridach et al."
+    '
+  arxiv: '2412.11427'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/reddy-generative-ai-scientific-discovery.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2412.11427
+- id: gridach-2025
+  type: paper
+  title: 'Agentic AI for Scientific Discovery: A Survey of Progress, Challenges, and
+    Future Directions'
+  author: Mourad Gridach et al.
   year: 2025
-  section: "7. Case Studies and Applications"
-  subsection: "7.4 Scientific Discovery and Research Automation"
-  summary: >
-    This survey explores how agentic AI is being applied across domains of scientific research, including literature analysis, hypothesis generation, and experiment design. The authors review progress in fields like chemistry, biology, and materials science, and identify key challenges such as coordination complexity, evaluation frameworks, and epistemic risk. The paper also proposes future directions to improve the reliability, usability, and autonomy of agents in scientific contexts.
-  arxiv: "2503.08979"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/gridach-agentic-ai-scientific-discovery.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2503.08979"
+  section: 7. Case Studies and Applications
+  subsection: 7.4 Scientific Discovery and Research Automation
+  summary: 'This survey explores how agentic AI is being applied across domains of
+    scientific research, including literature analysis, hypothesis generation, and
+    experiment design. The authors review progress in fields like chemistry, biology,
+    and materials science, and identify key challenges such as coordination complexity,
+    evaluation frameworks, and epistemic risk. The paper also proposes future directions
+    to improve the reliability, usability, and autonomy of agents in scientific contexts.
 
-- id: "schmidgall-2025"
-  type: "paper"
-  title: "AgentRxiv: Towards Collaborative Autonomous Research"
-  author: "Samuel Schmidgall & Michael Moor"
+    '
+  arxiv: '2503.08979'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/gridach-agentic-ai-scientific-discovery.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2503.08979
+- id: schmidgall-2025
+  type: paper
+  title: 'AgentRxiv: Towards Collaborative Autonomous Research'
+  author: Samuel Schmidgall & Michael Moor
   year: 2025
-  section: "7. Case Studies and Applications"
-  subsection: "7.4 Scientific Discovery and Research Automation"
-  summary: >
-    This paper presents AgentRxiv, a framework designed to facilitate collaboration among autonomous research agents. By enabling agents to share and build upon each other's work, AgentRxiv aims to emulate the collaborative nature of human scientific research. The authors discuss the architecture of the system, its potential to accelerate scientific discovery, and the challenges associated with autonomous agent collaboration.
-  arxiv: "2503.18102"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/schmidgall-agentrxiv.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2503.18102"
+  section: 7. Case Studies and Applications
+  subsection: 7.4 Scientific Discovery and Research Automation
+  summary: 'This paper presents AgentRxiv, a framework designed to facilitate collaboration
+    among autonomous research agents. By enabling agents to share and build upon each
+    other''s work, AgentRxiv aims to emulate the collaborative nature of human scientific
+    research. The authors discuss the architecture of the system, its potential to
+    accelerate scientific discovery, and the challenges associated with autonomous
+    agent collaboration.
 
-- id: "yamada-2025"
-  type: "paper"
-  title: "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search"
-  author: "Yutaro Yamada et al."
+    '
+  arxiv: '2503.18102'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/schmidgall-agentrxiv.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2503.18102
+- id: yamada-2025
+  type: paper
+  title: 'The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic
+    Tree Search'
+  author: Yutaro Yamada et al.
   year: 2025
-  section: "7. Case Studies and Applications"
-  subsection: "7.4 Scientific Discovery and Research Automation"
-  summary: >
-    This paper introduces The AI Scientist-v2, an end-to-end agentic system capable of autonomously generating scientific hypotheses, designing and executing experiments, analyzing data, and authoring manuscripts. Notably, it produced the first entirely AI-generated workshop paper accepted through peer review. The system employs an agentic tree-search mechanism guided by an experiment manager agent, demonstrating significant advancements in automated scientific research.
-  arxiv: "2504.08066"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/yamada-ai-scientist-v2.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2504.08066"
+  section: 7. Case Studies and Applications
+  subsection: 7.4 Scientific Discovery and Research Automation
+  summary: 'This paper introduces The AI Scientist-v2, an end-to-end agentic system
+    capable of autonomously generating scientific hypotheses, designing and executing
+    experiments, analyzing data, and authoring manuscripts. Notably, it produced the
+    first entirely AI-generated workshop paper accepted through peer review. The system
+    employs an agentic tree-search mechanism guided by an experiment manager agent,
+    demonstrating significant advancements in automated scientific research.
 
-- id: "zheng-2025"
-  type: "paper"
-  title: "From Automation to Autonomy: A Survey on Large Language Models in Scientific Discovery"
-  author: "Tianshi Zheng et al."
+    '
+  arxiv: '2504.08066'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/yamada-ai-scientist-v2.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2504.08066
+- id: zheng-2025
+  type: paper
+  title: 'From Automation to Autonomy: A Survey on Large Language Models in Scientific
+    Discovery'
+  author: Tianshi Zheng et al.
   year: 2025
-  section: "7. Case Studies and Applications"
-  subsection: "7.4 Scientific Discovery and Research Automation"
-  summary: >
-    This comprehensive survey examines the evolving role of Large Language Models (LLMs) in scientific discovery, highlighting their progression from task-specific tools to autonomous agents. The authors introduce a three-level taxonomy—Tool, Analyst, and Scientist—to categorize LLMs based on their autonomy and capabilities. The paper discusses applications across various stages of the scientific method and outlines challenges such as evaluation frameworks, transparency, and ethical considerations.
-  arxiv: "2505.13259"
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/zheng-automation-to-autonomy.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2505.13259"
+  section: 7. Case Studies and Applications
+  subsection: 7.4 Scientific Discovery and Research Automation
+  summary: 'This comprehensive survey examines the evolving role of Large Language
+    Models (LLMs) in scientific discovery, highlighting their progression from task-specific
+    tools to autonomous agents. The authors introduce a three-level taxonomy—Tool,
+    Analyst, and Scientist—to categorize LLMs based on their autonomy and capabilities.
+    The paper discusses applications across various stages of the scientific method
+    and outlines challenges such as evaluation frameworks, transparency, and ethical
+    considerations.
 
-- id: "turkle-2011"
-  type: "paper"
-  title: "Alone Together: Why We Expect More from Technology and Less from Each Other"
-  author: "Sherry Turkle"
+    '
+  arxiv: '2505.13259'
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/zheng-automation-to-autonomy.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2505.13259
+- id: turkle-2011-2
+  type: paper
+  title: 'Alone Together: Why We Expect More from Technology and Less from Each Other'
+  author: Sherry Turkle
   year: 2011
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.1 Social, Philosophical and Planetary Critiques"
-  summary: >
-    Turkle explores how digital technologies, particularly social robots and online communication, are reshaping human relationships. She warns that while these technologies offer the illusion of companionship, they may erode our capacity for empathy and authentic connection.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.1 Social, Philosophical and Planetary Critiques
+  summary: 'Turkle explores how digital technologies, particularly social robots and
+    online communication, are reshaping human relationships. She warns that while
+    these technologies offer the illusion of companionship, they may erode our capacity
+    for empathy and authentic connection.
 
-- id: "o\u2019neil-2016"
-  type: "paper"
-  title: "Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy"
-  author: "Cathy O\u2019Neil"
+    '
+- id: o’neil-2016
+  type: paper
+  title: 'Weapons of Math Destruction: How Big Data Increases Inequality and Threatens
+    Democracy'
+  author: Cathy O’Neil
   year: 2016
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.1 Social, Philosophical and Planetary Critiques"
-  summary: >
-    O’Neil exposes how opaque, large-scale algorithmic models—used in hiring, credit, policing, and education—reinforce structural inequalities and evade accountability. Her critique highlights the urgent need for transparency and ethical oversight in automated decision-making systems.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.1 Social, Philosophical and Planetary Critiques
+  summary: 'O’Neil exposes how opaque, large-scale algorithmic models—used in hiring,
+    credit, policing, and education—reinforce structural inequalities and evade accountability.
+    Her critique highlights the urgent need for transparency and ethical oversight
+    in automated decision-making systems.
 
-- id: "eubanks-2018"
-  type: "tool"
-  title: "Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor"
-  author: "Virginia Eubanks"
+    '
+- id: eubanks-2018
+  type: tool
+  title: 'Automating Inequality: How High-Tech Tools Profile, Police, and Punish the
+    Poor'
+  author: Virginia Eubanks
   year: 2018
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.1 Social, Philosophical and Planetary Critiques"
-  summary: >
-    Eubanks examines how automated decision systems used in welfare, housing, and criminal justice disproportionately target and penalize low-income communities. Her analysis underscores the need to evaluate agentic systems based on their real-world social impact.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.1 Social, Philosophical and Planetary Critiques
+  summary: 'Eubanks examines how automated decision systems used in welfare, housing,
+    and criminal justice disproportionately target and penalize low-income communities.
+    Her analysis underscores the need to evaluate agentic systems based on their real-world
+    social impact.
 
-- id: "lanier-2018"
-  type: "paper"
-  title: "Ten Arguments for Deleting Your Social Media Accounts Right Now"
-  author: "Jaron Lanier"
+    '
+- id: lanier-2018
+  type: paper
+  title: Ten Arguments for Deleting Your Social Media Accounts Right Now
+  author: Jaron Lanier
   year: 2018
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.1 Social, Philosophical and Planetary Critiques"
-  summary: >
-    Lanier argues that algorithmic platforms extract value from human behavior while undermining empathy, free will, and democratic dialogue. While not specific to agents, his critique of persuasive computation and behavior manipulation is deeply relevant to agentic interfaces deployed in real-world systems.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.1 Social, Philosophical and Planetary Critiques
+  summary: 'Lanier argues that algorithmic platforms extract value from human behavior
+    while undermining empathy, free will, and democratic dialogue. While not specific
+    to agents, his critique of persuasive computation and behavior manipulation is
+    deeply relevant to agentic interfaces deployed in real-world systems.
 
-- id: "crawford-2021"
-  type: "book"
-  title: "Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence"
-  author: "Kate Crawford"
+    '
+- id: crawford-2021
+  type: book
+  title: 'Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence'
+  author: Kate Crawford
   year: 2021
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.1 Social, Philosophical and Planetary Critiques"
-  summary: >
-    Crawford exposes how artificial intelligence is deeply entangled with extractive practices, labor exploitation, and surveillance infrastructures. Her book reframes AI as a material and political system, not just a technical achievement—an essential perspective for anyone designing or deploying agents at scale.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.1 Social, Philosophical and Planetary Critiques
+  summary: 'Crawford exposes how artificial intelligence is deeply entangled with
+    extractive practices, labor exploitation, and surveillance infrastructures. Her
+    book reframes AI as a material and political system, not just a technical achievement—an
+    essential perspective for anyone designing or deploying agents at scale.
 
-- id: "bridle-2022"
-  type: "paper"
-  title: "Ways of Being: Animals, Plants, Machines: The Search for a Planetary Intelligence"
-  author: "James Bridle"
+    '
+- id: bridle-2022
+  type: paper
+  title: 'Ways of Being: Animals, Plants, Machines: The Search for a Planetary Intelligence'
+  author: James Bridle
   year: 2022
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.1 Social, Philosophical and Planetary Critiques"
-  summary: >
-    Bridle challenges the anthropocentric view of intelligence by exploring cognition across various forms of life and machines. He advocates for a broader understanding of intelligence that includes non-human entities, urging a more equitable coexistence with all forms of life.
-  links:
-    - type: "source"
-      text: "Explore the book"
-      url: "https://www.jamesbridle.com/books/ways-of-being"
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.1 Social, Philosophical and Planetary Critiques
+  summary: 'Bridle challenges the anthropocentric view of intelligence by exploring
+    cognition across various forms of life and machines. He advocates for a broader
+    understanding of intelligence that includes non-human entities, urging a more
+    equitable coexistence with all forms of life.
 
-- id: "bender-2021"
-  type: "paper"
-  title: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
-  author: "Emily M. Bender et al."
+    '
+  links:
+  - type: source
+    text: Explore the book
+    url: https://www.jamesbridle.com/books/ways-of-being
+- id: bender-2021
+  type: paper
+  title: 'On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?'
+  author: Emily M. Bender et al.
   year: 2021
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.2 Technical Criticism and Evaluation Reform"
-  summary: >
-    This landmark paper critiques the uncritical scaling of large language models, emphasizing risks such as embedded bias, environmental cost, and opacity. It calls for research practices that center transparency, accountability, and social responsibility—principles fundamental to the development of agentic AI.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.2 Technical Criticism and Evaluation Reform
+  summary: 'This landmark paper critiques the uncritical scaling of large language
+    models, emphasizing risks such as embedded bias, environmental cost, and opacity.
+    It calls for research practices that center transparency, accountability, and
+    social responsibility—principles fundamental to the development of agentic AI.
+
+    '
   links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/bender-stochastic-parrots.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://dl.acm.org/doi/10.1145/3442188.3445922"
-
-- id: "kapoor-2024"
-  type: "paper"
-  title: "AI Agents That Matter"
-  author: "Sayash Kapoor et al."
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/bender-stochastic-parrots.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://dl.acm.org/doi/10.1145/3442188.3445922
+- id: kapoor-2024
+  type: paper
+  title: AI Agents That Matter
+  author: Sayash Kapoor et al.
   year: 2024
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.2 Technical Criticism and Evaluation Reform"
-  summary: >
-    This paper identifies major gaps in current evaluation practices for AI agents, arguing that many existing benchmarks fail to reflect real-world usefulness. The authors propose a principled framework for measuring agent performance in terms of utility, reproducibility, and decision impact.
-  arxiv: "2407.01502"
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.2 Technical Criticism and Evaluation Reform
+  summary: 'This paper identifies major gaps in current evaluation practices for AI
+    agents, arguing that many existing benchmarks fail to reflect real-world usefulness.
+    The authors propose a principled framework for measuring agent performance in
+    terms of utility, reproducibility, and decision impact.
+
+    '
+  arxiv: '2407.01502'
   links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/kapoor-ai-agents-that-matter.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://arxiv.org/abs/2407.01502"
-
-- id: "narayanan-2024"
-  type: "paper"
-  title: "AI Snake Oil: What Artificial Intelligence Can Do, What It Can\u2019t, and How to Tell the Difference"
-  author: "Arvind Narayanan & Sayash Kapoor"
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/kapoor-ai-agents-that-matter.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://arxiv.org/abs/2407.01502
+- id: narayanan-2024
+  type: paper
+  title: 'AI Snake Oil: What Artificial Intelligence Can Do, What It Can’t, and How
+    to Tell the Difference'
+  author: Arvind Narayanan & Sayash Kapoor
   year: 2024
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.2 Technical Criticism and Evaluation Reform"
-  summary: >
-    Narayanan and Kapoor critically examine the overhyped claims surrounding AI technologies. They distinguish between areas where AI can be truly impactful and those where it is ineffective or misleading. This work is essential for anyone trying to separate meaningful progress from marketing-driven illusion.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.2 Technical Criticism and Evaluation Reform
+  summary: 'Narayanan and Kapoor critically examine the overhyped claims surrounding
+    AI technologies. They distinguish between areas where AI can be truly impactful
+    and those where it is ineffective or misleading. This work is essential for anyone
+    trying to separate meaningful progress from marketing-driven illusion.
 
-- id: "bostrom-2014"
-  type: "paper"
-  title: "Superintelligence: Paths, Dangers, Strategies"
-  author: "Nick Bostrom"
+    '
+- id: bostrom-2014
+  type: paper
+  title: 'Superintelligence: Paths, Dangers, Strategies'
+  author: Nick Bostrom
   year: 2014
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.3 Speculative Risks and Long-Term Futures"
-  summary: >
-    Bostrom examines potential trajectories for artificial general intelligence, outlines catastrophic risk scenarios, and proposes governance frameworks. This is a foundational work for understanding long-term AI risks and designing preventive strategies.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.3 Speculative Risks and Long-Term Futures
+  summary: 'Bostrom examines potential trajectories for artificial general intelligence,
+    outlines catastrophic risk scenarios, and proposes governance frameworks. This
+    is a foundational work for understanding long-term AI risks and designing preventive
+    strategies.
 
-- id: "yampolskiy-2015"
-  type: "book"
-  title: "Artificial Superintelligence: A Futuristic Approach"
-  author: "Roman V. Yampolskiy"
+    '
+- id: yampolskiy-2015
+  type: book
+  title: 'Artificial Superintelligence: A Futuristic Approach'
+  author: Roman V. Yampolskiy
   year: 2015
-  section: "8. Critical Perspectives and Futures"
-  subsection: "8.3 Speculative Risks and Long-Term Futures"
-  summary: >
-    This book explores the potential development of artificial superintelligence, analyzing possible trajectories, associated risks, and strategies for ensuring safety and alignment with human values. It serves as a foundational text in the field of AI safety and ethics.
+  section: 8. Critical Perspectives and Futures
+  subsection: 8.3 Speculative Risks and Long-Term Futures
+  summary: 'This book explores the potential development of artificial superintelligence,
+    analyzing possible trajectories, associated risks, and strategies for ensuring
+    safety and alignment with human values. It serves as a foundational text in the
+    field of AI safety and ethics.
 
-- id: "gates-2023"
-  type: "paper"
-  title: "The Age of AI Has Begun"
-  author: "Bill Gates"
+    '
+- id: gates-2023
+  type: paper
+  title: The Age of AI Has Begun
+  author: Bill Gates
   year: 2023
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    In this widely circulated essay, Gates argues that AI is poised to be as transformative as the personal computer or the Internet. While not focused specifically on agents, he anticipates a wave of AI-powered personal assistants and copilots that will redefine productivity, education, and healthcare. A strategic vision from one of tech's most influential voices.
-  links:
-    - type: "source"
-      text: "Read the full article from the source"
-      url: "https://www.gatesnotes.com/The-Age-of-AI-Has-Begun"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'In this widely circulated essay, Gates argues that AI is poised to be
+    as transformative as the personal computer or the Internet. While not focused
+    specifically on agents, he anticipates a wave of AI-powered personal assistants
+    and copilots that will redefine productivity, education, and healthcare. A strategic
+    vision from one of tech''s most influential voices.
 
-- id: "nadella-2023"
-  type: "paper"
-  title: "The Age of Copilots"
-  author: "Satya Nadella"
+    '
+  links:
+  - type: source
+    text: Read the full article from the source
+    url: https://www.gatesnotes.com/The-Age-of-AI-Has-Begun
+- id: nadella-2023
+  type: paper
+  title: The Age of Copilots
+  author: Satya Nadella
   year: 2023
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    In this strategic vision piece, Microsoft CEO Satya Nadella introduces the concept of “copilots” as a transformative shift in human-computer interaction. He emphasizes productivity, embedded intelligence, and integration across workflows, positioning agentic interfaces not as replacements but as amplifiers of human capability. This lays the groundwork for Microsoft's investments in agentic AI.
-  links:
-    - type: "source"
-      text: "Read the full article on LinkedIn"
-      url: "https://www.linkedin.com/pulse/age-copilots-satya-nadella-2hllc"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'In this strategic vision piece, Microsoft CEO Satya Nadella introduces
+    the concept of “copilots” as a transformative shift in human-computer interaction.
+    He emphasizes productivity, embedded intelligence, and integration across workflows,
+    positioning agentic interfaces not as replacements but as amplifiers of human
+    capability. This lays the groundwork for Microsoft''s investments in agentic AI.
 
-- id: "swyx-2023"
-  type: "paper"
-  title: "Why Agents Don\u2019t Work (Yet)"
-  author: "Swyx"
+    '
+  links:
+  - type: source
+    text: Read the full article on LinkedIn
+    url: https://www.linkedin.com/pulse/age-copilots-satya-nadella-2hllc
+- id: swyx-2023
+  type: paper
+  title: Why Agents Don’t Work (Yet)
+  author: Swyx
   year: 2023
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    Based on an in-depth interview with Riley Goodside, this essay outlines the key limitations of current agentic systems: fragile multi-step reasoning, hallucination, and error amplification. Swyx distills Goodside’s critical insights into a clear, skeptical perspective on LLM-based autonomy. A vital reality check for practitioners and strategists alike.
-  links:
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://www.latent.space/p/why-agents-dont-work"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'Based on an in-depth interview with Riley Goodside, this essay outlines
+    the key limitations of current agentic systems: fragile multi-step reasoning,
+    hallucination, and error amplification. Swyx distills Goodside’s critical insights
+    into a clear, skeptical perspective on LLM-based autonomy. A vital reality check
+    for practitioners and strategists alike.
 
-- id: "deepmind-2024"
-  type: "paper"
-  title: "Project Astra: Our Vision for the Future of AI Assistants"
-  author: "Google DeepMind"
+    '
+  links:
+  - type: source
+    text: Read the full paper from the source
+    url: https://www.latent.space/p/why-agents-dont-work
+- id: deepmind-2024
+  type: paper
+  title: 'Project Astra: Our Vision for the Future of AI Assistants'
+  author: Google DeepMind
   year: 2024
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    Project Astra is a research prototype by DeepMind envisioning a real-time, multimodal AI assistant capable of continuous perception and dialogue. Built for responsiveness across camera, audio, and language modalities, Astra aims to operate seamlessly across devices. While still early-stage, it showcases Google's long-term ambition to build agents that see, remember, and act naturally in context.
-  links:
-    - type: "source"
-      text: "Watch the official demo"
-      url: "https://www.youtube.com/watch?v=nXVvvRhiGjI"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'Project Astra is a research prototype by DeepMind envisioning a real-time,
+    multimodal AI assistant capable of continuous perception and dialogue. Built for
+    responsiveness across camera, audio, and language modalities, Astra aims to operate
+    seamlessly across devices. While still early-stage, it showcases Google''s long-term
+    ambition to build agents that see, remember, and act naturally in context.
 
-- id: "willison-2024"
-  type: "paper"
-  title: "We Don\u2019t Need Agents for Everything"
-  author: "Simon Willison"
+    '
+  links:
+  - type: source
+    text: Watch the official demo
+    url: https://www.youtube.com/watch?v=nXVvvRhiGjI
+- id: willison-2024
+  type: paper
+  title: We Don’t Need Agents for Everything
+  author: Simon Willison
   year: 2024
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    Willison argues that many “agent” use cases are better served by simpler, task-specific automation. He cautions against overengineering and makes the case for minimal, modular tools over autonomous loops. Offers a pragmatic perspective often missing in agentic discourse.
-  links:
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://simonwillison.net/2024/May/6/we-dont-need-agents-for-everything/"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'Willison argues that many “agent” use cases are better served by simpler,
+    task-specific automation. He cautions against overengineering and makes the case
+    for minimal, modular tools over autonomous loops. Offers a pragmatic perspective
+    often missing in agentic discourse.
 
-- id: "karpathy-2025"
-  type: "paper"
-  title: "Software Is Changing (Again)"
-  author: "Andrej Karpathy"
+    '
+  links:
+  - type: source
+    text: Read the full paper from the source
+    url: https://simonwillison.net/2024/May/6/we-dont-need-agents-for-everything/
+- id: karpathy-2025
+  type: paper
+  title: Software Is Changing (Again)
+  author: Andrej Karpathy
   year: 2025
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    In this keynote at Y Combinator's AI Startup School, Karpathy introduces the concept of "Software 3.0," where natural language becomes the new programming interface and large language models (LLMs) serve as the runtime environment. He discusses the evolution of software development, emphasizing the shift towards AI-native systems and the implications for developers and businesses.
-  links:
-    - type: "source"
-      text: "Watch the full talk"
-      url: "https://www.youtube.com/watch?v=LCEmiRjPEtQ"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'In this keynote at Y Combinator''s AI Startup School, Karpathy introduces
+    the concept of "Software 3.0," where natural language becomes the new programming
+    interface and large language models (LLMs) serve as the runtime environment. He
+    discusses the evolution of software development, emphasizing the shift towards
+    AI-native systems and the implications for developers and businesses.
 
-- id: "mckinsey-2025"
-  type: "paper"
-  title: "Seizing the Agentic AI Advantage"
-  author: "McKinsey & Company"
+    '
+  links:
+  - type: source
+    text: Watch the full talk
+    url: https://www.youtube.com/watch?v=LCEmiRjPEtQ
+- id: mckinsey-2025
+  type: paper
+  title: Seizing the Agentic AI Advantage
+  author: McKinsey & Company
   year: 2025
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    This industry whitepaper by McKinsey explores the potential impact of Agentic AI on enterprise productivity and workflows. While promotional in tone, it offers a typology of agent types, suggested adoption phases, and early use cases. Valuable more for framing the business narrative than for technical rigor.
-  links:
-    - type: "internal_pdf"
-      text: "Read the full paper from this repo"
-      url: "./papers/mckinsey-seizing-the-agentic-ai-advantage.pdf"
-    - type: "source"
-      text: "Read the full paper from the source"
-      url: "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/seizing-the-agentic-ai-advantage"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'This industry whitepaper by McKinsey explores the potential impact of
+    Agentic AI on enterprise productivity and workflows. While promotional in tone,
+    it offers a typology of agent types, suggested adoption phases, and early use
+    cases. Valuable more for framing the business narrative than for technical rigor.
 
-- id: "willison-2025"
-  type: "paper"
-  title: "The lethal trifecta for AI agents: private data, untrusted content, and external communication"
-  author: "Simon Willison"
+    '
+  links:
+  - type: internal_pdf
+    text: Read the full paper from this repo
+    url: ./papers/mckinsey-seizing-the-agentic-ai-advantage.pdf
+  - type: source
+    text: Read the full paper from the source
+    url: https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/seizing-the-agentic-ai-advantage
+- id: willison-2025
+  type: paper
+  title: 'The lethal trifecta for AI agents: private data, untrusted content, and
+    external communication'
+  author: Simon Willison
   year: 2025
-  section: "9. Industry Vision and Strategic Perspectives"
-  summary: >
-    Willison warns about the critical risks when AI agents have access to private data, process untrusted content, and can communicate externally. He emphasizes that combining these capabilities can lead to severe security vulnerabilities, highlighting the need for cautious design in agentic systems.
-  links:
-    - type: "source"
-      text: "Read the full article from the source"
-      url: "https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/"
+  section: 9. Industry Vision and Strategic Perspectives
+  summary: 'Willison warns about the critical risks when AI agents have access to
+    private data, process untrusted content, and can communicate externally. He emphasizes
+    that combining these capabilities can lead to severe security vulnerabilities,
+    highlighting the need for cautious design in agentic systems.
 
+    '
+  links:
+  - type: source
+    text: Read the full article from the source
+    url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
