@@ -7,7 +7,7 @@ available as an individual markdown file.
 
 - [1. Foundational Concepts](1-foundational-concepts.md) (13 entries)
 - [2. Architectures and System Design](2-architectures-and-system-design.md)
-  (16 entries)
+  (17 entries)
 - [3. Evaluation and Benchmarks](3-evaluation-and-benchmarks.md) (9 entries)
 - [4. Tools and Frameworks](4-tools-and-frameworks.md) (13 entries)
 - [5. Operating Agents in Production
@@ -22,7 +22,7 @@ available as an individual markdown file.
 - [9. Industry Vision and Strategic
   Perspectives](9-industry-vision-and-strategic-perspectives.md) (8 entries)
 
-**Total Entries:** 108
+**Total Entries:** 109
 
 **Last Updated:** Generated from bibliography data
 

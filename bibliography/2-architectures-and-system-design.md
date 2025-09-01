@@ -76,6 +76,19 @@ intelligent, autonomous behavior.
 
 ## 2.2 Multi-Agent Architectures
 
+- **Alan H. Bond & Les Gasser (eds.) – *Readings in Distributed Artificial
+  Intelligence* (1988)**
+  A seminal edited volume that consolidated the foundational research in
+  Distributed Artificial Intelligence (DAI), the precursor to modern
+  multi-agent systems. The collection covers essential themes such as
+  coordination, communication, negotiation, and distributed problem-solving,
+  laying the groundwork for subsequent decades of research in multi-agent
+  architectures. Though predating neural models, it remains highly relevant
+  for understanding the enduring challenges of making intelligent systems
+  collaborate effectively.
+  [Access the
+  source](https://shop.elsevier.com/books/readings-in-distributed-artificial-intelligence/bond/978-0-934613-63-7)
+
 - **Michael Wooldridge & Nicholas R. Jennings – *Intelligent Agents: Theory
   and Practice* (1995)**
   This foundational paper defines key properties of intelligent
