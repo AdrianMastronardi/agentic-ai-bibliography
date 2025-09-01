@@ -2224,3 +2224,22 @@
   - type: source
     text: Read the full article from the source
     url: https://simonwillison.net/2025/Jun/16/the-lethal-trifecta/
+- id: bond-1988
+  title: Readings in Distributed Artificial Intelligence
+  author: Alan H. Bond & Les Gasser (eds.)
+  year: 1988
+  section: 2. Architectures and System Design
+  subsection: 2.2 Multi-Agent Architectures
+  summary: 'A seminal edited volume that consolidated the foundational research in 
+    Distributed Artificial Intelligence (DAI), the precursor to modern multi-agent systems. 
+    The collection covers essential themes such as coordination, communication, negotiation, 
+    and distributed problem-solving, laying the groundwork for subsequent decades of 
+    research in multi-agent architectures. Though predating neural models, it remains 
+    highly relevant for understanding the enduring challenges of making intelligent systems 
+    collaborate effectively.
+
+    '
+  links:
+    - type: source
+      text: Read the full paper from the source
+      url: https://shop.elsevier.com/books/readings-in-distributed-artificial-intelligence/bond/978-0-934613-63-7
