@@ -16,6 +16,11 @@ on:
       - 'bibliography/**'
   workflow_dispatch:  # Allow manual triggers
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -86,13 +91,16 @@ jobs:
         path: bibliography/
         retention-days: 30
       
-    - name: Deploy to GitHub Pages (if main branch)
+    - name: Upload to GitHub Pages
       if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-      uses: peaceiris/actions-gh-pages@v4
+      uses: actions/upload-pages-artifact@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./bibliography
-        destination_dir: bibliography
+        path: ./bibliography
+        
+    - name: Deploy to GitHub Pages
+      if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+      id: deployment
+      uses: actions/deploy-pages@v4
         
   validate-data:
     runs-on: ubuntu-latest
