@@ -1,0 +1,100 @@
+name: Auto-Regenerate Bibliography
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'data/bib.yml'
+
+jobs:
+  auto-regenerate:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Install markdownlint
+      run: |
+        npm install -g markdownlint-cli
+        
+    - name: Run consistency checks
+      run: |
+        echo "🔧 Running consistency checks..."
+        python scripts/check_consistency_simple.py
+        echo "✅ Consistency checks passed"
+      
+    - name: Regenerate bibliography
+      run: |
+        echo "🔧 Regenerating bibliography from data/bib.yml..."
+        python scripts/export_to_bibliography.py
+        echo "✅ Bibliography regenerated successfully"
+        
+    - name: Validate generated markdown with markdownlint
+      run: |
+        echo "🔧 Validating generated markdown files..."
+        markdownlint bibliography/*.md --config .markdownlint.json
+        echo "✅ All generated markdown files pass markdownlint validation"
+        
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changed=true" >> $GITHUB_OUTPUT
+          echo "📝 Changes detected in bibliography files"
+          git status --short
+        else
+          echo "changed=false" >> $GITHUB_OUTPUT
+          echo "ℹ️ No changes in bibliography files"
+        fi
+        
+    - name: Commit and push updated bibliography
+      if: steps.verify-changed-files.outputs.changed == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        git add bibliography/
+        git commit -m "🤖 Auto-regenerate bibliography from data/bib.yml
+
+- Updated bibliography files from latest data/bib.yml changes
+- All files validated with markdownlint for proper formatting
+- Generated $(date +'%Y-%m-%d %H:%M:%S UTC')
+
+[skip ci]"
+        git push
+        echo "✅ Bibliography changes committed and pushed"
+        
+    - name: Summary
+      if: always()
+      run: |
+        echo "## 📋 Auto-Regeneration Summary" >> $GITHUB_STEP_SUMMARY
+        echo "" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.verify-changed-files.outputs.changed }}" == "true" ]; then
+          echo "✅ **Bibliography successfully regenerated and updated**" >> $GITHUB_STEP_SUMMARY
+          echo "- Source: \`data/bib.yml\`" >> $GITHUB_STEP_SUMMARY
+          echo "- Target: \`bibliography/*.md\` files" >> $GITHUB_STEP_SUMMARY
+          echo "- Validation: All files pass markdownlint checks" >> $GITHUB_STEP_SUMMARY
+          echo "- Status: Changes committed automatically" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "ℹ️ **No changes required**" >> $GITHUB_STEP_SUMMARY
+          echo "- Bibliography files are already up-to-date" >> $GITHUB_STEP_SUMMARY
+        fi

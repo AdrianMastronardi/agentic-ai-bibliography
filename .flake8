@@ -1,0 +1,23 @@
+[flake8]
+max-line-length = 79
+max-complexity = 12
+exclude = 
+    __pycache__,
+    .git,
+    .venv,
+    .mypy_cache,
+    build,
+    dist,
+    *.egg-info
+
+# Ignore specific warnings that are acceptable for this project
+ignore = 
+    # Line break before binary operator (conflict with PEP 8 update)
+    W503,
+    # Line break after binary operator
+    W504
+
+per-file-ignores =
+    # Allow higher complexity for main orchestration functions
+    scripts/check_consistency_simple.py:C901
+    scripts/export_to_bibliography.py:C901
