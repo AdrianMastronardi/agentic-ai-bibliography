@@ -282,12 +282,8 @@ def export_to_bibliography():
         # Build content first, then clean it
         content_parts = []
 
-        # Add Jekyll front matter
-        safe_title = section_title.replace('"', '\\"')
-        content_parts.append("---\n")
-        content_parts.append("layout: default\n")
-        content_parts.append(f'title: "{safe_title}"\n')
-        content_parts.append("---\n\n")
+        # Add section title as H1
+        content_parts.append(f"# {section_title}\n\n")
 
         # Add description if available
         if section_title in toc_descriptions:

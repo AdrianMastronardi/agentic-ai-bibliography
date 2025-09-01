@@ -1,7 +1,4 @@
----
-layout: default
-title: "9. Industry Vision and Strategic Perspectives"
----
+# 9. Industry Vision and Strategic Perspectives
 
 This section includes high-level essays, industrial whitepapers, and strategic
 blog posts that explore the potential of Agentic AI across sectors. While often

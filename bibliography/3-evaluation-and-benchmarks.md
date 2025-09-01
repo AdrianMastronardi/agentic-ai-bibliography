@@ -1,7 +1,4 @@
----
-layout: default
-title: "3. Evaluation and Benchmarks"
----
+# 3. Evaluation and Benchmarks
 
 Designing agentic systems is only half the challenge—understanding how to
 evaluate them is just as critical. Agents are not static models: they act,

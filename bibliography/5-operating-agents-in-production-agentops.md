@@ -1,7 +1,4 @@
----
-layout: default
-title: "5. Operating Agents in Production (AgentOps)"
----
+# 5. Operating Agents in Production (AgentOps)
 
 Building an agent is only the beginning. Running it reliably in the
 wild—handling failures, tracking performance, debugging behaviors, and aligning

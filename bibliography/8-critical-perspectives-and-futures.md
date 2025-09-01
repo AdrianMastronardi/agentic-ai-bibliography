@@ -1,7 +1,4 @@
----
-layout: default
-title: "8. Critical Perspectives and Futures"
----
+# 8. Critical Perspectives and Futures
 
 Agentic AI opens new technological possibilities—but also new questions. What
 kinds of labor do agents replace or reinforce? Who designs their goals, and who

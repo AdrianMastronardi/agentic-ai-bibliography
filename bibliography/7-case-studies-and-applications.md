@@ -1,7 +1,4 @@
----
-layout: default
-title: "7. Case Studies and Applications"
----
+# 7. Case Studies and Applications
 
 Agentic AI is not just a research topic — it’s already shaping real-world
 systems. This section highlights concrete applications, case studies, and

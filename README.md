@@ -7,14 +7,10 @@ goes beyond shortcuts.
 
 ## 📖 Browse the Bibliography
 
-The complete bibliography is organized into thematic sections and available
-in multiple formats:
+The complete bibliography is organized into thematic sections. Each section is available as an individual markdown file with detailed summaries and links:
 
-- **📚 [Structured Bibliography](./bibliography/)** - Navigate by section
-  with individual markdown files
-- **🌐 [Online Version](https://adrianmastronardi.github.io/agentic-ai-bibliography/)**
-  \- Browse the bibliography as a website
-- **📋 [All Sections](#sections)** - Quick links to all sections below
+- **📚 [Browse All Sections](./bibliography/)** - Start with the bibliography index
+- **📋 [Quick Navigation](#sections)** - Jump directly to any section below
 
 ### Sections
 

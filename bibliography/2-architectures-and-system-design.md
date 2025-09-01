@@ -1,7 +1,4 @@
----
-layout: default
-title: "2. Architectures and System Design"
----
+# 2. Architectures and System Design
 
 Agentic systems are more than just prompts or wrappers. They are structured
 entities that perceive, reason, plan, and act. This section gathers key
