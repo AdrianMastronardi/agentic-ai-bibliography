@@ -2269,7 +2269,7 @@
   title: A Survey on Large Language Model based Autonomous Agents
   author: Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhi-Yuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin Zhao, Zhewei Wei, Ji-Rong Wen
   year: 2025
-  section: 0. Overviews and Survey Papers
+  section: 1. Foundational Concepts
   summary: >
     [cite_start]This comprehensive survey presents a systematic review of the rapidly evolving field of LLM-based autonomous agents[cite: 1353]. [cite_start]The authors propose a unified architectural framework—consisting of Profile, Memory, Planning, and Action modules—to structure and analyze existing work[cite: 1492]. [cite_start]The paper provides a broad overview of agent applications in social science, natural science, and engineering, and concludes with a discussion of common evaluation strategies, key challenges, and future research directions[cite: 1355, 1356, 1357].
   doi: 10.1007/s11704-024-40231-1
