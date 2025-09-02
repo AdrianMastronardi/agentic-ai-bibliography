@@ -119,6 +119,21 @@ texts shaped the original dream of human-computer symbiosis.
   [Access the
   source](https://builders.intel.com/university/course/foundations-of-agentic-ai)
 
+- **Lei Wang et al. – *A Survey on Large Language Model based Autonomous
+  Agents* (2025)**
+  [cite_start]This comprehensive survey presents a systematic review of the
+  rapidly evolving field of LLM-based autonomous agents[cite: 1353].
+  [cite_start]The authors propose a unified architectural framework—consisting
+  of Profile, Memory, Planning, and Action modules—to structure and analyze
+  existing work[cite: 1492]. [cite_start]The paper provides a broad overview
+  of agent applications in social science, natural science, and engineering,
+  and concludes with a discussion of common evaluation strategies, key
+  challenges, and future research directions[cite: 1355, 1356, 1357].
+  [Read the full paper from this
+  repo](../papers/wang-llm-autonomous-agents.pdf) · [Read the full paper from
+  the source](https://arxiv.org/abs/2308.11432) · [Read the full paper from
+  the source](https://arxiv.org/abs/2308.11432)
+
 - **Ranjan Sapkota et al. – *AI Agents vs. Agentic AI: A Conceptual Taxonomy,
   Applications and Challenges* (2025)**
   This study critically distinguishes between AI Agents and Agentic AI,

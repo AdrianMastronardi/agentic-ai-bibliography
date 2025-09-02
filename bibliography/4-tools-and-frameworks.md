@@ -72,6 +72,22 @@ real world.
   [Access the
   source](https://microsoft.github.io/autogen/stable/user-guide/autogenstudio-user-guide/index.html)
 
+- **Xingyao Wang et al. – *OpenHands: An Open Platform for AI Software
+  Developers as Generalist Agents* (2025)**
+  [cite_start]OpenHands is an open-source, community-driven platform for
+  developing powerful and flexible AI agents that operate like human software
+  developers[cite: 11, 14]. [cite_start]It provides a sandboxed runtime
+  environment (Docker, bash, browser), a flexible event-stream architecture
+  for interaction, and built-in support for multi-agent delegation and
+  evaluation benchmarks[cite: 37, 38, 39, 42, 43]. [cite_start]Designed for
+  both research and real-world applications across academia and industry, it
+  aims to be a comprehensive and immediately usable framework for building and
+  testing software-centric agents[cite: 44, 115].
+  [Read the full paper from this repo](../papers/wang-openhands.pdf) · [Read
+  the full paper from the source](https://arxiv.org/abs/2407.16741) · [Explore
+  the code repository](https://github.com/All-Hands-Al/OpenHands) · [Read the
+  full paper from the source](https://arxiv.org/abs/2407.16741)
+
 ## 4.2 Application-Level Agent Frameworks
 
 - **Devika – *Agentic AI Software Engineer* (2023)**
