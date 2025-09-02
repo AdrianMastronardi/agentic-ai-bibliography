@@ -2243,3 +2243,41 @@
     - type: source
       text: Read the full paper from the source
       url: https://shop.elsevier.com/books/readings-in-distributed-artificial-intelligence/bond/978-0-934613-63-7
+- id: wang-2025a
+  type: paper
+  title: 'OpenHands: An Open Platform for AI Software Developers as Generalist Agents'
+  author: Xingyao Wang, Boxuan Li, Yufan Song, Frank F. Xu, Xiangru Tang, Mingchen Zhuge, Jiayi Pan, Yueqi Song, Bowen Li, Jaskirat Singh, Hoang H. Tran, Fuqiang Li, Ren Ma, Mingzhang Zheng, Bill Qian, Yanjun Shao, Niklas Muennighoff, Yizhe Zhang, Binyuan Hui, Junyang Lin, Robert Brennan, Hao Peng, Heng Ji, Graham Neubig
+  year: 2025
+  section: 4. Tools and Frameworks
+  subsection: 4.1 Agent Orchestration Frameworks
+  summary: >
+    [cite_start]OpenHands is an open-source, community-driven platform for developing powerful and flexible AI agents that operate like human software developers[cite: 11, 14]. [cite_start]It provides a sandboxed runtime environment (Docker, bash, browser), a flexible event-stream architecture for interaction, and built-in support for multi-agent delegation and evaluation benchmarks[cite: 37, 38, 39, 42, 43]. [cite_start]Designed for both research and real-world applications across academia and industry, it aims to be a comprehensive and immediately usable framework for building and testing software-centric agents[cite: 44, 115].
+  arxiv: 2407.16741
+  links:
+    - type: internal_pdf
+      text: Read the full paper from this repo
+      url: ./papers/wang-openhands.pdf
+    - type: source
+      text: Read the full paper from the source
+      url: https://arxiv.org/abs/2407.16741
+    - type: repo
+      text: Explore the code repository
+      url: https://github.com/All-Hands-Al/OpenHands
+
+- id: wang-2025b
+  type: paper
+  title: A Survey on Large Language Model based Autonomous Agents
+  author: Lei Wang, Chen Ma, Xueyang Feng, Zeyu Zhang, Hao Yang, Jingsen Zhang, Zhi-Yuan Chen, Jiakai Tang, Xu Chen, Yankai Lin, Wayne Xin Zhao, Zhewei Wei, Ji-Rong Wen
+  year: 2025
+  section: 1. Foundational Concepts
+  summary: >
+    [cite_start]This comprehensive survey presents a systematic review of the rapidly evolving field of LLM-based autonomous agents[cite: 1353]. [cite_start]The authors propose a unified architectural framework—consisting of Profile, Memory, Planning, and Action modules—to structure and analyze existing work[cite: 1492]. [cite_start]The paper provides a broad overview of agent applications in social science, natural science, and engineering, and concludes with a discussion of common evaluation strategies, key challenges, and future research directions[cite: 1355, 1356, 1357].
+  doi: 10.1007/s11704-024-40231-1
+  arxiv: 2308.11432
+  links:
+    - type: internal_pdf
+      text: Read the full paper from this repo
+      url: ./papers/wang-llm-autonomous-agents.pdf
+    - type: source
+      text: Read the full paper from the source
+      url: https://arxiv.org/abs/2308.11432
